@@ -11,8 +11,15 @@ window.addEventListener('load', (event) => {
 
     let groups = [];
     let activeType = '';
+    let routes = [];
+    let activeRoute = '';
     let leftBottom = map.unproject([-6000, 5000], 0);
     let topRight = map.unproject([6000, -5000], 0);
+    let colors = {
+        'sky': 'blue',
+        'surface': 'green',
+        'depths': 'red'
+    }
     let bounds = new L.LatLngBounds(leftBottom, topRight);
     map.setMaxBounds(bounds);
 
@@ -80,14 +87,59 @@ window.addEventListener('load', (event) => {
 
         jQuery('#itemFilters div:not(.' + activeType + ')').hide();
         jQuery('#itemFilters div.' + activeType).show();
+    }
 
-        if (groups[type]) {
+    jQuery('#showAllDungeons').click(function () {
+        if (activeRoute === 'allDungeons') {
             return;
         }
 
-        jQuery.getJSON('data/' + activeType + '.json', function (data) {
-            parseData(type, data);
-        });
+        activateRoute('allDungeons');
+    });
+
+    jQuery('#showNone').click(function () {
+        if (activeRoute !== '') {
+            map.removeLayer(routes[activeRoute].layerGroup)
+        }
+        activeRoute = ''
+    });
+    
+
+    function activateRoute(route) {
+        if (activeRoute === route) {
+            return;
+        }
+        if (routes[route]) {
+            map.removeLayer(routes[route].layerGroup)
+        }
+
+        activeRoute = route;
+
+        if (routes[route]) {
+            routes[route].layerGroup.addTo(map);
+        } else {
+            routes[route] = []
+            routes[route].layerGroup = L.layerGroup();
+            orderedPoints = new Array();
+            jQuery.getJSON("data/route/" + route + ".json", function (data) {
+                Object.entries(data).forEach(function (group, index) {
+                    relevantObject = groups[group[1].layer][group[1].objName];
+                    point = relevantObject.locations[group[1].locationIdx];
+                    orderedPoints.push([point.x, point.y])
+                    marker = new L.Marker([point.x, point.y], {icon: L.ExtraMarkers.icon({icon: 'fa-number', markerColor: colors[group[1].layer], number: index + 1})})
+                    routes[route].layerGroup.addLayer(marker);
+                });
+                polyline = L.polyline(orderedPoints, {color: 'white'})
+                decorator = L.polylineDecorator(orderedPoints, {
+                    patterns: [
+                        {offset: 25, repeat: 150, symbol: L.Symbol.arrowHead({pixelSize: 20, pathOptions: {fillOpacity: 1, weight: 0}})}
+                    ]
+                })
+                routes[route].layerGroup.addLayer(polyline);
+                routes[route].layerGroup.addLayer(decorator);
+            });
+            routes[route].layerGroup.addTo(map);
+        }
     }
 
     function parseData(type, data) {
@@ -119,75 +171,81 @@ window.addEventListener('load', (event) => {
                     map.addLayer(groups[type][val].markers);
                 }
             } else {
-                groups[type][val].markers = L.markerClusterGroup({
-                    removeOutsideVisibleBounds: true,
-                    spiderfyOnMaxZoom: false,
-                    disableClusteringAtZoom: 0,
-                    animate: false,
-                    maxClusterRadius: 20,
-                    iconCreateFunction: function (cluster) {
-                        return L.divIcon({
-                            html: cluster.getChildCount(),
-                            className: 'big-marker',
-                            iconSize: [18, 18],
-                        });
-                    }
-                });
-
-                let displayName = groups[type][val].name
-
-                if (displayName && displayName.length > 0) {
-                    displayName += '<span class="smaller-name">';
-                }
-
-                displayName += val;
-                displayName += '</span>';
-
-                let iconsHtml = '';
-                if (groups[type][val].icons.length > 0) {
-                    iconsHtml += "<div class='totk-marker-icons'>";
-
-                    groups[type][val].icons.forEach(function (icon, index) {
-                        let fileEnd = 'png';
-                        if (icon.includes('_Icon')) {
-                            fileEnd = 'jpg';
-                        }
-
-                        iconsHtml += "<img src='images/icons/" + icon + "." + fileEnd + "' alt='" + icon + "'>"
-                    });
-
-                    iconsHtml += "</div>";
-                }
-
-                groups[type][val].locations.forEach(function (point, index) {
-                    let marker = L.circleMarker([point.x, point.y], {
-                        title: point.z + ' - ' + val,
-                        radius: 3
-                    });
-
-                    let popup =
-                        "<div class='totk-marker'>" +
-                        "   <h2>" + displayName + "</h2>" +
-                        "   <div class='content'>" +
-                        "       <div class='totk-marker-meta'>" +
-                        "          <span><strong>X: </strong>" + point.y + "</span>" +
-                        "          <span><strong>Y: </strong>" + point.x + "</span>" +
-                        "          <span><strong>Z: </strong>" + point.z + "</span>" +
-                        "       </div>" +
-                        iconsHtml +
-                        "   </div>" +
-                        "</div>";
-
-                    marker.bindPopup(
-                        popup
-                    );
-
-                    groups[type][val].markers.addLayer(marker);
-                });
-
-                groups[type][val].markers.addTo(map);
+                loadVal(type, val)
             }
         });
+    }
+
+    function loadVal(type, val) {
+        if (!groups[type][val].markers) {
+            groups[type][val].markers = L.markerClusterGroup({
+                removeOutsideVisibleBounds: true,
+                spiderfyOnMaxZoom: false,
+                disableClusteringAtZoom: 0,
+                animate: false,
+                maxClusterRadius: 20,
+                iconCreateFunction: function (cluster) {
+                    return L.divIcon({
+                        html: cluster.getChildCount(),
+                        className: 'big-marker',
+                        iconSize: [18, 18],
+                    });
+                }
+            });
+
+            let displayName = groups[type][val].name
+
+            if (displayName && displayName.length > 0) {
+                displayName += '<span class="smaller-name">';
+            }
+
+            displayName += val;
+            displayName += '</span>';
+
+            let iconsHtml = '';
+            if (groups[type][val].icons.length > 0) {
+                iconsHtml += "<div class='totk-marker-icons'>";
+
+                groups[type][val].icons.forEach(function (icon, index) {
+                    let fileEnd = 'png';
+                    if (icon.includes('_Icon')) {
+                        fileEnd = 'jpg';
+                    }
+
+                    iconsHtml += "<img src='images/icons/" + icon + "." + fileEnd + "' alt='" + icon + "'>"
+                });
+
+                iconsHtml += "</div>";
+            }
+
+            groups[type][val].locations.forEach(function (point, index) {
+                let marker = L.circleMarker([point.x, point.y], {
+                    title: point.z + ' - ' + val,
+                    radius: 3
+                });
+
+                let popup =
+                    "<div class='totk-marker'>" +
+                    "   <h2>" + displayName + "</h2>" +
+                    "   <div class='content'>" +
+                    "       <div class='totk-marker-meta'>" +
+                    "          <span><strong>X: </strong>" + point.y + "</span>" +
+                    "          <span><strong>Y: </strong>" + point.x + "</span>" +
+                    "          <span><strong>Z: </strong>" + point.z + "</span>" +
+                    "       </div>" +
+                    iconsHtml +
+                    "   </div>" +
+                    "</div>";
+
+                marker.bindPopup(
+                    popup
+                );
+
+                groups[type][val].markers.addLayer(marker);
+            });
+
+            groups[type][val].markers.addTo(map);
+        }
     }
 
     jQuery('#filter-search input[type=search]').on('keyup', function () {
@@ -212,5 +270,11 @@ window.addEventListener('load', (event) => {
 
     jQuery('#hideAll').click(function () {
         jQuery('#itemFilters input:checked:visible').trigger('click');
+    });
+
+    ["cave", "depths", "sky", "surface"].forEach((type) => {
+        jQuery.getJSON("data/layers/" + type + ".json", function (data) {
+            parseData(type, data);
+        });
     });
 });

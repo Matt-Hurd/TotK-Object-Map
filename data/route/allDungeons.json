@@ -1,0 +1,66 @@
+[
+    {
+        "layer": "sky",
+        "objName": "SkyObj_MasterSwordAltar_A_01",
+        "locationIdx": 0,
+        "note": "End of GSI"
+    },
+    {
+        "layer": "sky",
+        "objName": "LocationArea : Dungeon062",
+        "locationIdx": 0,
+        "note": "In-Isa Shrine"
+    },
+    {
+        "layer": "surface",
+        "objName": "LocationArea : DeepHole_ZifForest",
+        "locationIdx": 0
+    },
+    {
+        "layer": "depths",
+        "objName": "LocationArea : MinusField_BluePrintShrine",
+        "locationIdx": 0
+    },
+    {
+        "layer": "sky",
+        "objName": "LocationMarker : Dungeon060",
+        "locationIdx": 0,
+        "note": "Ukouh Shrine"
+    },
+    {
+        "layer": "surface",
+        "objName": "Npc_BaseCamp_Assistant",
+        "locationIdx": 0,
+        "note": "Josha"
+    },
+    {
+        "layer": "surface",
+        "objName": "Npc_TamourHatago004",
+        "locationIdx": 0,
+        "note": "Hoz"
+    },
+    {
+        "layer": "surface",
+        "objName": "TBox_Field_Iron : Item_Ore_A",
+        "locationIdx": 0,
+        "note": "Diamond Chest"
+    },
+    {
+        "layer": "surface",
+        "objName": "Npc_AncientDoctor",
+        "locationIdx": 0,
+        "note": "Purah"
+    },
+    {
+        "layer": "surface",
+        "objName": "Npc_Tulin_Sage",
+        "locationIdx": 0,
+        "note": "Tulin"
+    },
+    {
+        "layer": "surface",
+        "objName": "Npc_HighMountain009",
+        "locationIdx": 0,
+        "note": "Hotch"
+    }
+]

@@ -8,6 +8,12 @@
 
     <link rel="stylesheet" href="lib/leaflet.markercluster/MarkerCluster.css">
     <script src="lib/leaflet.markercluster/leaflet.markercluster.min.js"></script>
+    <script src="lib/leaflet.polylinedecorator/leaflet.polylineDecorator.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="lib/leaflet.extramarkers/css/leaflet.extra-markers.min.css">
+    <script src="lib/leaflet.extramarkers/js/leaflet.extra-markers.min.js"></script>
 
     <script src="lib/jquery/jquery.min.js"></script>
 
@@ -17,7 +23,11 @@
 <body>
 <div id="totk-map"></div>
 <div id="sidebar">
-    <p>Still in developement.</p>
+    <div class="route-switcher">
+        <button id="showNone" type="button">None</button>
+        <button id="showAllDungeons" type="button">All Dungeons</button>
+    </div>
+
     <div class="map-switcher">
         <button id="showSky" type="button">Sky</button>
         <button id="showSurface" type="button">Surface</button>

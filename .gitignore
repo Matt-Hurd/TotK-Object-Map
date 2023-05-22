@@ -1,2 +1,6 @@
 # JetBrains
 /.idea/
+
+# Dev
+serve.bat
+notes.txt
