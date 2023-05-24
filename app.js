@@ -120,23 +120,44 @@ window.addEventListener('load', (event) => {
         } else {
             routes[route] = []
             routes[route].layerGroup = L.layerGroup();
-            orderedPoints = new Array();
+            segments = new Array();
+            currentSegment = new Array();
+            previousPoint = [];
+            point = null;
             jQuery.getJSON("data/route/" + route + ".json", function (data) {
                 Object.entries(data).forEach(function (group, index) {
                     relevantObject = groups[group[1].layer][group[1].objName];
                     point = relevantObject.locations[group[1].locationIdx];
-                    orderedPoints.push([point.x, point.y])
+                    if (group[1].teleport === true) {
+                        segments.push(currentSegment)
+                        currentSegment = new Array();
+                    }
+                    currentSegment.push([point.x, point.y]);
                     marker = new L.Marker([point.x, point.y], {icon: L.ExtraMarkers.icon({icon: 'fa-number', markerColor: colors[group[1].layer], number: index + 1})})
                     routes[route].layerGroup.addLayer(marker);
                 });
-                polyline = L.polyline(orderedPoints, {color: 'white'})
-                decorator = L.polylineDecorator(orderedPoints, {
-                    patterns: [
-                        {offset: 25, repeat: 150, symbol: L.Symbol.arrowHead({pixelSize: 20, pathOptions: {fillOpacity: 1, weight: 0}})}
-                    ]
-                })
-                routes[route].layerGroup.addLayer(polyline);
-                routes[route].layerGroup.addLayer(decorator);
+                currentSegment.push([point.x, point.y]);
+                segments.push(currentSegment);
+                segments.forEach(function(segment, index) {
+                    polyline = L.polyline(segment, {color: 'white'})
+                    decorator = L.polylineDecorator(segment, {
+                        patterns: [
+                            {offset: 25, repeat: 150, symbol: L.Symbol.arrowHead({pixelSize: 20, pathOptions: {fillOpacity: 1, weight: 0}})}
+                        ]
+                    })
+                    routes[route].layerGroup.addLayer(polyline);
+                    routes[route].layerGroup.addLayer(decorator);
+                    if (index > 0) {
+                        dottedSegment = [segments[index - 1].pop(), segments[index][0]];
+                        dots = L.polylineDecorator(dottedSegment, {
+                            patterns: [
+                                {offset: 0, repeat: 5, symbol: L.Symbol.dash({pixelSize: 0, pathOptions: {fillOpacity: 1, weight: 2}})},
+                                {offset: 25, repeat: 150, symbol: L.Symbol.arrowHead({pixelSize: 20, pathOptions: {fillOpacity: 1, weight: 0}})}
+                            ]
+                        })
+                        routes[route].layerGroup.addLayer(dots);
+                    }
+                });
             });
             routes[route].layerGroup.addTo(map);
         }

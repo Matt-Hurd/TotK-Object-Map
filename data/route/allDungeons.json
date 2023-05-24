@@ -9,7 +9,8 @@
         "layer": "sky",
         "objName": "LocationArea : Dungeon062",
         "locationIdx": 0,
-        "note": "In-Isa Shrine"
+        "note": "In-Isa Shrine",
+        "teleport": true
     },
     {
         "layer": "surface",
@@ -25,7 +26,8 @@
         "layer": "sky",
         "objName": "LocationMarker : Dungeon060",
         "locationIdx": 0,
-        "note": "Ukouh Shrine"
+        "note": "Ukouh Shrine",
+        "teleport": true
     },
     {
         "layer": "surface",
@@ -49,7 +51,8 @@
         "layer": "surface",
         "objName": "Npc_AncientDoctor",
         "locationIdx": 0,
-        "note": "Purah"
+        "note": "Purah",
+        "teleport": true
     },
     {
         "layer": "surface",
@@ -62,5 +65,61 @@
         "objName": "Npc_HighMountain009",
         "locationIdx": 0,
         "note": "Hotch"
+    },
+    {
+        "layer": "surface",
+        "objName": "Npc_Tulin_Sage",
+        "locationIdx": 0,
+        "note": "Tulin"
+    },
+    {
+        "layer": "sky",
+        "objName": "MergedActorD300",
+        "locationIdx": 8,
+        "note": "Tulin Trigger before Wind Temple"
+    },
+    {
+        "layer": "sky",
+        "objName": "LocationArea : Dungeon105",
+        "locationIdx": 0,
+        "note": "Kahatanaum Shrine: Rauru's Blessing"
+    },
+    {
+        "layer": "sky",
+        "objName": "DestinationAnchor",
+        "locationIdx": 13,
+        "note": "Skyship"
+    },
+    {
+        "layer": "sky",
+        "objName": "LocationMarker : Dungeon060",
+        "locationIdx": 0,
+        "note": "Ukouh Shrine",
+        "teleport": true
+    },
+    {
+        "layer": "sky",
+        "objName": "LocationArea : Dungeon109",
+        "locationIdx": 0,
+        "note": "Joku-u Shrine: Blessing"
+    },
+    {
+        "layer": "surface",
+        "objName": "Enemy_Lynel_Senior : Weapon_Bow_032 : Weapon_Lsword_124",
+        "locationIdx": 0,
+        "note": "White Lynel"
+    },
+    {
+        "layer": "sky",
+        "objName": "LocationMarker : Dungeon060",
+        "locationIdx": 0,
+        "note": "Ukouh Shrine",
+        "teleport": true
+    },
+    {
+        "layer": "surface",
+        "objName": "Npc_Zora025",
+        "locationIdx": 0,
+        "note": "Yona"
     }
 ]
