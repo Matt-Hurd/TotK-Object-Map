@@ -1,0 +1,226 @@
+:root {
+    --bg-colour: #2e2e2e;
+    --map-bg-colour: #000000;
+    --text-colour: #efefef;
+    --gray-text-colour: #afafaf;
+    --divider-colour: #3e3e3e;
+    --divider-thickness: 2px;
+    --border-radius: 3px;
+}
+
+@font-face {
+    font-family: ZeldaAncient;
+    src: url('../fonts/Nin-ZeldaBotW-Ancient.bfotf.otf');
+}
+
+@font-face {
+    font-family: ZeldaGlyphs;
+    src: url('../fonts/Nin-ZeldaGlyphs-v2-Deco.bfotf.otf');
+}
+
+@font-face {
+    font-family: ZeldaMain;
+    src: url('../fonts/nintendo_NTLG-DB_DH_002.bfotf.otf');
+}
+
+@font-face {
+    font-family: ZeldaMainSub;
+    src: url('../fonts/ninP_RodinNTLG-B_DH_003_subset.bfotf.otf');
+}
+
+body {
+    margin: 0;
+    background: var(--bg-colour);
+    color: var(--text-colour);
+}
+
+.wip {
+    color: #ff4f70;
+}
+
+.wip > a {
+    color: #ffb9c6;
+}
+
+.fw-container {
+    display: flex;
+}
+
+#totk-map {
+    width: 80vw;
+    height: 100vh;
+    background: var(--map-bg-colour);
+}
+
+#sidebar {
+    width: 100%;
+    max-width: 20vw;
+    height: 100%;
+    max-height: calc(100vh - 4em);
+    padding: 2em;
+}
+
+#item-filters {
+    overflow: scroll;
+    max-height: 75vh;
+}
+
+#item-filters > div {
+    width: 300%
+}
+
+#item-filters > div > label {
+    display: block;
+    margin-bottom: 2px;
+}
+
+#filter-search {
+    padding: .5em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    border-bottom: var(--divider-thickness) solid var(--divider-colour);
+}
+
+#filter-search input[type=search] {
+    width: 100%;
+    font-size: 18px;
+    padding: .2em;
+    margin-bottom: .5em;
+}
+
+/**
+ * Marker Popup
+ */
+.totk-marker > h2 {
+    font-size: 16px;
+    margin-bottom: 0.5em;
+}
+
+.totk-marker > h2 .smaller-name {
+    display: block;
+}
+
+.totk-marker-meta > span {
+    display: block;
+}
+
+.totk-marker-icons {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: .5em;
+    gap: .5em;
+}
+
+.totk-marker-icons > img {
+    width: 64px;
+    height: auto;
+    border: var(--divider-thickness) solid var(--divider-colour);
+    border-radius: var(--border-radius);
+}
+
+.locationArea {
+    font-family: ZeldaMainSub;
+    background: transparent;
+    border: none;
+    color: #9c8c52;
+    box-shadow: unset !important;
+    text-shadow: 2px 0 3px #50400a, 0 -2px 3px #50400a, 0 2px 3px #50400a, -2px 0 3px #50400a;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.locationArea .main-text {
+    display: block!important;
+}
+
+.locationArea .ancient-text {
+    font-family: ZeldaAncient;
+    display: block!important;
+}
+
+/*
+ * Map Markers
+ */
+.leaflet-marker-icon[class*='big-marker'] {
+    border-radius: 50%;
+    color: #ffffff;
+    padding: 3px;
+    text-align: center;
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.big-marker0 {
+    border-color: #00FFFF;
+    background-color: #00FFFF40;
+}
+
+.big-marker1 {
+    border-color: #FFFF00;
+    background-color: #FFFF0040;
+}
+
+.big-marker2 {
+    border-color: #FF00FF;
+    background-color: #FF00FF40;
+}
+
+.big-marker3 {
+    border-color: #FF6060;
+    background-color: #FF606040;
+}
+
+.big-marker4 {
+    border-color: #60FF60;
+    background-color: #60FF6040;
+}
+
+.big-marker5 {
+    border-color: #6030FF;
+    background-color: #6030FF40;
+}
+
+.big-marker6 {
+    border-color: #40C0FF;
+    background-color: #40C0FF40;
+}
+
+.big-marker7 {
+    border-color: #C0FF40;
+    background-color: #C0FF4040;
+}
+
+.big-marker8 {
+    border-color: #FF40C0;
+    background-color: #FF40C040;
+}
+
+.big-marker9 {
+    border-color: #FFC040;
+    background-color: #FFC04040;
+}
+
+.big-marker10 {
+    border-color: #40FFC0;
+    background-color: #40FFC040;
+}
+
+.big-marker11 {
+    border-color: #C040FF;
+    background-color: #C040FF40;
+}
+
+.big-marker12 {
+    border-color: #FFFFFF;
+    background-color: #FFFFFF40;
+}
+
+/*
+ * Misc
+ */
+
+.smaller-name {
+    font-size: 12px;
+    color: var(--gray-text-colour);
+}
