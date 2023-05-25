@@ -355,14 +355,6 @@ window.addEventListener('load', () => {
                 markerData.layerGroup.addTo(map);
             }
         }
-
-        if (layers[layer]) {
-            return;
-        }
-
-        jQuery.getJSON('data/layers/' + activeLayer + '.json', function (data) {
-            parseLayers(layer, data);
-        });
     }
 
     function parseLayers(layer, data) {
