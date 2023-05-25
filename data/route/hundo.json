@@ -361,7 +361,6 @@
             "Enemy_Sandworm"
         ]},
         "frox": {"objNames": [
-            "Enemy_Mogurudo_Baby_Junior",
             "Enemy_Mogurudo_Junior",
             "Enemy_Mogurudo_Middle",
             "Enemy_Mogurudo_Senior"
@@ -415,6 +414,12 @@
             "Npc_Zonau_Golem_Servant_Minus0008",
             "Npc_Zonau_Golem_Servant_Minus0009",
             "Npc_Zonau_Golem_Servant_Minus0010"
+        ]},
+        "will": {"objNames": [
+            "TBox_Field_Enemy_Zonau : Obj_SageWill",
+            "TBox_Field_Iron_Zonau : Obj_SageWill",
+            "TBox_Field_Iron_Zonau_Zonau_BlockMaster : Obj_SageWill",
+            "TBox_Field_Stone_Zonau : Obj_SageWill"
         ]}
     },
     "segments": [
