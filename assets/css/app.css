@@ -74,6 +74,20 @@ body {
     margin-bottom: 2px;
 }
 
+#segment-filters {
+    overflow: scroll;
+    max-height: 75vh;
+}
+
+#segment-filters > div {
+    width: 300%
+}
+
+#segment-filters > div > label {
+    display: block;
+    margin-bottom: 2px;
+}
+
 #filter-search {
     padding: .5em;
     margin-top: .5em;

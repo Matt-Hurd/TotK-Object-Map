@@ -34,23 +34,23 @@ window.addEventListener('load', () => {
 
     map.on('zoom', updateLocations)
 
-    map.on('click', function (e) {
-        cursorMarker
-            .setLatLng(e.latlng)
-            .bindPopup(
-                "<div class='totk-marker'>" +
-                "   <h2>Marker Positon</h2>" +
-                "   <div class='content'>" +
-                "       <div class='totk-marker-meta'>" +
-                "          <span><strong>X: </strong>" + e.latlng.lng + "</span>" +
-                "          <span><strong>Y: </strong>" + e.latlng.lat + "</span>" +
-                "       </div>" +
-                "   </div>" +
-                "</div>"
-            )
-            .openPopup()
-            .addTo(map);
-    });
+    // map.on('click', function (e) {
+    //     cursorMarker
+    //         .setLatLng(e.latlng)
+    //         .bindPopup(
+    //             "<div class='totk-marker'>" +
+    //             "   <h2>Marker Positon</h2>" +
+    //             "   <div class='content'>" +
+    //             "       <div class='totk-marker-meta'>" +
+    //             "          <span><strong>X: </strong>" + e.latlng.lng + "</span>" +
+    //             "          <span><strong>Y: </strong>" + e.latlng.lat + "</span>" +
+    //             "       </div>" +
+    //             "   </div>" +
+    //             "</div>"
+    //         )
+    //         .openPopup()
+    //         .addTo(map);
+    // });
 
     window.lastIconClass = -1;
 
@@ -155,8 +155,15 @@ window.addEventListener('load', () => {
         activateLayer('depths');
     });
 
-    
-    jQuery('#showAllDungeons').click(function () {
+
+    jQuery('#showNone').click(function () {
+        if (activeRoute !== '') {
+            disableRoute(activeRoute)
+        }
+        activeRoute = ''
+    });
+
+    jQuery('#show-all-dungeons').click(function () {
         if (activeRoute === 'allDungeons') {
             return;
         }
@@ -164,70 +171,166 @@ window.addEventListener('load', () => {
         activateRoute('allDungeons');
     });
 
-    jQuery('#showNone').click(function () {
-        if (activeRoute !== '') {
-            map.removeLayer(routes[activeRoute].layerGroup)
+    jQuery('#show-hundo').click(function () {
+        if (activeRoute === 'hundo') {
+            return;
         }
-        activeRoute = ''
+
+        activateRoute('hundo');
     });
-    
 
     function activateRoute(route) {
         if (activeRoute === route) {
             return;
         }
-        if (routes[route]) {
-            map.removeLayer(routes[route].layerGroup)
+        if (routes[activeRoute]) {
+            disableRoute(activeRoute)
         }
 
         activeRoute = route;
 
-        if (routes[route]) {
-            routes[route].layerGroup.addTo(map);
+        if (!routes[route]) {
+            parseRouteFile(route)
         } else {
-            routes[route] = []
-            routes[route].layerGroup = L.layerGroup();
-            segments = new Array();
-            currentSegment = new Array();
-            previousPoint = [];
-            point = null;
-            jQuery.getJSON("data/route/" + route + ".json", function (data) {
-                Object.entries(data).forEach(function (group, index) {
-                    relevantObject = layers[group[1].layer][group[1].objName];
-                    point = relevantObject.locations[group[1].locationIdx];
-                    if (group[1].teleport === true) {
-                        segments.push(currentSegment)
-                        currentSegment = new Array();
-                    }
-                    currentSegment.push([point.x, point.y]);
-                    marker = new L.Marker([point.x, point.y], {icon: L.ExtraMarkers.icon({icon: 'fa-number', markerColor: colors[group[1].layer], number: index + 1})})
-                    routes[route].layerGroup.addLayer(marker);
-                });
-                currentSegment.push([point.x, point.y]);
-                segments.push(currentSegment);
-                segments.forEach(function(segment, index) {
-                    polyline = L.polyline(segment, {color: 'white'})
-                    decorator = L.polylineDecorator(segment, {
-                        patterns: [
-                            {offset: 25, repeat: 150, symbol: L.Symbol.arrowHead({pixelSize: 20, pathOptions: {fillOpacity: 1, weight: 0}})}
-                        ]
-                    })
-                    routes[route].layerGroup.addLayer(polyline);
-                    routes[route].layerGroup.addLayer(decorator);
-                    if (index > 0) {
-                        dottedSegment = [segments[index - 1].pop(), segments[index][0]];
-                        dots = L.polylineDecorator(dottedSegment, {
-                            patterns: [
-                                {offset: 0, repeat: 5, symbol: L.Symbol.dash({pixelSize: 0, pathOptions: {fillOpacity: 1, weight: 2}})},
-                                {offset: 25, repeat: 150, symbol: L.Symbol.arrowHead({pixelSize: 20, pathOptions: {fillOpacity: 1, weight: 0}})}
-                            ]
-                        })
-                        routes[route].layerGroup.addLayer(dots);
-                    }
-                });
-            });
-            routes[route].layerGroup.addTo(map);
+            enableRoute(route)
         }
+    }
+    
+    function enableRoute(routeName) {
+        jQuery('#segment-filters div.' + routeName).show();
+        routes[routeName].segments.forEach(function (segment, segmentIdx) {
+            if (segment.visible) {
+                segment.pointsLayerGroup.addTo(map);
+                segment.lineLayerGroup.addTo(map);
+                segment.previousConnector.addTo(map);
+            }
+        });
+        
+        for (const [markerName, markerData] of Object.entries(routes[routeName].markers[activeLayer])) {
+            markerData.layerGroup.addTo(map);
+        }
+    }
+    
+    function disableRoute(routeName) {
+        jQuery('#segment-filters div.' + routeName).hide();
+        routes[routeName].segments.forEach(function (segment) {
+            map.removeLayer(segment.pointsLayerGroup);
+            map.removeLayer(segment.lineLayerGroup);
+            map.removeLayer(segment.previousConnector);
+        });
+
+        for (const [markerName, markerData] of Object.entries(routes[routeName].markers[activeLayer])) {
+            map.removeLayer(markerData.layerGroup);
+        }
+    }
+
+    function createPolylineBetweenPoints(point1, point2) {
+        return L.polyline([[point1.pos.x, point1.pos.y], [point2.pos.x, point2.pos.y]], {color: "white", weight: 6})
+            .on('mousedown', (ed) => { 
+                map.dragging.disable();
+                map.on('mouseup', (eu) => {
+                    map.dragging.enable();
+                    map.off('mouseup')
+                })
+             })
+    }
+
+    function createPolylineDecoratorBetweenPoints(point1, point2) {
+        patterns = {}
+        if (point2.teleport === true) {
+            patterns = [
+                {offset: 0, repeat: 5, symbol: L.Symbol.dash({pixelSize: 0, pathOptions: {fillOpacity: 1, weight: 2}})},
+                {offset: 25, repeat: 150, symbol: L.Symbol.arrowHead({pixelSize: 20, pathOptions: {fillOpacity: 1, weight: 0}})}
+            ]
+        } else {
+            patterns = [
+                {offset: 25, repeat: 150, symbol: L.Symbol.arrowHead({pixelSize: 20, pathOptions: {fillOpacity: 1, weight: 0}})}
+            ]
+        }
+
+        return L.polylineDecorator([[point1.pos.x, point1.pos.y], [point2.pos.x, point2.pos.y]], {
+            patterns: patterns
+        })
+    }
+
+    function parseRouteFile(routeName) {
+        jQuery.getJSON("data/route/" + routeName + ".json", function (data) {
+            routes[routeName] = data
+
+            data.markers = {
+                'sky': {},
+                'surface': {},
+                'depths': {},
+                'cave': {}
+            }
+            
+            for (const [layer, layerData] of Object.entries(data.markers)) {
+                for (const [markerName, markerData] of Object.entries(routes[routeName].enabledMarkers)) {
+                    layerData[markerName] = {objs: {}}
+                    layerData[markerName].layerGroup = L.layerGroup();
+                    layerData[markerName].icon = L.icon({
+                        iconUrl: "assets/images/route_icons/" + markerName + '.png',
+                        iconSize:     [40, 40],
+                        iconAnchor:   [20, 20]
+                    });
+                    markerData.objNames.forEach((objName) => {
+                        if (objName in layers[layer]) {
+                            layerData[markerName].objs[objName] = {}
+                            layerData[markerName].objs[objName].base = layers[layer][objName]
+                            layerData[markerName].objs[objName].markers = new Array();
+                            layerData[markerName].objs[objName].base.locations.forEach((pos) => {
+                                marker = L.marker([pos.x, pos.y], {icon: layerData[markerName].icon})
+                                layerData[markerName].objs[objName].markers.push(marker);
+                                layerData[markerName].layerGroup.addLayer(marker);
+                            });
+                        }
+                    });
+                }
+            }
+            routes[routeName].segments.forEach(function (segment, segmentIdx) {
+                segment.visible = true
+                segment.pointsLayerGroup = L.layerGroup();
+                segment.lineLayerGroup = L.layerGroup();
+                segment.previousConnector = L.layerGroup();
+                segment.points.forEach(function (point, pointIdx) {
+                    point.obj = layers[point.layer][point.objName];
+                    point.pos = point.obj.locations[point.locationIdx];
+                    point.marker = new L.Marker([point.pos.x, point.pos.y], {icon: L.ExtraMarkers.icon({icon: 'fa-number', markerColor: colors[point.layer], number: pointIdx + 1})});
+                    segment.pointsLayerGroup.addLayer(point.marker);
+
+                    if (pointIdx > 0) {
+                        if (point.teleport !== true) {
+                            segment.lineLayerGroup.addLayer(createPolylineBetweenPoints(segment.points[pointIdx - 1], point))
+                        }
+                        segment.lineLayerGroup.addLayer(createPolylineDecoratorBetweenPoints(segment.points[pointIdx - 1], point))
+                    }
+                });
+                if (segmentIdx > 0) {
+                    if (segment.points[0].teleport !== true) {
+                        segment.previousConnector.addLayer(createPolylineBetweenPoints(routes[routeName].segments[segmentIdx - 1].points.at(-1), segment.points[0]));
+                    }
+                    segment.previousConnector.addLayer(createPolylineDecoratorBetweenPoints(routes[routeName].segments[segmentIdx - 1].points.at(-1), segment.points[0]));
+                }
+                jQuery('#segment-filters .' + routeName).append('<label><input type="checkbox" checked="true" value="' + segmentIdx + '">' + segment.name + '</label>');
+            });
+            
+            jQuery(document).on('change', '#segment-filters .' + routeName + ' input', function (e) {
+                let segmentIdx = jQuery(this).val();
+                segment = routes[routeName].segments[segmentIdx]
+                if (this.checked === false) {
+                    segment.visible = false;
+                    map.removeLayer(segment.pointsLayerGroup);
+                    map.removeLayer(segment.lineLayerGroup);
+                    map.removeLayer(segment.previousConnector);
+                } else {
+                    routes[routeName].segments[segmentIdx].visible = true;
+                    segment.pointsLayerGroup.addTo(map);
+                    segment.lineLayerGroup.addTo(map);
+                    segment.previousConnector.addTo(map);
+                }
+            });
+            enableRoute(routeName);
+        });
     }
 
     function activateLayer(layer) {
@@ -238,11 +341,24 @@ window.addEventListener('load', () => {
         jQuery('#item-filters div:not(.' + activeLayer + ')').hide();
         jQuery('#item-filters div.' + activeLayer).show();
 
+        updateLocations();
+        
+        if (activeRoute !== '')
+        {
+            for (const [layer, layerData] of Object.entries(routes[activeRoute].markers)) {
+                for (const [markerName, markerData] of Object.entries(layerData)) {
+                    map.removeLayer(markerData.layerGroup);
+                }
+            }
+
+            for (const [markerName, markerData] of Object.entries(routes[activeRoute].markers[activeLayer])) {
+                markerData.layerGroup.addTo(map);
+            }
+        }
+
         if (layers[layer]) {
             return;
         }
-
-        updateLocations();
 
         jQuery.getJSON('data/layers/' + activeLayer + '.json', function (data) {
             parseLayers(layer, data);
@@ -252,6 +368,7 @@ window.addEventListener('load', () => {
     function parseLayers(layer, data) {
         layers[layer] = data;
 
+        markerhtml = ''
         Object.entries(data).forEach(function (markerGroup, index) {
             let displayName = markerGroup[1].name;
 
@@ -265,8 +382,10 @@ window.addEventListener('load', () => {
             displayName += markerGroup[0];
             displayName += '</span>';
 
-            jQuery('#item-filters .' + layer).append('<label><input type="checkbox" value="' + markerGroup[0] + '" data-search-value="' + searchName + '">' + displayName + '</label>');
+            markerhtml += '<label><input type="checkbox" value="' + markerGroup[0] + '" data-search-value="' + searchName + '">' + displayName + '</label>'
         });
+        
+        jQuery('#item-filters .' + layer).append(markerhtml);
 
         jQuery(document).on('change', '#item-filters .' + layer + ' input', function (e) {
             let val = jQuery(this).val();
