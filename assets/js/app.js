@@ -58,6 +58,7 @@ window.addEventListener('load', () => {
     let activeLayer = '';
     let routes = [];
     let activeRoute = '';
+    let draggedPointIdx = -1;
     let colors = {
         'sky': 'blue',
         'surface': 'green',
@@ -224,12 +225,14 @@ window.addEventListener('load', () => {
         }
     }
 
-    function createPolylineBetweenPoints(point1, point2) {
+    function createPolylineBetweenPoints(point1, point2, pointIdx) {
         return L.polyline([[point1.pos.x, point1.pos.y], [point2.pos.x, point2.pos.y]], {color: "white", weight: 6})
             .on('mousedown', (ed) => { 
                 map.dragging.disable();
+                draggedPointIdx = pointIdx;
                 map.on('mouseup', (eu) => {
                     map.dragging.enable();
+                    draggedPointIdx = -1;
                     map.off('mouseup')
                 })
              })
@@ -251,6 +254,69 @@ window.addEventListener('load', () => {
         return L.polylineDecorator([[point1.pos.x, point1.pos.y], [point2.pos.x, point2.pos.y]], {
             patterns: patterns
         })
+    }
+    
+    function appendToRoute(routeName, layer, objName, posIdx, pointIdx) {
+        lastActiveSegment = routes[routeName].segments.findLast((e) => e.visible);
+
+        point = {};
+        point.layer = layer;
+        point.objName = objName;
+        point.locationIdx = posIdx;
+        if (pointIdx == -1) {
+            lastActiveSegment.points.push(point);
+        } else {
+            lastActiveSegment.points.splice(pointIdx, 0, point);
+        }
+        redrawRouteMarkers(routeName);
+    }
+
+    function redrawRouteMarkers(routeName) {
+        routes[routeName].segments.forEach(function (segment, segmentIdx) {
+
+            if (typeof segment.pointsLayerGroup !== 'undefined') {
+                map.removeLayer(segment.pointsLayerGroup);
+                map.removeLayer(segment.lineLayerGroup);
+                map.removeLayer(segment.previousConnector);
+            }
+
+            segment.pointsLayerGroup = L.layerGroup();
+            segment.lineLayerGroup = L.layerGroup();
+            segment.previousConnector = L.layerGroup();
+            segment.points.forEach(function (point, pointIdx) {
+                point.obj = layers[point.layer][point.objName];
+                point.pos = point.obj.locations[point.locationIdx];
+                point.marker = new L.Marker([point.pos.x, point.pos.y], {icon: L.ExtraMarkers.icon({icon: 'fa-number', markerColor: colors[point.layer], number: pointIdx + 1})})
+                    .on('click', (e) => { 
+                        if (e.originalEvent.ctrlKey) {
+                            segment.points.splice(pointIdx, 1);
+                            redrawRouteMarkers(routeName);
+                        }
+                    });
+                segment.pointsLayerGroup.addLayer(point.marker);
+
+                if (pointIdx > 0) {
+                    if (point.teleport !== true) {
+                        segment.lineLayerGroup.addLayer(createPolylineBetweenPoints(segment.points[pointIdx - 1], point, pointIdx))
+                    }
+                    segment.lineLayerGroup.addLayer(createPolylineDecoratorBetweenPoints(segment.points[pointIdx - 1], point))
+                }
+            });
+            if (segmentIdx > 0) {
+                if (segment.points[0].teleport !== true) {
+                    segment.previousConnector.addLayer(createPolylineBetweenPoints(routes[routeName].segments[segmentIdx - 1].points.at(-1), segment.points[0], 0));
+                }
+                segment.previousConnector.addLayer(createPolylineDecoratorBetweenPoints(routes[routeName].segments[segmentIdx - 1].points.at(-1), segment.points[0]));
+            }
+        });
+
+        routes[routeName].segments.forEach(function (segment, segmentIdx) {
+            if (segment.visible) {
+                segment.pointsLayerGroup.addTo(map);
+                segment.lineLayerGroup.addTo(map);
+                segment.previousConnector.addTo(map);
+            }
+        });
     }
 
     function parseRouteFile(routeName) {
@@ -278,8 +344,18 @@ window.addEventListener('load', () => {
                             layerData[markerName].objs[objName] = {}
                             layerData[markerName].objs[objName].base = layers[layer][objName]
                             layerData[markerName].objs[objName].markers = new Array();
-                            layerData[markerName].objs[objName].base.locations.forEach((pos) => {
+                            layerData[markerName].objs[objName].base.locations.forEach((pos, posIdx) => {
                                 marker = L.marker([pos.x, pos.y], {icon: layerData[markerName].icon})
+                                    .on('click', (ed) => { 
+                                        appendToRoute(routeName, layer, objName, posIdx, -1)
+                                    })
+                                    .on('mouseup', (e) => {
+                                        if (draggedPointIdx != -1) {
+                                            appendToRoute(routeName, layer, objName, posIdx, draggedPointIdx);
+                                            redrawRouteMarkers(routeName);
+                                        }
+                                        draggedPointIdx = -1;
+                                    });
                                 layerData[markerName].objs[objName].markers.push(marker);
                                 layerData[markerName].layerGroup.addLayer(marker);
                             });
@@ -287,30 +363,10 @@ window.addEventListener('load', () => {
                     });
                 }
             }
+
+            redrawRouteMarkers(routeName);
             routes[routeName].segments.forEach(function (segment, segmentIdx) {
                 segment.visible = true
-                segment.pointsLayerGroup = L.layerGroup();
-                segment.lineLayerGroup = L.layerGroup();
-                segment.previousConnector = L.layerGroup();
-                segment.points.forEach(function (point, pointIdx) {
-                    point.obj = layers[point.layer][point.objName];
-                    point.pos = point.obj.locations[point.locationIdx];
-                    point.marker = new L.Marker([point.pos.x, point.pos.y], {icon: L.ExtraMarkers.icon({icon: 'fa-number', markerColor: colors[point.layer], number: pointIdx + 1})});
-                    segment.pointsLayerGroup.addLayer(point.marker);
-
-                    if (pointIdx > 0) {
-                        if (point.teleport !== true) {
-                            segment.lineLayerGroup.addLayer(createPolylineBetweenPoints(segment.points[pointIdx - 1], point))
-                        }
-                        segment.lineLayerGroup.addLayer(createPolylineDecoratorBetweenPoints(segment.points[pointIdx - 1], point))
-                    }
-                });
-                if (segmentIdx > 0) {
-                    if (segment.points[0].teleport !== true) {
-                        segment.previousConnector.addLayer(createPolylineBetweenPoints(routes[routeName].segments[segmentIdx - 1].points.at(-1), segment.points[0]));
-                    }
-                    segment.previousConnector.addLayer(createPolylineDecoratorBetweenPoints(routes[routeName].segments[segmentIdx - 1].points.at(-1), segment.points[0]));
-                }
                 jQuery('#segment-filters .' + routeName).append('<label><input type="checkbox" checked="true" value="' + segmentIdx + '">' + segment.name + '</label>');
             });
             

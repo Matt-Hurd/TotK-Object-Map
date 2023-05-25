@@ -388,7 +388,10 @@
             "TBox_Field_Stone_Zonau_NoDelete : Armor_1066_Lower",
             "TBox_Field_Stone_Zonau_NoDelete : Armor_1066_Upper",
             "TBox_Field_Stone : Armor_006_Head",
-            "TBox_Field_Stone : Armor_006_Lower"
+            "TBox_Field_Stone : Armor_006_Lower",
+            "TBox_Field_Stone : Armor_1300_Head",
+            "TBox_Field_Stone : Armor_1300_Upper",
+            "TBox_Field_Stone : Armor_1300_Lower"
         ]},
         "fabric": {"objNames": [
             "TBox_Field_Stone : Obj_SubstituteCloth_03",
