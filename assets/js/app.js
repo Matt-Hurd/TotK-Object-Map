@@ -180,6 +180,46 @@ window.addEventListener('load', () => {
         activateRoute('hundo');
     });
 
+    jQuery('#show-all-quests').click(function () {
+        if (activeRoute === 'allQuests') {
+            return;
+        }
+
+        activateRoute('allQuests');
+    });
+
+
+    jQuery('#show-side-adventures').click(function () {
+        if (activeRoute === 'sideAdventures') {
+            return;
+        }
+
+        activateRoute('sideAdventures');
+    });
+
+    jQuery('#btn-add-segment').click(function () {
+        segmentName = prompt("New Segment Name")
+        routes[activeRoute].segments.push({"name": segmentName, "points": []})
+        jQuery('#segment-filters .' + activeRoute).append('<label><input type="checkbox" checked value="' + routes[activeRoute].segments.length - 1 + '">' + segmentName + '</label>');
+        redrawRouteMarkers(activeRoute);
+    });
+
+    jQuery('#btn-reset').click(function () {
+        if (confirm("Sure you want to reset your route?")) {
+            localStorage.removeItem(activeRoute);
+            parseRouteFile(activeRoute);
+        }
+    });
+    
+    jQuery('#btn-import').click(function () {
+        routes[activeRoute].segments = JSON.parse(prompt("Paste route here"));
+        redrawRouteMarkers(activeRoute);
+    });
+    
+    jQuery('#btn-export').click(function () {
+        prompt("Copy to clipboard: Ctrl+C, Enter", localStorage.getItem(activeRoute));
+    });
+
     function activateRoute(route) {
         if (activeRoute === route) {
             return;
@@ -258,6 +298,13 @@ window.addEventListener('load', () => {
     
     function appendToRoute(routeName, layer, objName, posIdx, pointIdx) {
         lastActiveSegment = routes[routeName].segments.findLast((e) => e.visible);
+        console.log(lastActiveSegment.points.length)
+        if (lastActiveSegment.points.length > 0 && (pointIdx == -1 || pointIdx == lastActiveSegment.points.length - 1)) {
+            lastPoint = lastActiveSegment.points.slice(-1)[0];
+            if (lastPoint.objName == objName && lastPoint.locationIdx == posIdx) {
+                return;
+            }
+        }
 
         point = {};
         point.layer = layer;
@@ -272,8 +319,12 @@ window.addEventListener('load', () => {
     }
 
     function redrawRouteMarkers(routeName) {
-        routes[routeName].segments.forEach(function (segment, segmentIdx) {
+        localStorage.setItem(routeName, JSON.stringify(routes[routeName].segments, ["name", "points", "layer", "objName", "locationIdx", "note", "visible"]));
 
+        console.log(routes[routeName].segments)
+        routes[routeName].segments.forEach(function (segment, segmentIdx) {
+            
+            console.log(segment)
             if (typeof segment.pointsLayerGroup !== 'undefined') {
                 map.removeLayer(segment.pointsLayerGroup);
                 map.removeLayer(segment.lineLayerGroup);
@@ -302,12 +353,13 @@ window.addEventListener('load', () => {
                     segment.lineLayerGroup.addLayer(createPolylineDecoratorBetweenPoints(segment.points[pointIdx - 1], point))
                 }
             });
-            if (segmentIdx > 0) {
-                if (segment.points[0].teleport !== true) {
-                    segment.previousConnector.addLayer(createPolylineBetweenPoints(routes[routeName].segments[segmentIdx - 1].points.at(-1), segment.points[0], 0));
-                }
-                segment.previousConnector.addLayer(createPolylineDecoratorBetweenPoints(routes[routeName].segments[segmentIdx - 1].points.at(-1), segment.points[0]));
-            }
+            // TODO: Make this toggleable
+            // if (segmentIdx > 0) {
+            //     if (segment.points[0].teleport !== true) {
+            //         segment.previousConnector.addLayer(createPolylineBetweenPoints(routes[routeName].segments[segmentIdx - 1].points.at(-1), segment.points[0], 0));
+            //     }
+            //     segment.previousConnector.addLayer(createPolylineDecoratorBetweenPoints(routes[routeName].segments[segmentIdx - 1].points.at(-1), segment.points[0]));
+            // }
         });
 
         routes[routeName].segments.forEach(function (segment, segmentIdx) {
@@ -320,8 +372,13 @@ window.addEventListener('load', () => {
     }
 
     function parseRouteFile(routeName) {
+        storedSegments = JSON.parse(localStorage.getItem(routeName))
         jQuery.getJSON("data/route/" + routeName + ".json", function (data) {
             routes[routeName] = data
+            if (storedSegments) {
+                console.log(routes[routeName].segments)
+                routes[routeName].segments = storedSegments
+            }
 
             data.markers = {
                 'sky': {},
@@ -346,8 +403,10 @@ window.addEventListener('load', () => {
                             layerData[markerName].objs[objName].markers = new Array();
                             layerData[markerName].objs[objName].base.locations.forEach((pos, posIdx) => {
                                 marker = L.marker([pos.x, pos.y], {icon: layerData[markerName].icon})
-                                    .on('click', (ed) => { 
-                                        appendToRoute(routeName, layer, objName, posIdx, -1)
+                                    .on('click', (ed) => {  
+                                        if (ed.originalEvent.altKey) {
+                                            appendToRoute(routeName, layer, objName, posIdx, -1);
+                                        }
                                     })
                                     .on('mouseup', (e) => {
                                         if (draggedPointIdx != -1) {
@@ -363,11 +422,10 @@ window.addEventListener('load', () => {
                     });
                 }
             }
-
+    
             redrawRouteMarkers(routeName);
             routes[routeName].segments.forEach(function (segment, segmentIdx) {
-                segment.visible = true
-                jQuery('#segment-filters .' + routeName).append('<label><input type="checkbox" checked="true" value="' + segmentIdx + '">' + segment.name + '</label>');
+                jQuery('#segment-filters .' + routeName).append('<label><input type="checkbox" ' + (segment.visible ? "checked" : "") + ' " value="' + segmentIdx + '">' + segment.name + '</label>');
             });
             
             jQuery(document).on('change', '#segment-filters .' + routeName + ' input', function (e) {
@@ -500,6 +558,18 @@ window.addEventListener('load', () => {
                 iconSize: [3, 3],
                 radius: 3,
                 title: point.z + ' - ' + val,
+            })
+            .on('click', (ed) => { 
+                if (ed.originalEvent.altKey) {
+                    appendToRoute(activeRoute, layer, val, index, -1);
+                }
+            })
+            .on('mouseup', (e) => {
+                if (draggedPointIdx != -1) {
+                    appendToRoute(activeRoute, layer, val, index, draggedPointIdx);
+                    redrawRouteMarkers(activeRoute);
+                }
+                draggedPointIdx = -1;
             });
 
             let popup =

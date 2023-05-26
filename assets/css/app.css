@@ -62,7 +62,7 @@ body {
 
 #item-filters {
     overflow: scroll;
-    max-height: 75vh;
+    max-height: 47vh;
 }
 
 #item-filters > div {
@@ -76,7 +76,11 @@ body {
 
 #segment-filters {
     overflow: scroll;
-    max-height: 75vh;
+    max-height: 25vh;
+    padding: .5em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    border-bottom: var(--divider-thickness) solid var(--divider-colour);
 }
 
 #segment-filters > div {
@@ -86,6 +90,14 @@ body {
 #segment-filters > div > label {
     display: block;
     margin-bottom: 2px;
+}
+
+#route-control-buttons {
+    max-height: 75vh;
+    padding: .5em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+    border-bottom: var(--divider-thickness) solid var(--divider-colour);
 }
 
 #filter-search {
