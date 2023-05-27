@@ -361,7 +361,17 @@
       ],
       "visible": false
     },
-    { "name": "A Mystery in the Depths", "points": [], "visible": false },
+    {
+      "name": "A Mystery in the Depths",
+      "points": [
+        {
+          "layer": "surface",
+          "objName": "Npc_BaseCamp_Assistant",
+          "locationIdx": 0
+        }
+      ],
+      "visible": false
+    },
     {
       "name": "Spotting Spot",
       "points": [
@@ -486,6 +496,13 @@
           "layer": "surface",
           "objName": "Npc_HyruleDepthHatago007",
           "locationIdx": 0
+        },
+        { "layer": "surface", "objName": "GameRomHorseBone", "locationIdx": 1 },
+        { "layer": "surface", "objName": "Animal_Deer_A", "locationIdx": 13 },
+        {
+          "layer": "surface",
+          "objName": "Npc_HyruleDepthHatago007",
+          "locationIdx": 0
         }
       ],
       "visible": false
@@ -497,6 +514,16 @@
           "layer": "surface",
           "objName": "Npc_HyruleDepthHatago005",
           "locationIdx": 0
+        },
+        {
+          "layer": "surface",
+          "objName": "Obj_TreeCherry_A_01",
+          "locationIdx": 1
+        },
+        {
+          "layer": "surface",
+          "objName": "Npc_HyruleDepthHatago005",
+          "locationIdx": 0
         }
       ],
       "visible": false
@@ -504,6 +531,16 @@
     {
       "name": "Feathered Fugitives",
       "points": [
+        { "layer": "surface", "objName": "Npc_Road_020", "locationIdx": 1 },
+        { "layer": "surface", "objName": "Animal_Kokko_A", "locationIdx": 5 },
+        { "layer": "surface", "objName": "Npc_Road_020", "locationIdx": 1 },
+        { "layer": "surface", "objName": "Animal_Kokko_A", "locationIdx": 3 },
+        { "layer": "surface", "objName": "Npc_Road_020", "locationIdx": 1 },
+        { "layer": "surface", "objName": "Animal_Kokko_A", "locationIdx": 2 },
+        { "layer": "surface", "objName": "Npc_Road_020", "locationIdx": 1 },
+        { "layer": "surface", "objName": "Animal_Kokko_A", "locationIdx": 4 },
+        { "layer": "surface", "objName": "Npc_Road_020", "locationIdx": 1 },
+        { "layer": "surface", "objName": "Animal_Kokko_A", "locationIdx": 6 },
         { "layer": "surface", "objName": "Npc_Road_020", "locationIdx": 1 }
       ],
       "visible": false
@@ -511,6 +548,16 @@
     {
       "name": "A Picture for Riverside Stable",
       "points": [
+        {
+          "layer": "surface",
+          "objName": "Npc_RiverSideHatago003",
+          "locationIdx": 0
+        },
+        {
+          "layer": "surface",
+          "objName": "TwnObj_GoddesStatue_A_01",
+          "locationIdx": 0
+        },
         {
           "layer": "surface",
           "objName": "Npc_RiverSideHatago003",
@@ -526,6 +573,16 @@
           "layer": "surface",
           "objName": "Npc_HyruleWestHatago001",
           "locationIdx": 0
+        },
+        {
+          "layer": "surface",
+          "objName": "WildHorseCreateTag05",
+          "locationIdx": 1
+        },
+        {
+          "layer": "surface",
+          "objName": "Npc_HyruleWestHatago001",
+          "locationIdx": 0
         }
       ],
       "visible": false
@@ -533,6 +590,16 @@
     {
       "name": "A Picture for New Serenne Stable",
       "points": [
+        {
+          "layer": "surface",
+          "objName": "Npc_HyruleWestHatago005",
+          "locationIdx": 0
+        },
+        {
+          "layer": "surface",
+          "objName": "FldObj_Rock_Geoglyph_A_01_Far",
+          "locationIdx": 0
+        },
         {
           "layer": "surface",
           "objName": "Npc_HyruleWestHatago005",
@@ -555,6 +622,12 @@
     {
       "name": "Treasure of the Secret Springs",
       "points": [
+        { "layer": "surface", "objName": "Npc_Tulin_Sage", "locationIdx": 1 },
+        {
+          "layer": "cave",
+          "objName": "TBox_Field_Stone : Armor_182_Head",
+          "locationIdx": 0
+        },
         { "layer": "surface", "objName": "Npc_Tulin_Sage", "locationIdx": 1 }
       ],
       "visible": false
@@ -599,6 +672,11 @@
           "layer": "surface",
           "objName": "Npc_HighMountain037",
           "locationIdx": 3
+        },
+        {
+          "layer": "surface",
+          "objName": "Npc_HatenoVillage030 : Weapon_Lsword_103 : AsbObj_SharpRock_A_S_01",
+          "locationIdx": 0
         }
       ],
       "visible": false
@@ -610,6 +688,11 @@
           "layer": "surface",
           "objName": "Npc_TabantaBridgeHatago006",
           "locationIdx": 0
+        },
+        {
+          "layer": "surface",
+          "objName": "LocationArea : StonePillers",
+          "locationIdx": 0
         }
       ],
       "visible": false
@@ -620,6 +703,11 @@
         {
           "layer": "surface",
           "objName": "Npc_TabantaHatago004",
+          "locationIdx": 0
+        },
+        {
+          "layer": "surface",
+          "objName": "LocationMarker : ShariverMt",
           "locationIdx": 0
         }
       ],
@@ -643,6 +731,11 @@
           "layer": "surface",
           "objName": "Npc_HighMountain040",
           "locationIdx": 0
+        },
+        {
+          "layer": "surface",
+          "objName": "Enemy_Bokoblin_NoSleep_Junior : Weapon_Sword_044",
+          "locationIdx": 0
         }
       ],
       "visible": false
@@ -654,6 +747,11 @@
           "layer": "surface",
           "objName": "Npc_HighMountain013",
           "locationIdx": 1
+        },
+        {
+          "layer": "surface",
+          "objName": "Enemy_Toby_Junior",
+          "locationIdx": 27
         }
       ],
       "visible": false
@@ -672,7 +770,12 @@
     {
       "name": "The Duchess Who Dissapeared",
       "points": [
-        { "layer": "surface", "objName": "NPC_Lanayru001", "locationIdx": 0 }
+        { "layer": "surface", "objName": "NPC_Lanayru001", "locationIdx": 0 },
+        {
+          "layer": "surface",
+          "objName": "TwnObj_HeburaLodge_C_01",
+          "locationIdx": 0
+        }
       ],
       "visible": false
     },
@@ -697,35 +800,60 @@
     {
       "name": "The Captured Tent",
       "points": [
-        { "layer": "surface", "objName": "Npc_Attacked_008", "locationIdx": 1 }
+        { "layer": "surface", "objName": "Npc_Attacked_008", "locationIdx": 1 },
+        {
+          "layer": "surface",
+          "objName": "LocationArea : Cave_Hebra_0036",
+          "locationIdx": 0
+        }
       ],
       "visible": false
     },
     {
       "name": "Who Finds the Haven?",
       "points": [
-        { "layer": "surface", "objName": "Npc_Attacked_008", "locationIdx": 1 }
+        { "layer": "surface", "objName": "Npc_Attacked_008", "locationIdx": 1 },
+        {
+          "layer": "surface",
+          "objName": "LocationArea : Cave_Hebra_0000",
+          "locationIdx": 0
+        }
       ],
       "visible": false
     },
     {
       "name": "Whirly Swirly Things",
       "points": [
-        { "layer": "surface", "objName": "Npc_kokiri012", "locationIdx": 0 }
+        { "layer": "surface", "objName": "Npc_kokiri012", "locationIdx": 0 },
+        {
+          "layer": "surface",
+          "objName": "FldObj_HoleWhirlingWaves_A_04",
+          "locationIdx": 0
+        },
+        {
+          "layer": "surface",
+          "objName": "FldObj_HoleQuicksand_A_02",
+          "locationIdx": 1
+        }
       ],
       "visible": false
     },
     {
       "name": "The Secret Room",
       "points": [
-        { "layer": "surface", "objName": "Npc_kokiri009", "locationIdx": 0 }
+        { "layer": "surface", "objName": "Npc_kokiri009", "locationIdx": 0 },
+        { "layer": "surface", "objName": "Npc_kokiri009", "locationIdx": 1 }
       ],
       "visible": false
     },
     {
       "name": "Walton's Treasure Hunt",
       "points": [
-        { "layer": "surface", "objName": "Npc_kokiri002", "locationIdx": 0 }
+        { "layer": "surface", "objName": "Npc_kokiri002", "locationIdx": 0 },
+        { "layer": "surface", "objName": "Weapon_Spear_125", "locationIdx": 0 },
+        { "layer": "surface", "objName": "Weapon_Sword_125", "locationIdx": 0 },
+        { "layer": "surface", "objName": "Npc_kokiri002", "locationIdx": 0 },
+        { "layer": "surface", "objName": "Weapon_Shield_023", "locationIdx": 0 }
       ],
       "visible": false
     },
@@ -760,14 +888,24 @@
     {
       "name": "Moon-Gazing Gorons",
       "points": [
-        { "layer": "surface", "objName": "Npc_goron001", "locationIdx": 0 }
+        { "layer": "surface", "objName": "Npc_goron001", "locationIdx": 0 },
+        {
+          "layer": "surface",
+          "objName": "LocationArea : Cave_Eldin_0037",
+          "locationIdx": 0
+        }
       ],
       "visible": false
     },
     {
       "name": "The Hidden Teasure at Lizard Lakes",
       "points": [
-        { "layer": "surface", "objName": "Npc_Goron006", "locationIdx": 0 }
+        { "layer": "surface", "objName": "Npc_Goron006", "locationIdx": 0 },
+        {
+          "layer": "cave",
+          "objName": "TBox_Field_Stone : Armor_183_Head",
+          "locationIdx": 0
+        }
       ],
       "visible": false
     },
@@ -778,7 +916,8 @@
           "layer": "surface",
           "objName": "Npc_DeathEastHatago_002",
           "locationIdx": 0
-        }
+        },
+        { "layer": "cave", "objName": "Cave_Eldin_0027", "locationIdx": 0 }
       ],
       "visible": false
     },
@@ -830,87 +969,402 @@
       "points": [
         { "layer": "cave", "objName": "Npc_Gaman02", "locationIdx": 0 }
       ],
-      "visible": true
+      "visible": false
     },
-    { "name": "A Picture for Woodland Stable", "points": [], "visible": false },
-    { "name": "A Picture for Foothill Stable", "points": [], "visible": false },
-    { "name": "Fell into a Well!", "points": [], "visible": false },
-    { "name": "The Abandoned Laborer", "points": [], "visible": false },
-    { "name": "The Treasure Hunters", "points": [], "visible": false },
-    { "name": "Misko's Cave of Chests", "points": [], "visible": false },
+    {
+      "name": "A Picture for Woodland Stable",
+      "points": [
+        {
+          "layer": "surface",
+          "objName": "Npc_DeathWestHatago_002",
+          "locationIdx": 0
+        },
+        {
+          "layer": "surface",
+          "objName": "LocationMarker : GoronSpa",
+          "locationIdx": 0
+        }
+      ],
+      "visible": false
+    },
+    {
+      "name": "A Picture for Foothill Stable",
+      "points": [
+        {
+          "layer": "surface",
+          "objName": "Npc_DeathEastHatago_001",
+          "locationIdx": 0
+        },
+        {
+          "layer": "surface",
+          "objName": "Obj_RockSetDeathMt_C_04_Far",
+          "locationIdx": 276
+        }
+      ],
+      "visible": false
+    },
+    {
+      "name": "Fell into a Well!",
+      "points": [
+        { "layer": "cave", "objName": "Npc_Attacked_002", "locationIdx": 0 }
+      ],
+      "visible": false
+    },
+    {
+      "name": "The Abandoned Laborer",
+      "points": [
+        { "layer": "cave", "objName": "Npc_Goron040", "locationIdx": 0 }
+      ],
+      "visible": false
+    },
+    {
+      "name": "The Treasure Hunters",
+      "points": [
+        { "layer": "surface", "objName": "subchallnpc000", "locationIdx": 0 }
+      ],
+      "visible": false
+    },
+    {
+      "name": "Misko's Cave of Chests",
+      "points": [
+        { "layer": "surface", "objName": "subchallnpc000", "locationIdx": 1 },
+        {
+          "layer": "surface",
+          "objName": "TBox_Field_Iron : Armor_1061_Lower",
+          "locationIdx": 0
+        }
+      ],
+      "visible": false
+    },
     {
       "name": "Misko's Treasure: The Fierce Diety",
-      "points": [],
+      "points": [
+        { "layer": "cave", "objName": "FldObj_MessageBottle", "locationIdx": 0 }
+      ],
       "visible": false
     },
     {
       "name": "Misko's Treasure: Twins Manuscript",
-      "points": [],
+      "points": [
+        { "layer": "surface", "objName": "subchallnpc000", "locationIdx": 1 },
+        {
+          "layer": "cave",
+          "objName": "TBox_Field_Iron : Armor_174_Upper",
+          "locationIdx": 0
+        }
+      ],
       "visible": false
     },
     {
       "name": "Misko's Treasure: Pirate Manuscript",
-      "points": [],
+      "points": [
+        { "layer": "surface", "objName": "subchallnpc000", "locationIdx": 1 },
+        {
+          "layer": "cave",
+          "objName": "TBox_Field_Iron : Armor_174_Lower",
+          "locationIdx": 0
+        }
+      ],
       "visible": false
     },
     {
       "name": "Misko's Treasure: Heroines Manuscript",
-      "points": [],
-      "visible": false
+      "points": [
+        { "layer": "surface", "objName": "subchallnpc000", "locationIdx": 1 },
+        {
+          "layer": "cave",
+          "objName": "TBox_Field_Stone : Armor_174_Head",
+          "locationIdx": 0
+        }
+      ],
+      "visible": true
     },
     {
       "name": "Misko's Treasure of Awakening I",
-      "points": [],
+      "points": [
+        {
+          "layer": "cave",
+          "objName": "FldObj_SignboardStone_A_04",
+          "locationIdx": 0
+        },
+        {
+          "layer": "cave",
+          "objName": "FldObj_SignboardStone_A_05",
+          "locationIdx": 0
+        }
+      ],
       "visible": false
     },
     {
       "name": "Misko's Treasure of Awakening II",
-      "points": [],
+      "points": [
+        {
+          "layer": "cave",
+          "objName": "FldObj_SignboardStone_A_05",
+          "locationIdx": 0
+        },
+        {
+          "layer": "cave",
+          "objName": "FldObj_SignboardStone_A_06",
+          "locationIdx": 0
+        }
+      ],
       "visible": false
     },
     {
       "name": "Misko's Treasure of Awakening III",
-      "points": [],
+      "points": [
+        {
+          "layer": "cave",
+          "objName": "FldObj_SignboardStone_A_06",
+          "locationIdx": 0
+        },
+        {
+          "layer": "cave",
+          "objName": "FldObj_SignboardStone_A_01",
+          "locationIdx": 0
+        }
+      ],
       "visible": false
     },
-    { "name": "The Tarrey Town Race Is On!", "points": [], "visible": false },
-    { "name": "Secrets Within", "points": [], "visible": false },
-    { "name": "Master the Vehicle Prototype", "points": [], "visible": false },
-    { "name": "Home on Arrange", "points": [], "visible": false },
-    { "name": "Strongest in the World", "points": [], "visible": false },
-    { "name": "The Gathering Pirates", "points": [], "visible": false },
+    {
+      "name": "The Tarrey Town Race Is On!",
+      "points": [
+        {
+          "layer": "surface",
+          "objName": "Npc_Umii_Ichikara_Scholar_C",
+          "locationIdx": 0
+        }
+      ],
+      "visible": false
+    },
+    {
+      "name": "Secrets Within",
+      "points": [
+        { "layer": "surface", "objName": "Npc_BaseCamp008", "locationIdx": 2 }
+      ],
+      "visible": false
+    },
+    {
+      "name": "Master the Vehicle Prototype",
+      "points": [
+        {
+          "layer": "surface",
+          "objName": "Npc_Umii_Ichikara_Scholar_C",
+          "locationIdx": 0
+        }
+      ],
+      "visible": false
+    },
+    {
+      "name": "Home on Arrange",
+      "points": [
+        { "layer": "surface", "objName": "Npc_oasis050", "locationIdx": 0 }
+      ],
+      "visible": false
+    },
+    {
+      "name": "Strongest in the World",
+      "points": [
+        {
+          "layer": "surface",
+          "objName": "Npc_Attacked_005 : Weapon_Sword_112 : Item_Enemy_77 : Weapon_Shield_002",
+          "locationIdx": 0
+        }
+      ],
+      "visible": false
+    },
+    {
+      "name": "The Gathering Pirates",
+      "points": [
+        {
+          "layer": "surface",
+          "objName": "Npc_TamourHatago001",
+          "locationIdx": 0
+        }
+      ],
+      "visible": false
+    },
     {
       "name": "A Picure for East Akkala Stable",
-      "points": [],
+      "points": [
+        {
+          "layer": "surface",
+          "objName": "Npc_TamourHatago005",
+          "locationIdx": 0
+        }
+      ],
       "visible": false
     },
-    { "name": "Eldin's Colossal Fossil", "points": [], "visible": false },
-    { "name": "Hebra's Colossal Fossil", "points": [], "visible": false },
-    { "name": "Gerudo's Colossal Fossil", "points": [], "visible": false },
-    { "name": "One-Hit Wonder!", "points": [], "visible": false },
+    {
+      "name": "Eldin's Colossal Fossil",
+      "points": [
+        {
+          "layer": "surface",
+          "objName": "Npc_Remains_Fancier001",
+          "locationIdx": 1
+        }
+      ],
+      "visible": false
+    },
+    {
+      "name": "Hebra's Colossal Fossil",
+      "points": [
+        {
+          "layer": "cave",
+          "objName": "Npc_Remains_Fancier001",
+          "locationIdx": 1
+        }
+      ],
+      "visible": false
+    },
+    {
+      "name": "Gerudo's Colossal Fossil",
+      "points": [
+        {
+          "layer": "cave",
+          "objName": "Npc_Remains_Fancier001",
+          "locationIdx": 0
+        }
+      ],
+      "visible": false
+    },
+    {
+      "name": "One-Hit Wonder!",
+      "points": [
+        {
+          "layer": "surface",
+          "objName": "Npc_RiverSideHatago002",
+          "locationIdx": 0
+        }
+      ],
+      "visible": false
+    },
     {
       "name": "A Picture for South Akkala Stable",
-      "points": [],
+      "points": [
+        {
+          "layer": "surface",
+          "objName": "Npc_TamourPlainHatago_004",
+          "locationIdx": 0
+        }
+      ],
       "visible": false
     },
-    { "name": "True Treasure", "points": [], "visible": false },
+    {
+      "name": "True Treasure",
+      "points": [
+        { "layer": "surface", "objName": "Npc_Zora008", "locationIdx": 0 }
+      ],
+      "visible": false
+    },
     {
       "name": "Secret Treasure under the Great Fish",
-      "points": [],
+      "points": [
+        { "layer": "surface", "objName": "Npc_ZoraB001", "locationIdx": 2 }
+      ],
       "visible": false
     },
-    { "name": "The Never-Ending Lecture", "points": [], "visible": false },
-    { "name": "The Moonlit Princess", "points": [], "visible": false },
-    { "name": "The Fort at Ja'Abu Ridge", "points": [], "visible": false },
-    { "name": "Glory of the Zora", "points": [], "visible": false },
-    { "name": "A Crabulous Deal", "points": [], "visible": false },
-    { "name": "A Wife Wafted Away", "points": [], "visible": false },
-    { "name": "A Token of Friendship", "points": [], "visible": false },
-    { "name": "A Picture for Wetland Stable", "points": [], "visible": false },
-    { "name": "An Uninvited Guest", "points": [], "visible": false },
-    { "name": "The Blue Stone", "points": [], "visible": false },
-    { "name": "The Ultimate Dish?", "points": [], "visible": false },
-    { "name": "Mired in Muck", "points": [], "visible": false },
+    {
+      "name": "The Never-Ending Lecture",
+      "points": [
+        {
+          "layer": "surface",
+          "objName": "Npc_Zora_Attendant001",
+          "locationIdx": 2
+        }
+      ],
+      "visible": false
+    },
+    {
+      "name": "The Moonlit Princess",
+      "points": [
+        { "layer": "surface", "objName": "Npc_Zora014", "locationIdx": 0 }
+      ],
+      "visible": false
+    },
+    {
+      "name": "The Fort at Ja'Abu Ridge",
+      "points": [
+        {
+          "layer": "surface",
+          "objName": "Npc_Zora034 : Item_Enemy_106",
+          "locationIdx": 1
+        }
+      ],
+      "visible": false
+    },
+    {
+      "name": "Glory of the Zora",
+      "points": [
+        { "layer": "surface", "objName": "Npc_Zora033", "locationIdx": 0 }
+      ],
+      "visible": false
+    },
+    {
+      "name": "A Crabulous Deal",
+      "points": [
+        { "layer": "surface", "objName": "Npc_Zora002", "locationIdx": 0 }
+      ],
+      "visible": false
+    },
+    {
+      "name": "A Wife Wafted Away",
+      "points": [
+        { "layer": "surface", "objName": "Npc_Zora006", "locationIdx": 0 }
+      ],
+      "visible": false
+    },
+    {
+      "name": "A Token of Friendship",
+      "points": [
+        { "layer": "surface", "objName": "Npc_Zora025", "locationIdx": 0 }
+      ],
+      "visible": false
+    },
+    {
+      "name": "A Picture for Wetland Stable",
+      "points": [
+        {
+          "layer": "surface",
+          "objName": "Npc_NorthHatelHatago006",
+          "locationIdx": 0
+        }
+      ],
+      "visible": false
+    },
+    {
+      "name": "An Uninvited Guest",
+      "points": [
+        {
+          "layer": "surface",
+          "objName": "Npc_NorthHatelHatago002",
+          "locationIdx": 0
+        }
+      ],
+      "visible": false
+    },
+    {
+      "name": "The Blue Stone",
+      "points": [
+        { "layer": "surface", "objName": "Npc_Zora013", "locationIdx": 0 }
+      ],
+      "visible": false
+    },
+    {
+      "name": "The Ultimate Dish?",
+      "points": [
+        { "layer": "cave", "objName": "Npc_Strange_Beacon", "locationIdx": 0 }
+      ],
+      "visible": false
+    },
+    {
+      "name": "Mired in Muck",
+      "points": [
+        { "layer": "surface", "objName": "Npc_Zora032", "locationIdx": 0 }
+      ],
+      "visible": false
+    },
     { "name": "Out of the Inn", "points": [], "visible": false },
     { "name": "Follow the Cuccos", "points": [], "visible": false },
     { "name": "A Trip through history", "points": [], "visible": false },
@@ -930,14 +1384,40 @@
     { "name": "Rattled Ralera", "points": [], "visible": false },
     {
       "name": "A Picture for Dueling Peaks Stable",
-      "points": [],
+      "points": [
+        {
+          "layer": "surface",
+          "objName": "Npc_HutagoHatago_001",
+          "locationIdx": 0
+        }
+      ],
       "visible": false
     },
     { "name": "A Bottle Cry for Help", "points": [], "visible": false },
     { "name": "Seeking the Pirate Hideout", "points": [], "visible": false },
     { "name": "Ousting the Giants", "points": [], "visible": false },
-    { "name": "A Picture for Lakeside Stable", "points": [], "visible": false },
-    { "name": "A Picture for Highland Stable", "points": [], "visible": false },
+    {
+      "name": "A Picture for Lakeside Stable",
+      "points": [
+        {
+          "layer": "surface",
+          "objName": "Npc_LakeSideHatago004",
+          "locationIdx": 0
+        }
+      ],
+      "visible": false
+    },
+    {
+      "name": "A Picture for Highland Stable",
+      "points": [
+        {
+          "layer": "surface",
+          "objName": "Npc_FaronHatago_001",
+          "locationIdx": 0
+        }
+      ],
+      "visible": false
+    },
     { "name": "The Heroines' Secret", "points": [], "visible": false },
     { "name": "Treasure of the Gerudo Desert", "points": [], "visible": false },
     { "name": "Pride of the Gerudo", "points": [], "visible": false },
@@ -949,12 +1429,24 @@
     { "name": "Lost in the Dunes", "points": [], "visible": false },
     {
       "name": "A Picture for the Closed Stable I",
-      "points": [],
+      "points": [
+        {
+          "layer": "surface",
+          "objName": "Npc_GerudoCanyonHatago001",
+          "locationIdx": 0
+        }
+      ],
       "visible": false
     },
     {
       "name": "A Picture for the Closed Stable II",
-      "points": [],
+      "points": [
+        {
+          "layer": "surface",
+          "objName": "Npc_GerudoCanyonHatago001",
+          "locationIdx": 0
+        }
+      ],
       "visible": false
     },
     { "name": "Piaffe, Packed Away", "points": [], "visible": false },

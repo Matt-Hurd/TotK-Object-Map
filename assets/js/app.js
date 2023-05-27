@@ -298,7 +298,6 @@ window.addEventListener('load', () => {
     
     function appendToRoute(routeName, layer, objName, posIdx, pointIdx) {
         lastActiveSegment = routes[routeName].segments.findLast((e) => e.visible);
-        console.log(lastActiveSegment.points.length)
         if (lastActiveSegment.points.length > 0 && (pointIdx == -1 || pointIdx == lastActiveSegment.points.length - 1)) {
             lastPoint = lastActiveSegment.points.slice(-1)[0];
             if (lastPoint.objName == objName && lastPoint.locationIdx == posIdx) {
@@ -321,10 +320,7 @@ window.addEventListener('load', () => {
     function redrawRouteMarkers(routeName) {
         localStorage.setItem(routeName, JSON.stringify(routes[routeName].segments, ["name", "points", "layer", "objName", "locationIdx", "note", "visible"]));
 
-        console.log(routes[routeName].segments)
         routes[routeName].segments.forEach(function (segment, segmentIdx) {
-            
-            console.log(segment)
             if (typeof segment.pointsLayerGroup !== 'undefined') {
                 map.removeLayer(segment.pointsLayerGroup);
                 map.removeLayer(segment.lineLayerGroup);
@@ -342,6 +338,9 @@ window.addEventListener('load', () => {
                         if (e.originalEvent.ctrlKey) {
                             segment.points.splice(pointIdx, 1);
                             redrawRouteMarkers(routeName);
+                        }
+                        if (e.originalEvent.altKey) {
+                            appendToRoute(routeName, point.layer, point.objName, point.locationIdx, -1);
                         }
                     });
                 segment.pointsLayerGroup.addLayer(point.marker);
@@ -376,7 +375,6 @@ window.addEventListener('load', () => {
         jQuery.getJSON("data/route/" + routeName + ".json", function (data) {
             routes[routeName] = data
             if (storedSegments) {
-                console.log(routes[routeName].segments)
                 routes[routeName].segments = storedSegments
             }
 
