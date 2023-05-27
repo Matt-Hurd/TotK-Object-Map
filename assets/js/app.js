@@ -622,6 +622,21 @@ window.addEventListener('load', () => {
         jQuery('#item-filters .' + activeLayer + ' label[data-search-value*="' + searchVal + '"]').show();
         jQuery('#item-filters .' + activeLayer + ' label:not([data-search-value*="' + searchVal + '"])').hide();
     });
+    
+    jQuery('#filter-search input[type=search]').on('input', doSearch);
+
+    function doSearch() {
+        let searchVal = jQuery('#filter-search input[type=search]').val();
+        if (searchVal.length === 0) {
+            jQuery('#item-filters .' + activeLayer + ' label').show();
+            return;
+        }
+
+        searchVal = searchVal.toLocaleLowerCase();
+
+        jQuery('#item-filters .' + activeLayer + ' label[data-search-value*="' + searchVal + '"]').show();
+        jQuery('#item-filters .' + activeLayer + ' label:not([data-search-value*="' + searchVal + '"])').hide();
+    }
 
     function getIconClass() {
         window.lastIconClass++;
