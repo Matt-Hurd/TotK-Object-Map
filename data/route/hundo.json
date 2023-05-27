@@ -1,970 +1,1023 @@
 {
-  "enabledMarkers": {
-    "korok": {
-      "objNames": [
-        "KorokCarryPassenger_Pair",
-        "KorokCarry_Destination",
-        "Npc_HiddenKorokFly",
-        "Npc_HiddenKorokGround"
-      ]
+    "enabledMarkers": {
+        "korok": {
+            "objNames": [
+                "KorokCarryPassenger_Pair",
+                "KorokCarry_Destination",
+                "Npc_HiddenKorokFly",
+                "Npc_HiddenKorokGround"
+            ]
+        },
+        "shrine": {
+            "objNames": [
+                "LocationMarker : Dungeon000",
+                "LocationMarker : Dungeon001",
+                "LocationMarker : Dungeon002",
+                "LocationMarker : Dungeon003",
+                "LocationMarker : Dungeon004",
+                "LocationMarker : Dungeon005",
+                "LocationMarker : Dungeon006",
+                "LocationMarker : Dungeon007",
+                "LocationMarker : Dungeon008",
+                "LocationMarker : Dungeon009",
+                "LocationMarker : Dungeon010",
+                "LocationMarker : Dungeon011",
+                "LocationMarker : Dungeon012",
+                "LocationMarker : Dungeon013",
+                "LocationMarker : Dungeon014",
+                "LocationMarker : Dungeon015",
+                "LocationMarker : Dungeon016",
+                "LocationMarker : Dungeon017",
+                "LocationMarker : Dungeon018",
+                "LocationMarker : Dungeon019",
+                "LocationMarker : Dungeon020",
+                "LocationMarker : Dungeon021",
+                "LocationMarker : Dungeon022",
+                "LocationMarker : Dungeon023",
+                "LocationMarker : Dungeon024",
+                "LocationMarker : Dungeon025",
+                "LocationMarker : Dungeon026",
+                "LocationMarker : Dungeon027",
+                "LocationMarker : Dungeon028",
+                "LocationMarker : Dungeon029",
+                "LocationMarker : Dungeon030",
+                "LocationMarker : Dungeon031",
+                "LocationMarker : Dungeon032",
+                "LocationMarker : Dungeon033",
+                "LocationMarker : Dungeon034",
+                "LocationMarker : Dungeon035",
+                "LocationMarker : Dungeon036",
+                "LocationMarker : Dungeon037",
+                "LocationMarker : Dungeon038",
+                "LocationMarker : Dungeon039",
+                "LocationMarker : Dungeon040",
+                "LocationMarker : Dungeon041",
+                "LocationMarker : Dungeon042",
+                "LocationMarker : Dungeon043",
+                "LocationMarker : Dungeon044",
+                "LocationMarker : Dungeon045",
+                "LocationMarker : Dungeon046",
+                "LocationMarker : Dungeon047",
+                "LocationMarker : Dungeon048",
+                "LocationMarker : Dungeon049",
+                "LocationMarker : Dungeon050",
+                "LocationMarker : Dungeon051",
+                "LocationMarker : Dungeon052",
+                "LocationMarker : Dungeon053",
+                "LocationMarker : Dungeon054",
+                "LocationMarker : Dungeon055",
+                "LocationMarker : Dungeon056",
+                "LocationMarker : Dungeon057",
+                "LocationMarker : Dungeon058",
+                "LocationMarker : Dungeon059",
+                "LocationMarker : Dungeon060",
+                "LocationMarker : Dungeon061",
+                "LocationMarker : Dungeon062",
+                "LocationMarker : Dungeon063",
+                "LocationMarker : Dungeon064",
+                "LocationMarker : Dungeon065",
+                "LocationMarker : Dungeon066",
+                "LocationMarker : Dungeon067",
+                "LocationMarker : Dungeon068",
+                "LocationMarker : Dungeon069",
+                "LocationMarker : Dungeon070",
+                "LocationMarker : Dungeon071",
+                "LocationMarker : Dungeon072",
+                "LocationMarker : Dungeon073",
+                "LocationMarker : Dungeon074",
+                "LocationMarker : Dungeon075",
+                "LocationMarker : Dungeon076",
+                "LocationMarker : Dungeon077",
+                "LocationMarker : Dungeon078",
+                "LocationMarker : Dungeon079",
+                "LocationMarker : Dungeon080",
+                "LocationMarker : Dungeon081",
+                "LocationMarker : Dungeon082",
+                "LocationMarker : Dungeon083",
+                "LocationMarker : Dungeon084",
+                "LocationMarker : Dungeon085",
+                "LocationMarker : Dungeon086",
+                "LocationMarker : Dungeon087",
+                "LocationMarker : Dungeon088",
+                "LocationMarker : Dungeon089",
+                "LocationMarker : Dungeon090",
+                "LocationMarker : Dungeon091",
+                "LocationMarker : Dungeon092",
+                "LocationMarker : Dungeon093",
+                "LocationMarker : Dungeon094",
+                "LocationMarker : Dungeon095",
+                "LocationMarker : Dungeon096",
+                "LocationMarker : Dungeon097",
+                "LocationMarker : Dungeon098",
+                "LocationMarker : Dungeon099",
+                "LocationMarker : Dungeon100",
+                "LocationMarker : Dungeon101",
+                "LocationMarker : Dungeon102",
+                "LocationMarker : Dungeon103",
+                "LocationMarker : Dungeon104",
+                "LocationMarker : Dungeon105",
+                "LocationMarker : Dungeon106",
+                "LocationMarker : Dungeon107",
+                "LocationMarker : Dungeon108",
+                "LocationMarker : Dungeon109",
+                "LocationMarker : Dungeon110",
+                "LocationMarker : Dungeon111",
+                "LocationMarker : Dungeon112",
+                "LocationMarker : Dungeon113",
+                "LocationMarker : Dungeon114",
+                "LocationMarker : Dungeon115",
+                "LocationMarker : Dungeon116",
+                "LocationMarker : Dungeon117",
+                "LocationMarker : Dungeon118",
+                "LocationMarker : Dungeon119",
+                "LocationMarker : Dungeon120",
+                "LocationMarker : Dungeon121",
+                "LocationMarker : Dungeon122",
+                "LocationMarker : Dungeon123",
+                "LocationMarker : Dungeon124",
+                "LocationMarker : Dungeon125",
+                "LocationMarker : Dungeon126",
+                "LocationMarker : Dungeon127",
+                "LocationMarker : Dungeon128",
+                "LocationMarker : Dungeon129",
+                "LocationMarker : Dungeon130",
+                "LocationMarker : Dungeon131",
+                "LocationMarker : Dungeon132",
+                "LocationMarker : Dungeon133",
+                "LocationMarker : Dungeon134",
+                "LocationMarker : Dungeon135",
+                "LocationMarker : Dungeon136",
+                "LocationMarker : Dungeon137",
+                "LocationMarker : Dungeon138",
+                "LocationMarker : Dungeon139",
+                "LocationMarker : Dungeon140",
+                "LocationMarker : Dungeon141",
+                "LocationMarker : Dungeon142",
+                "LocationMarker : Dungeon143",
+                "LocationMarker : Dungeon144",
+                "LocationMarker : Dungeon145",
+                "LocationMarker : Dungeon146",
+                "LocationMarker : Dungeon147",
+                "LocationMarker : Dungeon148",
+                "LocationMarker : Dungeon149",
+                "LocationMarker : Dungeon150",
+                "LocationMarker : Dungeon151"
+            ]
+        },
+        "lightroot": {
+            "objNames": [
+                "LocationArea : CheckPoint000",
+                "LocationArea : CheckPoint001",
+                "LocationArea : CheckPoint002",
+                "LocationArea : CheckPoint003",
+                "LocationArea : CheckPoint004",
+                "LocationArea : CheckPoint005",
+                "LocationArea : CheckPoint006",
+                "LocationArea : CheckPoint007",
+                "LocationArea : CheckPoint008",
+                "LocationArea : CheckPoint009",
+                "LocationArea : CheckPoint010",
+                "LocationArea : CheckPoint011",
+                "LocationArea : CheckPoint012",
+                "LocationArea : CheckPoint013",
+                "LocationArea : CheckPoint014",
+                "LocationArea : CheckPoint015",
+                "LocationArea : CheckPoint016",
+                "LocationArea : CheckPoint017",
+                "LocationArea : CheckPoint018",
+                "LocationArea : CheckPoint019",
+                "LocationArea : CheckPoint020",
+                "LocationArea : CheckPoint021",
+                "LocationArea : CheckPoint022",
+                "LocationArea : CheckPoint023",
+                "LocationArea : CheckPoint024",
+                "LocationArea : CheckPoint025",
+                "LocationArea : CheckPoint026",
+                "LocationArea : CheckPoint027",
+                "LocationArea : CheckPoint028",
+                "LocationArea : CheckPoint029",
+                "LocationArea : CheckPoint030",
+                "LocationArea : CheckPoint031",
+                "LocationArea : CheckPoint032",
+                "LocationArea : CheckPoint033",
+                "LocationArea : CheckPoint034",
+                "LocationArea : CheckPoint035",
+                "LocationArea : CheckPoint036",
+                "LocationArea : CheckPoint037",
+                "LocationArea : CheckPoint038",
+                "LocationArea : CheckPoint039",
+                "LocationArea : CheckPoint040",
+                "LocationArea : CheckPoint041",
+                "LocationArea : CheckPoint042",
+                "LocationArea : CheckPoint043",
+                "LocationArea : CheckPoint044",
+                "LocationArea : CheckPoint045",
+                "LocationArea : CheckPoint046",
+                "LocationArea : CheckPoint047",
+                "LocationArea : CheckPoint048",
+                "LocationArea : CheckPoint049",
+                "LocationArea : CheckPoint050",
+                "LocationArea : CheckPoint051",
+                "LocationArea : CheckPoint052",
+                "LocationArea : CheckPoint053",
+                "LocationArea : CheckPoint054",
+                "LocationArea : CheckPoint055",
+                "LocationArea : CheckPoint056",
+                "LocationArea : CheckPoint057",
+                "LocationArea : CheckPoint058",
+                "LocationArea : CheckPoint059",
+                "LocationArea : CheckPoint060",
+                "LocationArea : CheckPoint061",
+                "LocationArea : CheckPoint062",
+                "LocationArea : CheckPoint063",
+                "LocationArea : CheckPoint064",
+                "LocationArea : CheckPoint065",
+                "LocationArea : CheckPoint066",
+                "LocationArea : CheckPoint067",
+                "LocationArea : CheckPoint068",
+                "LocationArea : CheckPoint069",
+                "LocationArea : CheckPoint070",
+                "LocationArea : CheckPoint071",
+                "LocationArea : CheckPoint072",
+                "LocationArea : CheckPoint073",
+                "LocationArea : CheckPoint074",
+                "LocationArea : CheckPoint075",
+                "LocationArea : CheckPoint076",
+                "LocationArea : CheckPoint077",
+                "LocationArea : CheckPoint078",
+                "LocationArea : CheckPoint079",
+                "LocationArea : CheckPoint080",
+                "LocationArea : CheckPoint081",
+                "LocationArea : CheckPoint082",
+                "LocationArea : CheckPoint083",
+                "LocationArea : CheckPoint084",
+                "LocationArea : CheckPoint085",
+                "LocationArea : CheckPoint086",
+                "LocationArea : CheckPoint087",
+                "LocationArea : CheckPoint088",
+                "LocationArea : CheckPoint089",
+                "LocationArea : CheckPoint090",
+                "LocationArea : CheckPoint091",
+                "LocationArea : CheckPoint092",
+                "LocationArea : CheckPoint093",
+                "LocationArea : CheckPoint094",
+                "LocationArea : CheckPoint095",
+                "LocationArea : CheckPoint096",
+                "LocationArea : CheckPoint097",
+                "LocationArea : CheckPoint098",
+                "LocationArea : CheckPoint099",
+                "LocationArea : CheckPoint100",
+                "LocationArea : CheckPoint101",
+                "LocationArea : CheckPoint102",
+                "LocationArea : CheckPoint103",
+                "LocationArea : CheckPoint104",
+                "LocationArea : CheckPoint105",
+                "LocationArea : CheckPoint106",
+                "LocationArea : CheckPoint107",
+                "LocationArea : CheckPoint108",
+                "LocationArea : CheckPoint109",
+                "LocationArea : CheckPoint110",
+                "LocationArea : CheckPoint111",
+                "LocationArea : CheckPoint112",
+                "LocationArea : CheckPoint113",
+                "LocationArea : CheckPoint114",
+                "LocationArea : CheckPoint115",
+                "LocationArea : CheckPoint116",
+                "LocationArea : CheckPoint117",
+                "LocationArea : CheckPoint118",
+                "LocationArea : CheckPoint119",
+                "LocationArea : CheckPoint120",
+                "LocationArea : CheckPoint121",
+                "LocationArea : CheckPoint122",
+                "LocationArea : CheckPoint123",
+                "LocationArea : CheckPoint124",
+                "LocationArea : CheckPoint125",
+                "LocationArea : CheckPoint126",
+                "LocationArea : CheckPoint127",
+                "LocationArea : CheckPoint128",
+                "LocationArea : CheckPoint129",
+                "LocationArea : CheckPoint130",
+                "LocationArea : CheckPoint131",
+                "LocationArea : CheckPoint132",
+                "LocationArea : CheckPoint133",
+                "LocationArea : CheckPoint134",
+                "LocationArea : CheckPoint135",
+                "LocationArea : CheckPoint136",
+                "LocationArea : CheckPoint137",
+                "LocationArea : CheckPoint138",
+                "LocationArea : CheckPoint139",
+                "LocationArea : CheckPoint140",
+                "LocationArea : CheckPoint141",
+                "LocationArea : CheckPoint142",
+                "LocationArea : CheckPoint143",
+                "LocationArea : CheckPoint144",
+                "LocationArea : CheckPoint145",
+                "LocationArea : CheckPoint146",
+                "LocationArea : CheckPoint147"
+            ]
+        },
+        "tower": {
+            "objNames": [
+                "LocationArea : Tower01",
+                "LocationArea : Tower02",
+                "LocationArea : Tower03",
+                "LocationArea : Tower04",
+                "LocationArea : Tower05",
+                "LocationArea : Tower06",
+                "LocationArea : Tower07",
+                "LocationArea : Tower08",
+                "LocationArea : Tower09",
+                "LocationArea : Tower10",
+                "LocationArea : Tower11",
+                "LocationArea : Tower12",
+                "LocationArea : Tower13",
+                "LocationArea : Tower14",
+                "LocationArea : Tower15"
+            ]
+        },
+        "talus": {
+            "objNames": [
+                "Enemy_Golem_Fire",
+                "Enemy_Golem_Fire_KeyCrystal",
+                "Enemy_Golem_Fort_A",
+                "Enemy_Golem_Fort_A_Wander",
+                "Enemy_Golem_Ice",
+                "Enemy_Golem_Ice_KeyCrystal",
+                "Enemy_Golem_Junior",
+                "Enemy_Golem_Junior_KeyCrystal",
+                "Enemy_Golem_Middle",
+                "Enemy_Golem_Senior"
+            ]
+        },
+        "gleeok": {
+            "objNames": [
+                "Enemy_Drake_Mix",
+                "Enemy_Drake_Electric",
+                "Enemy_Drake_Fire",
+                "Enemy_Drake_Ice"
+            ]
+        },
+        "hinox": {
+            "objNames": [
+                "Enemy_Giant_Junior",
+                "Enemy_Giant_Junior : GiantGreave_Wood_L",
+                "Enemy_Giant_Junior : GiantGreave_Iron_L",
+                "Enemy_Giant_Middle",
+                "Enemy_Giant_Middle : GiantGreave_Iron_L",
+                "Enemy_Giant_Middle : GiantGreave_Wood_L",
+                "Enemy_Giant_Senior",
+                "Enemy_Giant_Senior : GiantGreave_Iron_L",
+                "Enemy_Giant_Senior : GiantGreave_Wood_L"
+            ]
+        },
+        "molduga": {
+            "objNames": [
+                "Enemy_Sandworm"
+            ]
+        },
+        "frox": {
+            "objNames": [
+                "Enemy_Mogurudo_Junior",
+                "Enemy_Mogurudo_Middle",
+                "Enemy_Mogurudo_Senior"
+            ]
+        },
+        "construct": {
+            "objNames": [
+                "Enemy_Zonau_BlockMaster_Junior",
+                "Enemy_Zonau_BlockMaster_Junior_Beginning",
+                "Enemy_Zonau_BlockMaster_Middle",
+                "Enemy_Zonau_BlockMaster_Senior"
+            ]
+        },
+        "bubbulfrog": {
+            "objNames": [
+                "Enemy_CaveMaster_000"
+            ]
+        },
+        "bargainer": {
+            "objNames": [
+                "LocationMarker : DemonStatue_00",
+                "LocationMarker : DemonStatue_01",
+                "LocationMarker : DemonStatue_02",
+                "LocationMarker : DemonStatue_03",
+                "LocationMarker : DemonStatue_04",
+                "LocationMarker : DemonStatue_05"
+            ]
+        },
+        "armor": {
+            "objNames": [
+                "TBox_Field_Iron : Armor_1106_Upper",
+                "TBox_Field_Stone_Zonau_NoDelete : Armor_1066_Head",
+                "TBox_Field_Stone_Zonau_NoDelete : Armor_1066_Lower",
+                "TBox_Field_Stone_Zonau_NoDelete : Armor_1066_Upper",
+                "TBox_Field_Stone : Armor_006_Head",
+                "TBox_Field_Stone : Armor_006_Lower",
+                "TBox_Field_Stone : Armor_1300_Head",
+                "TBox_Field_Stone : Armor_1300_Upper",
+                "TBox_Field_Stone : Armor_1300_Lower"
+            ]
+        },
+        "fabric": {
+            "objNames": [
+                "TBox_Field_Stone : Obj_SubstituteCloth_03",
+                "TBox_Field_Stone : Obj_SubstituteCloth_55"
+            ]
+        },
+        "addison": {
+            "objNames": [
+                "Npc_CraftSignboard001"
+            ]
+        },
+        "map": {
+            "objNames": [
+                "TBox_Field_Iron_Zonau : Obj_TreasureMap_01",
+                "TBox_Field_Iron_Zonau : Obj_TreasureMap_02",
+                "TBox_Field_Iron_Zonau : Obj_TreasureMap_04",
+                "TBox_Field_Iron_Zonau : Obj_TreasureMap_05",
+                "TBox_Field_Iron_Zonau : Obj_TreasureMap_13",
+                "TBox_Field_Iron_Zonau : Obj_TreasureMap_15",
+                "TBox_Field_Iron_Zonau : Obj_TreasureMap_16",
+                "TBox_Field_Iron_Zonau : Obj_TreasureMap_19",
+                "TBox_Field_Iron_Zonau : Obj_TreasureMap_21",
+                "TBox_Field_Iron_Zonau : Obj_TreasureMap_22",
+                "TBox_Field_Iron_Zonau : Obj_TreasureMap_23",
+                "TBox_Field_Iron_Zonau : Obj_TreasureMap_25",
+                "TBox_Field_Iron_Zonau : Obj_TreasureMap_27",
+                "TBox_Field_Iron_Zonau_Zonau_BlockMaster : Obj_TreasureMap_00",
+                "TBox_Field_Iron_Zonau_Zonau_BlockMaster : Obj_TreasureMap_09",
+                "TBox_Field_Iron_Zonau_Zonau_BlockMaster : Obj_TreasureMap_12",
+                "TBox_Field_Iron_Zonau_Zonau_BlockMaster : Obj_TreasureMap_28",
+                "TBox_Field_Iron_Zonau_Zonau_BlockMaster : Obj_TreasureMap_30",
+                "TBox_Field_Stone_Zonau : Obj_TreasureMap_03",
+                "TBox_Field_Stone_Zonau : Obj_TreasureMap_06",
+                "TBox_Field_Stone_Zonau : Obj_TreasureMap_07",
+                "TBox_Field_Stone_Zonau : Obj_TreasureMap_08",
+                "TBox_Field_Stone_Zonau : Obj_TreasureMap_11",
+                "TBox_Field_Stone_Zonau : Obj_TreasureMap_17",
+                "TBox_Field_Stone_Zonau : Obj_TreasureMap_18",
+                "TBox_Field_Stone_Zonau : Obj_TreasureMap_20",
+                "TBox_Field_Stone_Zonau : Obj_TreasureMap_24",
+                "TBox_Field_Stone_Zonau : Obj_TreasureMap_26",
+                "TBox_Field_Stone_Zonau : Obj_TreasureMap_29"
+            ]
+        },
+        "schematic": {
+            "objNames": [
+                "TBox_Field_Enemy_Assassin : Obj_AutoBuilderDraftAssassin_00"
+            ]
+        },
+        "schema": {
+            "objNames": [
+                "Npc_Zonau_Golem_Servant_Minus0001",
+                "Npc_Zonau_Golem_Servant_Minus0002",
+                "Npc_Zonau_Golem_Servant_Minus0003",
+                "Npc_Zonau_Golem_Servant_Minus0004",
+                "Npc_Zonau_Golem_Servant_Minus0005",
+                "Npc_Zonau_Golem_Servant_Minus0006",
+                "Npc_Zonau_Golem_Servant_Minus0007",
+                "Npc_Zonau_Golem_Servant_Minus0008",
+                "Npc_Zonau_Golem_Servant_Minus0009",
+                "Npc_Zonau_Golem_Servant_Minus0010"
+            ]
+        },
+        "will": {
+            "objNames": [
+                "TBox_Field_Enemy_Zonau : Obj_SageWill",
+                "TBox_Field_Iron_Zonau : Obj_SageWill",
+                "TBox_Field_Iron_Zonau_Zonau_BlockMaster : Obj_SageWill",
+                "TBox_Field_Stone_Zonau : Obj_SageWill"
+            ]
+        },
+        "well": {
+            "objNames": [
+                "LocationArea : Well_0000",
+                "LocationArea : Well_0001",
+                "LocationArea : Well_0002",
+                "LocationArea : Well_0003",
+                "LocationArea : Well_0004",
+                "LocationArea : Well_0005",
+                "LocationArea : Well_0006",
+                "LocationArea : Well_0007",
+                "LocationArea : Well_0008",
+                "LocationArea : Well_0009",
+                "LocationArea : Well_0010",
+                "LocationArea : Well_0011",
+                "LocationArea : Well_0012",
+                "LocationArea : Well_0013",
+                "LocationArea : Well_0014",
+                "LocationArea : Well_0015",
+                "LocationArea : Well_0016",
+                "LocationArea : Well_0017",
+                "LocationArea : Well_0018",
+                "LocationArea : Well_0019",
+                "LocationArea : Well_0020",
+                "LocationArea : Well_0021",
+                "LocationArea : Well_0022",
+                "LocationArea : Well_0023",
+                "LocationArea : Well_0024",
+                "LocationArea : Well_0025",
+                "LocationArea : Well_0026",
+                "LocationArea : Well_0027",
+                "LocationArea : Well_0028",
+                "LocationArea : Well_0029",
+                "LocationArea : Well_0030",
+                "LocationArea : Well_0031",
+                "LocationArea : Well_0032",
+                "LocationArea : Well_0033",
+                "LocationArea : Well_0034",
+                "LocationArea : Well_0043B",
+                "LocationArea : Well_0047B",
+                "LocationArea : Well_0049B",
+                "LocationArea : Well_0049C",
+                "LocationArea : Well_0049D",
+                "LocationArea : Well_0049E",
+                "LocationArea : Well_0041",
+                "LocationArea : Well_0042",
+                "LocationArea : Well_0043",
+                "LocationArea : Well_0044",
+                "LocationArea : Well_0045",
+                "LocationArea : Well_0046",
+                "LocationArea : Well_0047",
+                "LocationArea : Well_0048",
+                "LocationArea : Well_0049",
+                "LocationArea : Well_0050",
+                "LocationArea : Well_0051",
+                "LocationArea : Well_0052",
+                "LocationArea : Well_0053",
+                "LocationArea : Well_0054",
+                "LocationArea : Well_0055",
+                "LocationArea : Well_0056",
+                "LocationArea : Well_0057",
+                "LocationArea : Well_0058",
+                "LocationArea : Well_0059"
+            ]
+        }
     },
-    "shrine": {
-      "objNames": [
-        "LocationMarker : Dungeon000",
-        "LocationMarker : Dungeon001",
-        "LocationMarker : Dungeon002",
-        "LocationMarker : Dungeon003",
-        "LocationMarker : Dungeon004",
-        "LocationMarker : Dungeon005",
-        "LocationMarker : Dungeon006",
-        "LocationMarker : Dungeon007",
-        "LocationMarker : Dungeon008",
-        "LocationMarker : Dungeon009",
-        "LocationMarker : Dungeon010",
-        "LocationMarker : Dungeon011",
-        "LocationMarker : Dungeon012",
-        "LocationMarker : Dungeon013",
-        "LocationMarker : Dungeon014",
-        "LocationMarker : Dungeon015",
-        "LocationMarker : Dungeon016",
-        "LocationMarker : Dungeon017",
-        "LocationMarker : Dungeon018",
-        "LocationMarker : Dungeon019",
-        "LocationMarker : Dungeon020",
-        "LocationMarker : Dungeon021",
-        "LocationMarker : Dungeon022",
-        "LocationMarker : Dungeon023",
-        "LocationMarker : Dungeon024",
-        "LocationMarker : Dungeon025",
-        "LocationMarker : Dungeon026",
-        "LocationMarker : Dungeon027",
-        "LocationMarker : Dungeon028",
-        "LocationMarker : Dungeon029",
-        "LocationMarker : Dungeon030",
-        "LocationMarker : Dungeon031",
-        "LocationMarker : Dungeon032",
-        "LocationMarker : Dungeon033",
-        "LocationMarker : Dungeon034",
-        "LocationMarker : Dungeon035",
-        "LocationMarker : Dungeon036",
-        "LocationMarker : Dungeon037",
-        "LocationMarker : Dungeon038",
-        "LocationMarker : Dungeon039",
-        "LocationMarker : Dungeon040",
-        "LocationMarker : Dungeon041",
-        "LocationMarker : Dungeon042",
-        "LocationMarker : Dungeon043",
-        "LocationMarker : Dungeon044",
-        "LocationMarker : Dungeon045",
-        "LocationMarker : Dungeon046",
-        "LocationMarker : Dungeon047",
-        "LocationMarker : Dungeon048",
-        "LocationMarker : Dungeon049",
-        "LocationMarker : Dungeon050",
-        "LocationMarker : Dungeon051",
-        "LocationMarker : Dungeon052",
-        "LocationMarker : Dungeon053",
-        "LocationMarker : Dungeon054",
-        "LocationMarker : Dungeon055",
-        "LocationMarker : Dungeon056",
-        "LocationMarker : Dungeon057",
-        "LocationMarker : Dungeon058",
-        "LocationMarker : Dungeon059",
-        "LocationMarker : Dungeon060",
-        "LocationMarker : Dungeon061",
-        "LocationMarker : Dungeon062",
-        "LocationMarker : Dungeon063",
-        "LocationMarker : Dungeon064",
-        "LocationMarker : Dungeon065",
-        "LocationMarker : Dungeon066",
-        "LocationMarker : Dungeon067",
-        "LocationMarker : Dungeon068",
-        "LocationMarker : Dungeon069",
-        "LocationMarker : Dungeon070",
-        "LocationMarker : Dungeon071",
-        "LocationMarker : Dungeon072",
-        "LocationMarker : Dungeon073",
-        "LocationMarker : Dungeon074",
-        "LocationMarker : Dungeon075",
-        "LocationMarker : Dungeon076",
-        "LocationMarker : Dungeon077",
-        "LocationMarker : Dungeon078",
-        "LocationMarker : Dungeon079",
-        "LocationMarker : Dungeon080",
-        "LocationMarker : Dungeon081",
-        "LocationMarker : Dungeon082",
-        "LocationMarker : Dungeon083",
-        "LocationMarker : Dungeon084",
-        "LocationMarker : Dungeon085",
-        "LocationMarker : Dungeon086",
-        "LocationMarker : Dungeon087",
-        "LocationMarker : Dungeon088",
-        "LocationMarker : Dungeon089",
-        "LocationMarker : Dungeon090",
-        "LocationMarker : Dungeon091",
-        "LocationMarker : Dungeon092",
-        "LocationMarker : Dungeon093",
-        "LocationMarker : Dungeon094",
-        "LocationMarker : Dungeon095",
-        "LocationMarker : Dungeon096",
-        "LocationMarker : Dungeon097",
-        "LocationMarker : Dungeon098",
-        "LocationMarker : Dungeon099",
-        "LocationMarker : Dungeon100",
-        "LocationMarker : Dungeon101",
-        "LocationMarker : Dungeon102",
-        "LocationMarker : Dungeon103",
-        "LocationMarker : Dungeon104",
-        "LocationMarker : Dungeon105",
-        "LocationMarker : Dungeon106",
-        "LocationMarker : Dungeon107",
-        "LocationMarker : Dungeon108",
-        "LocationMarker : Dungeon109",
-        "LocationMarker : Dungeon110",
-        "LocationMarker : Dungeon111",
-        "LocationMarker : Dungeon112",
-        "LocationMarker : Dungeon113",
-        "LocationMarker : Dungeon114",
-        "LocationMarker : Dungeon115",
-        "LocationMarker : Dungeon116",
-        "LocationMarker : Dungeon117",
-        "LocationMarker : Dungeon118",
-        "LocationMarker : Dungeon119",
-        "LocationMarker : Dungeon120",
-        "LocationMarker : Dungeon121",
-        "LocationMarker : Dungeon122",
-        "LocationMarker : Dungeon123",
-        "LocationMarker : Dungeon124",
-        "LocationMarker : Dungeon125",
-        "LocationMarker : Dungeon126",
-        "LocationMarker : Dungeon127",
-        "LocationMarker : Dungeon128",
-        "LocationMarker : Dungeon129",
-        "LocationMarker : Dungeon130",
-        "LocationMarker : Dungeon131",
-        "LocationMarker : Dungeon132",
-        "LocationMarker : Dungeon133",
-        "LocationMarker : Dungeon134",
-        "LocationMarker : Dungeon135",
-        "LocationMarker : Dungeon136",
-        "LocationMarker : Dungeon137",
-        "LocationMarker : Dungeon138",
-        "LocationMarker : Dungeon139",
-        "LocationMarker : Dungeon140",
-        "LocationMarker : Dungeon141",
-        "LocationMarker : Dungeon142",
-        "LocationMarker : Dungeon143",
-        "LocationMarker : Dungeon144",
-        "LocationMarker : Dungeon145",
-        "LocationMarker : Dungeon146",
-        "LocationMarker : Dungeon147",
-        "LocationMarker : Dungeon148",
-        "LocationMarker : Dungeon149",
-        "LocationMarker : Dungeon150",
-        "LocationMarker : Dungeon151"
-      ]
-    },
-    "lightroot": {
-      "objNames": [
-        "LocationArea : CheckPoint000",
-        "LocationArea : CheckPoint001",
-        "LocationArea : CheckPoint002",
-        "LocationArea : CheckPoint003",
-        "LocationArea : CheckPoint004",
-        "LocationArea : CheckPoint005",
-        "LocationArea : CheckPoint006",
-        "LocationArea : CheckPoint007",
-        "LocationArea : CheckPoint008",
-        "LocationArea : CheckPoint009",
-        "LocationArea : CheckPoint010",
-        "LocationArea : CheckPoint011",
-        "LocationArea : CheckPoint012",
-        "LocationArea : CheckPoint013",
-        "LocationArea : CheckPoint014",
-        "LocationArea : CheckPoint015",
-        "LocationArea : CheckPoint016",
-        "LocationArea : CheckPoint017",
-        "LocationArea : CheckPoint018",
-        "LocationArea : CheckPoint019",
-        "LocationArea : CheckPoint020",
-        "LocationArea : CheckPoint021",
-        "LocationArea : CheckPoint022",
-        "LocationArea : CheckPoint023",
-        "LocationArea : CheckPoint024",
-        "LocationArea : CheckPoint025",
-        "LocationArea : CheckPoint026",
-        "LocationArea : CheckPoint027",
-        "LocationArea : CheckPoint028",
-        "LocationArea : CheckPoint029",
-        "LocationArea : CheckPoint030",
-        "LocationArea : CheckPoint031",
-        "LocationArea : CheckPoint032",
-        "LocationArea : CheckPoint033",
-        "LocationArea : CheckPoint034",
-        "LocationArea : CheckPoint035",
-        "LocationArea : CheckPoint036",
-        "LocationArea : CheckPoint037",
-        "LocationArea : CheckPoint038",
-        "LocationArea : CheckPoint039",
-        "LocationArea : CheckPoint040",
-        "LocationArea : CheckPoint041",
-        "LocationArea : CheckPoint042",
-        "LocationArea : CheckPoint043",
-        "LocationArea : CheckPoint044",
-        "LocationArea : CheckPoint045",
-        "LocationArea : CheckPoint046",
-        "LocationArea : CheckPoint047",
-        "LocationArea : CheckPoint048",
-        "LocationArea : CheckPoint049",
-        "LocationArea : CheckPoint050",
-        "LocationArea : CheckPoint051",
-        "LocationArea : CheckPoint052",
-        "LocationArea : CheckPoint053",
-        "LocationArea : CheckPoint054",
-        "LocationArea : CheckPoint055",
-        "LocationArea : CheckPoint056",
-        "LocationArea : CheckPoint057",
-        "LocationArea : CheckPoint058",
-        "LocationArea : CheckPoint059",
-        "LocationArea : CheckPoint060",
-        "LocationArea : CheckPoint061",
-        "LocationArea : CheckPoint062",
-        "LocationArea : CheckPoint063",
-        "LocationArea : CheckPoint064",
-        "LocationArea : CheckPoint065",
-        "LocationArea : CheckPoint066",
-        "LocationArea : CheckPoint067",
-        "LocationArea : CheckPoint068",
-        "LocationArea : CheckPoint069",
-        "LocationArea : CheckPoint070",
-        "LocationArea : CheckPoint071",
-        "LocationArea : CheckPoint072",
-        "LocationArea : CheckPoint073",
-        "LocationArea : CheckPoint074",
-        "LocationArea : CheckPoint075",
-        "LocationArea : CheckPoint076",
-        "LocationArea : CheckPoint077",
-        "LocationArea : CheckPoint078",
-        "LocationArea : CheckPoint079",
-        "LocationArea : CheckPoint080",
-        "LocationArea : CheckPoint081",
-        "LocationArea : CheckPoint082",
-        "LocationArea : CheckPoint083",
-        "LocationArea : CheckPoint084",
-        "LocationArea : CheckPoint085",
-        "LocationArea : CheckPoint086",
-        "LocationArea : CheckPoint087",
-        "LocationArea : CheckPoint088",
-        "LocationArea : CheckPoint089",
-        "LocationArea : CheckPoint090",
-        "LocationArea : CheckPoint091",
-        "LocationArea : CheckPoint092",
-        "LocationArea : CheckPoint093",
-        "LocationArea : CheckPoint094",
-        "LocationArea : CheckPoint095",
-        "LocationArea : CheckPoint096",
-        "LocationArea : CheckPoint097",
-        "LocationArea : CheckPoint098",
-        "LocationArea : CheckPoint099",
-        "LocationArea : CheckPoint100",
-        "LocationArea : CheckPoint101",
-        "LocationArea : CheckPoint102",
-        "LocationArea : CheckPoint103",
-        "LocationArea : CheckPoint104",
-        "LocationArea : CheckPoint105",
-        "LocationArea : CheckPoint106",
-        "LocationArea : CheckPoint107",
-        "LocationArea : CheckPoint108",
-        "LocationArea : CheckPoint109",
-        "LocationArea : CheckPoint110",
-        "LocationArea : CheckPoint111",
-        "LocationArea : CheckPoint112",
-        "LocationArea : CheckPoint113",
-        "LocationArea : CheckPoint114",
-        "LocationArea : CheckPoint115",
-        "LocationArea : CheckPoint116",
-        "LocationArea : CheckPoint117",
-        "LocationArea : CheckPoint118",
-        "LocationArea : CheckPoint119",
-        "LocationArea : CheckPoint120",
-        "LocationArea : CheckPoint121",
-        "LocationArea : CheckPoint122",
-        "LocationArea : CheckPoint123",
-        "LocationArea : CheckPoint124",
-        "LocationArea : CheckPoint125",
-        "LocationArea : CheckPoint126",
-        "LocationArea : CheckPoint127",
-        "LocationArea : CheckPoint128",
-        "LocationArea : CheckPoint129",
-        "LocationArea : CheckPoint130",
-        "LocationArea : CheckPoint131",
-        "LocationArea : CheckPoint132",
-        "LocationArea : CheckPoint133",
-        "LocationArea : CheckPoint134",
-        "LocationArea : CheckPoint135",
-        "LocationArea : CheckPoint136",
-        "LocationArea : CheckPoint137",
-        "LocationArea : CheckPoint138",
-        "LocationArea : CheckPoint139",
-        "LocationArea : CheckPoint140",
-        "LocationArea : CheckPoint141",
-        "LocationArea : CheckPoint142",
-        "LocationArea : CheckPoint143",
-        "LocationArea : CheckPoint144",
-        "LocationArea : CheckPoint145",
-        "LocationArea : CheckPoint146",
-        "LocationArea : CheckPoint147"
-      ]
-    },
-    "tower": {
-      "objNames": [
-        "LocationArea : Tower01",
-        "LocationArea : Tower02",
-        "LocationArea : Tower03",
-        "LocationArea : Tower04",
-        "LocationArea : Tower05",
-        "LocationArea : Tower06",
-        "LocationArea : Tower07",
-        "LocationArea : Tower08",
-        "LocationArea : Tower09",
-        "LocationArea : Tower10",
-        "LocationArea : Tower11",
-        "LocationArea : Tower12",
-        "LocationArea : Tower13",
-        "LocationArea : Tower14",
-        "LocationArea : Tower15"
-      ]
-    },
-    "talus": {
-      "objNames": [
-        "Enemy_Golem_Fire",
-        "Enemy_Golem_Fire_KeyCrystal",
-        "Enemy_Golem_Fort_A",
-        "Enemy_Golem_Fort_A_Wander",
-        "Enemy_Golem_Ice",
-        "Enemy_Golem_Ice_KeyCrystal",
-        "Enemy_Golem_Junior",
-        "Enemy_Golem_Junior_KeyCrystal",
-        "Enemy_Golem_Middle",
-        "Enemy_Golem_Senior"
-      ]
-    },
-    "gleeok": {
-      "objNames": [
-        "Enemy_Drake_Mix",
-        "Enemy_Drake_Electric",
-        "Enemy_Drake_Fire",
-        "Enemy_Drake_Ice"
-      ]
-    },
-    "hinox": {
-      "objNames": [
-        "Enemy_Giant_Junior",
-        "Enemy_Giant_Junior : GiantGreave_Wood_L",
-        "Enemy_Giant_Junior : GiantGreave_Iron_L",
-        "Enemy_Giant_Middle",
-        "Enemy_Giant_Middle : GiantGreave_Iron_L",
-        "Enemy_Giant_Middle : GiantGreave_Wood_L",
-        "Enemy_Giant_Senior",
-        "Enemy_Giant_Senior : GiantGreave_Iron_L",
-        "Enemy_Giant_Senior : GiantGreave_Wood_L"
-      ]
-    },
-    "molduga": { "objNames": ["Enemy_Sandworm"] },
-    "frox": {
-      "objNames": [
-        "Enemy_Mogurudo_Junior",
-        "Enemy_Mogurudo_Middle",
-        "Enemy_Mogurudo_Senior"
-      ]
-    },
-    "construct": {
-      "objNames": [
-        "Enemy_Zonau_BlockMaster_Junior",
-        "Enemy_Zonau_BlockMaster_Junior_Beginning",
-        "Enemy_Zonau_BlockMaster_Middle",
-        "Enemy_Zonau_BlockMaster_Senior"
-      ]
-    },
-    "bubbulfrog": { "objNames": ["Enemy_CaveMaster_000"] },
-    "bargainer": {
-      "objNames": [
-        "LocationMarker : DemonStatue_00",
-        "LocationMarker : DemonStatue_01",
-        "LocationMarker : DemonStatue_02",
-        "LocationMarker : DemonStatue_03",
-        "LocationMarker : DemonStatue_04",
-        "LocationMarker : DemonStatue_05"
-      ]
-    },
-    "armor": {
-      "objNames": [
-        "TBox_Field_Iron : Armor_1106_Upper",
-        "TBox_Field_Stone_Zonau_NoDelete : Armor_1066_Head",
-        "TBox_Field_Stone_Zonau_NoDelete : Armor_1066_Lower",
-        "TBox_Field_Stone_Zonau_NoDelete : Armor_1066_Upper",
-        "TBox_Field_Stone : Armor_006_Head",
-        "TBox_Field_Stone : Armor_006_Lower",
-        "TBox_Field_Stone : Armor_1300_Head",
-        "TBox_Field_Stone : Armor_1300_Upper",
-        "TBox_Field_Stone : Armor_1300_Lower"
-      ]
-    },
-    "fabric": {
-      "objNames": [
-        "TBox_Field_Stone : Obj_SubstituteCloth_03",
-        "TBox_Field_Stone : Obj_SubstituteCloth_55"
-      ]
-    },
-    "addison": { "objNames": ["Npc_CraftSignboard001"] },
-    "map": {
-      "objNames": [
-        "TBox_Field_Iron_Zonau : Obj_TreasureMap_01",
-        "TBox_Field_Iron_Zonau : Obj_TreasureMap_02",
-        "TBox_Field_Iron_Zonau : Obj_TreasureMap_04",
-        "TBox_Field_Iron_Zonau : Obj_TreasureMap_05",
-        "TBox_Field_Iron_Zonau : Obj_TreasureMap_13",
-        "TBox_Field_Iron_Zonau : Obj_TreasureMap_15",
-        "TBox_Field_Iron_Zonau : Obj_TreasureMap_16",
-        "TBox_Field_Iron_Zonau : Obj_TreasureMap_19",
-        "TBox_Field_Iron_Zonau : Obj_TreasureMap_21",
-        "TBox_Field_Iron_Zonau : Obj_TreasureMap_22",
-        "TBox_Field_Iron_Zonau : Obj_TreasureMap_23",
-        "TBox_Field_Iron_Zonau : Obj_TreasureMap_25",
-        "TBox_Field_Iron_Zonau : Obj_TreasureMap_27",
-        "TBox_Field_Iron_Zonau_Zonau_BlockMaster : Obj_TreasureMap_00",
-        "TBox_Field_Iron_Zonau_Zonau_BlockMaster : Obj_TreasureMap_09",
-        "TBox_Field_Iron_Zonau_Zonau_BlockMaster : Obj_TreasureMap_12",
-        "TBox_Field_Iron_Zonau_Zonau_BlockMaster : Obj_TreasureMap_28",
-        "TBox_Field_Iron_Zonau_Zonau_BlockMaster : Obj_TreasureMap_30",
-        "TBox_Field_Stone_Zonau : Obj_TreasureMap_03",
-        "TBox_Field_Stone_Zonau : Obj_TreasureMap_06",
-        "TBox_Field_Stone_Zonau : Obj_TreasureMap_07",
-        "TBox_Field_Stone_Zonau : Obj_TreasureMap_08",
-        "TBox_Field_Stone_Zonau : Obj_TreasureMap_11",
-        "TBox_Field_Stone_Zonau : Obj_TreasureMap_17",
-        "TBox_Field_Stone_Zonau : Obj_TreasureMap_18",
-        "TBox_Field_Stone_Zonau : Obj_TreasureMap_20",
-        "TBox_Field_Stone_Zonau : Obj_TreasureMap_24",
-        "TBox_Field_Stone_Zonau : Obj_TreasureMap_26",
-        "TBox_Field_Stone_Zonau : Obj_TreasureMap_29"
-      ]
-    },
-    "schematic": {
-      "objNames": [
-        "TBox_Field_Enemy_Assassin : Obj_AutoBuilderDraftAssassin_00"
-      ]
-    },
-    "schema": {
-      "objNames": [
-        "Npc_Zonau_Golem_Servant_Minus0001",
-        "Npc_Zonau_Golem_Servant_Minus0002",
-        "Npc_Zonau_Golem_Servant_Minus0003",
-        "Npc_Zonau_Golem_Servant_Minus0004",
-        "Npc_Zonau_Golem_Servant_Minus0005",
-        "Npc_Zonau_Golem_Servant_Minus0006",
-        "Npc_Zonau_Golem_Servant_Minus0007",
-        "Npc_Zonau_Golem_Servant_Minus0008",
-        "Npc_Zonau_Golem_Servant_Minus0009",
-        "Npc_Zonau_Golem_Servant_Minus0010"
-      ]
-    },
-    "will": {
-      "objNames": [
-        "TBox_Field_Enemy_Zonau : Obj_SageWill",
-        "TBox_Field_Iron_Zonau : Obj_SageWill",
-        "TBox_Field_Iron_Zonau_Zonau_BlockMaster : Obj_SageWill",
-        "TBox_Field_Stone_Zonau : Obj_SageWill"
-      ]
-    },
-    "well": {
-      "objNames": [
-        "LocationArea : Well_0000",
-        "LocationArea : Well_0001",
-        "LocationArea : Well_0002",
-        "LocationArea : Well_0003",
-        "LocationArea : Well_0004",
-        "LocationArea : Well_0005",
-        "LocationArea : Well_0006",
-        "LocationArea : Well_0007",
-        "LocationArea : Well_0008",
-        "LocationArea : Well_0009",
-        "LocationArea : Well_0010",
-        "LocationArea : Well_0011",
-        "LocationArea : Well_0012",
-        "LocationArea : Well_0013",
-        "LocationArea : Well_0014",
-        "LocationArea : Well_0015",
-        "LocationArea : Well_0016",
-        "LocationArea : Well_0017",
-        "LocationArea : Well_0018",
-        "LocationArea : Well_0019",
-        "LocationArea : Well_0020",
-        "LocationArea : Well_0021",
-        "LocationArea : Well_0022",
-        "LocationArea : Well_0023",
-        "LocationArea : Well_0024",
-        "LocationArea : Well_0025",
-        "LocationArea : Well_0026",
-        "LocationArea : Well_0027",
-        "LocationArea : Well_0028",
-        "LocationArea : Well_0029",
-        "LocationArea : Well_0030",
-        "LocationArea : Well_0031",
-        "LocationArea : Well_0032",
-        "LocationArea : Well_0033",
-        "LocationArea : Well_0034",
-        "LocationArea : Well_0043B",
-        "LocationArea : Well_0047B",
-        "LocationArea : Well_0049B",
-        "LocationArea : Well_0049C",
-        "LocationArea : Well_0049D",
-        "LocationArea : Well_0049E",
-        "LocationArea : Well_0041",
-        "LocationArea : Well_0042",
-        "LocationArea : Well_0043",
-        "LocationArea : Well_0044",
-        "LocationArea : Well_0045",
-        "LocationArea : Well_0046",
-        "LocationArea : Well_0047",
-        "LocationArea : Well_0048",
-        "LocationArea : Well_0049",
-        "LocationArea : Well_0050",
-        "LocationArea : Well_0051",
-        "LocationArea : Well_0052",
-        "LocationArea : Well_0053",
-        "LocationArea : Well_0054",
-        "LocationArea : Well_0055",
-        "LocationArea : Well_0056",
-        "LocationArea : Well_0057",
-        "LocationArea : Well_0058",
-        "LocationArea : Well_0059"
-      ]
-    }
-  },
-  "segments": [
-      {
-        "name": "GSI 1",
-        "points": [
-          {
-            "layer": "sky",
-            "objName": "Weapon_Sword_071_Broken",
-            "locationIdx": 0
-          },
-          {
-            "layer": "sky",
-            "objName": "Npc_HiddenKorokGround",
-            "locationIdx": 12
-          },
-          { "layer": "sky", "objName": "Animal_Insect_A", "locationIdx": 30 },
-          {
-            "layer": "sky",
-            "objName": "Enemy_Zonau_Robot_Junior_Lookout : Weapon_Sword_168",
-            "locationIdx": 0
-          },
-          {
-            "layer": "sky",
-            "objName": "Enemy_Zonau_Robot_Junior : Weapon_Sword_021 : Weapon_Shield_107",
-            "locationIdx": 0
-          },
-          { "layer": "sky", "objName": "Item_Mushroom_D", "locationIdx": 19 },
-          {
-            "layer": "sky",
-            "objName": "LocationMarker : Dungeon060",
-            "locationIdx": 0
-          },
-          {
-            "layer": "sky",
-            "objName": "SkyObj_ZonauBrokenRuin_A_05_StartIsland",
-            "locationIdx": 4
-          },
-          { "layer": "sky", "objName": "Weapon_Sword_168", "locationIdx": 2 },
-          {
-            "layer": "sky",
-            "objName": "Npc_HiddenKorokGround",
-            "locationIdx": 14
-          },
-          { "layer": "sky", "objName": "Animal_Fish_AA", "locationIdx": 59 },
-          { "layer": "sky", "objName": "Weapon_Bow_107", "locationIdx": 0 },
-          {
-            "layer": "sky",
-            "objName": "KorokCarryPassenger_Pair",
-            "locationIdx": 0
-          },
-          {
-            "layer": "sky",
-            "objName": "KorokCarry_Destination",
-            "locationIdx": 0
-          },
-          {
-            "layer": "sky",
-            "objName": "LocationMarker : Dungeon062",
-            "locationIdx": 0
-          },
-          {
-            "layer": "sky",
-            "objName": "Npc_HiddenKorokGround",
-            "locationIdx": 15
-          },
-          {
-            "layer": "sky",
-            "objName": "Npc_HiddenKorokGround",
-            "locationIdx": 16
-          },
-          {
-            "layer": "sky",
-            "objName": "Enemy_CaveMaster_000",
-            "locationIdx": 1
-          },
-          { "layer": "sky", "objName": "Item_Fruit_I", "locationIdx": 42 },
-          {
-            "layer": "sky",
-            "objName": "Enemy_CaveMaster_000",
-            "locationIdx": 2
-          },
-          {
-            "layer": "sky",
-            "objName": "Npc_HiddenKorokFly",
-            "locationIdx": 31
-          },
-          {
-            "layer": "sky",
-            "objName": "Npc_HiddenKorokGround",
-            "locationIdx": 18
-          },
-          {
-            "layer": "sky",
-            "objName": "Enemy_CaveMaster_000",
-            "locationIdx": 3
-          },
-          {
-            "layer": "sky",
-            "objName": "LocationMarker : Dungeon061",
-            "locationIdx": 0
-          },
-          {
-            "layer": "sky",
-            "objName": "Npc_HiddenKorokGround",
-            "locationIdx": 17
-          },
-          {
-            "layer": "sky",
-            "objName": "RBox_Field_B : SpObj_FlameThrower_Capsule_A_01 : SpObj_LiftGeneratorWing_Capsule_A_01 : SpObj_WindGenerator_Capsule_A_01 : SpObj_CookSet_Capsule_A_01",
-            "locationIdx": 0
-          },
-          {
-            "layer": "sky",
-            "objName": "Npc_HiddenKorokFly",
-            "locationIdx": 32
-          },
-          {
-            "layer": "sky",
-            "objName": "Obj_SecretStone_A_02",
-            "locationIdx": 0
-          }
-        ],
-        "visible": true
-      },
-      {
-        "name": "GSI 2",
-        "points": [
-          {
-            "layer": "sky",
-            "objName": "LocationMarker : Dungeon063",
-            "locationIdx": 0
-          },
-          {
-            "layer": "sky",
-            "objName": "Npc_HiddenKorokFly",
-            "locationIdx": 28
-          },
-          {
-            "layer": "sky",
-            "objName": "Npc_HiddenKorokFly",
-            "locationIdx": 29
-          },
-          {
-            "layer": "sky",
-            "objName": "Npc_HiddenKorokFly",
-            "locationIdx": 33
-          },
-          {
-            "layer": "sky",
-            "objName": "Npc_HiddenKorokFly",
-            "locationIdx": 34
-          },
-          {
-            "layer": "sky",
-            "objName": "Enemy_Zonau_BlockMaster_Junior_Beginning",
-            "locationIdx": 0
-          },
-          {
-            "layer": "sky",
-            "objName": "Npc_HiddenKorokFly",
-            "locationIdx": 35
-          },
-          {
-            "layer": "sky",
-            "objName": "Npc_HiddenKorokFly",
-            "locationIdx": 30
-          },
-          {
-            "layer": "sky",
-            "objName": "KorokCarryPassenger_Pair",
-            "locationIdx": 1
-          },
-          {
-            "layer": "sky",
-            "objName": "KorokCarry_Destination",
-            "locationIdx": 1
-          },
-          {
-            "layer": "sky",
-            "objName": "Enemy_CaveMaster_000",
-            "locationIdx": 0
-          }
-        ],
-        "visible": true
-      },
-      {
-        "name": "Autobuild",
-        "points": [
-          {
-            "layer": "sky",
-            "objName": "SkyObj_MasterSwordAltar_A_01",
-            "locationIdx": 0
-          },
-          {
-            "layer": "sky",
-            "objName": "LocationMarker : Dungeon062",
-            "locationIdx": 0
-          },
-          {
-            "layer": "sky",
-            "objName": "TBox_Field_Stone_Zonau : Obj_SageWill",
-            "locationIdx": 6
-          },
-          {
-            "layer": "sky",
-            "objName": "Npc_HiddenKorokGround",
-            "locationIdx": 4
-          },
-          {
-            "layer": "surface",
-            "objName": "LocationArea : DeepHole_FirstLandNorth",
-            "locationIdx": 0
-          },
-          {
-            "layer": "depths",
-            "objName": "LocationArea : CheckPoint068",
-            "locationIdx": 0
-          },
-          {
-            "layer": "depths",
-            "objName": "Npc_Zonau_Golem_Servant_Minus0001",
-            "locationIdx": 0
-          }
-        ],
-        "visible": true
-      },
-      {
-        "name": "Paraglider",
-        "points": [
-          {
-            "layer": "sky",
-            "objName": "LocationMarker : Dungeon060",
-            "locationIdx": 0
-          },
-          {
-            "layer": "surface",
-            "objName": "Npc_BaseCamp_Assistant",
-            "locationIdx": 0
-          },
-          {
-            "layer": "surface",
-            "objName": "Npc_TamourHatago004",
-            "locationIdx": 0
-          },
-          {
-            "layer": "surface",
-            "objName": "Npc_HiddenKorokGround",
-            "locationIdx": 132
-          },
-          {
-            "layer": "surface",
-            "objName": "Npc_HiddenKorokFly",
-            "locationIdx": 154
-          },
-          {
-            "layer": "surface",
-            "objName": "TBox_Field_Iron : Item_Ore_A",
-            "locationIdx": 0
-          },
-          {
-            "layer": "surface",
-            "objName": "Npc_AncientDoctor",
-            "locationIdx": 1
-          },
-          {
-            "layer": "surface",
-            "objName": "LocationArea : Tower01",
-            "locationIdx": 0
-          }
-        ],
-        "visible": true
-      },
-      {
-        "name": "Kara Kara for dupe food",
-        "points": [
-          {
-            "layer": "sky",
-            "objName": "LocationMarker : Dungeon060",
-            "locationIdx": 0
-          },
-          {
-            "layer": "sky",
-            "objName": "Npc_HiddenKorokGround",
-            "locationIdx": 13
-          },
-          {
-            "layer": "sky",
-            "objName": "TBox_Field_Iron_Zonau : Obj_TreasureMap_01",
-            "locationIdx": 0
-          },
-          {
-            "layer": "sky",
-            "objName": "FldObj_ZonauShrine_KeyCrystal_PresenceDistanceMiddle",
-            "locationIdx": 0
-          },
-          {
-            "layer": "sky",
-            "objName": "LocationMarker : Dungeon145",
-            "locationIdx": 0
-          },
-          {
-            "layer": "sky",
-            "objName": "LocationMarker : Dungeon015",
-            "locationIdx": 0
-          },
-          { "layer": "sky", "objName": "Item_Plant_S", "locationIdx": 104 },
-          { "layer": "sky", "objName": "Npc_HiddenKorokFly", "locationIdx": 8 },
-          {
-            "layer": "sky",
-            "objName": "TBox_Field_Stone_Zonau : Obj_TreasureMap_24",
-            "locationIdx": 0
-          },
-          {
-            "layer": "sky",
-            "objName": "TBox_Field_Stone_Zonau : Obj_SageWill",
-            "locationIdx": 1
-          },
-          {
-            "layer": "surface",
-            "objName": "Npc_CraftSignboard001",
-            "locationIdx": 14
-          },
-          {
-            "layer": "surface",
-            "objName": "LocationArea : Tower09",
-            "locationIdx": 0
-          },
-          {
-            "layer": "surface",
-            "objName": "LocationArea : Well_0034",
-            "locationIdx": 0
-          },
-          {
-            "layer": "surface",
-            "objName": "Npc_HiddenKorokFly",
-            "locationIdx": 73
-          },
-          {
-            "layer": "surface",
-            "objName": "LocationMarker : Dungeon047",
-            "locationIdx": 0
-          }
-        ],
-        "visible": true
-      },
-      {   "name": "Wind Temple",
-          "points": [
-              {
-                  "layer": "surface",
-                  "objName": "Npc_Tulin_Sage",
-                  "locationIdx": 1,
-                  "note": "Tulin"
-              },
-              {
-                  "layer": "surface",
-                  "objName": "Npc_HighMountain009",
-                  "locationIdx": 0,
-                  "note": "Hotch"
-              },
-              {
-                  "layer": "surface",
-                  "objName": "Npc_Tulin_Sage",
-                  "locationIdx": 0,
-                  "note": "Tulin"
-              },
-              {
-                  "layer": "sky",
-                  "objName": "MergedActorD300",
-                  "locationIdx": 8,
-                  "note": "Tulin Trigger before Wind Temple"
-              },
-              {
-                  "layer": "sky",
-                  "objName": "LocationArea : Dungeon105",
-                  "locationIdx": 0,
-                  "note": "Kahatanaum Shrine: Rauru's Blessing"
-              },
-              {
-                  "layer": "sky",
-                  "objName": "DestinationAnchor",
-                  "locationIdx": 13,
-                  "note": "Skyship"
-              }
-          ]
-      },
-      {
-        "name": "2",
-        "points": [{
-            "layer": "sky",
-            "objName": "SkyObj_MasterSwordAltar_A_01",
-            "locationIdx": 0,
-            "note": "End of GSI"
-        }],
-        "visible": false
-      },
-      {
-        "name": "3",
-        "points": [{
-            "layer": "sky",
-            "objName": "SkyObj_MasterSwordAltar_A_01",
-            "locationIdx": 0,
-            "note": "End of GSI"
-        }],
-        "visible": false
-      },
-      {
-        "name": "4",
-        "points": [{
-            "layer": "sky",
-            "objName": "SkyObj_MasterSwordAltar_A_01",
-            "locationIdx": 0,
-            "note": "End of GSI"
-        }],
-        "visible": false
-      },
-      {
-        "name": "5",
-        "points": [{
-            "layer": "sky",
-            "objName": "SkyObj_MasterSwordAltar_A_01",
-            "locationIdx": 0,
-            "note": "End of GSI"
-        }],
-        "visible": false
-      }
+    "segments": [
+        {
+            "name": "GSI 1",
+            "points": [
+                {
+                    "layer": "sky",
+                    "objName": "Weapon_Sword_071_Broken",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "sky",
+                    "objName": "Npc_HiddenKorokGround",
+                    "locationIdx": 12
+                },
+                {
+                    "layer": "sky",
+                    "objName": "Animal_Insect_A",
+                    "locationIdx": 23
+                },
+                {
+                    "layer": "sky",
+                    "objName": "Enemy_Zonau_Robot_Junior_Lookout : Weapon_Sword_168",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "sky",
+                    "objName": "Enemy_Zonau_Robot_Junior : Weapon_Sword_021 : Weapon_Shield_107",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "sky",
+                    "objName": "Item_Mushroom_D",
+                    "locationIdx": 19
+                },
+                {
+                    "layer": "sky",
+                    "objName": "LocationMarker : Dungeon060",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "sky",
+                    "objName": "SkyObj_ZonauBrokenRuin_A_05_StartIsland",
+                    "locationIdx": 4
+                },
+                {
+                    "layer": "sky",
+                    "objName": "Weapon_Sword_168",
+                    "locationIdx": 1
+                },
+                {
+                    "layer": "sky",
+                    "objName": "Npc_HiddenKorokGround",
+                    "locationIdx": 14
+                },
+                {
+                    "layer": "sky",
+                    "objName": "Animal_Fish_AA",
+                    "locationIdx": 65
+                },
+                {
+                    "layer": "sky",
+                    "objName": "Weapon_Bow_107",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "sky",
+                    "objName": "KorokCarryPassenger_Pair",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "sky",
+                    "objName": "KorokCarry_Destination",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "sky",
+                    "objName": "LocationMarker : Dungeon062",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "sky",
+                    "objName": "Npc_HiddenKorokGround",
+                    "locationIdx": 15
+                },
+                {
+                    "layer": "sky",
+                    "objName": "Npc_HiddenKorokGround",
+                    "locationIdx": 16
+                },
+                {
+                    "layer": "sky",
+                    "objName": "Enemy_CaveMaster_000",
+                    "locationIdx": 1
+                },
+                {
+                    "layer": "sky",
+                    "objName": "Item_Fruit_I",
+                    "locationIdx": 42
+                },
+                {
+                    "layer": "sky",
+                    "objName": "Enemy_CaveMaster_000",
+                    "locationIdx": 2
+                },
+                {
+                    "layer": "sky",
+                    "objName": "Npc_HiddenKorokFly",
+                    "locationIdx": 33
+                },
+                {
+                    "layer": "sky",
+                    "objName": "Npc_HiddenKorokGround",
+                    "locationIdx": 18
+                },
+                {
+                    "layer": "sky",
+                    "objName": "Enemy_CaveMaster_000",
+                    "locationIdx": 3
+                },
+                {
+                    "layer": "sky",
+                    "objName": "LocationMarker : Dungeon061",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "sky",
+                    "objName": "Npc_HiddenKorokGround",
+                    "locationIdx": 17
+                },
+                {
+                    "layer": "sky",
+                    "objName": "RBox_Field_B : SpObj_FlameThrower_Capsule_A_01 : SpObj_LiftGeneratorWing_Capsule_A_01 : SpObj_WindGenerator_Capsule_A_01 : SpObj_CookSet_Capsule_A_01",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "sky",
+                    "objName": "Npc_HiddenKorokFly",
+                    "locationIdx": 34
+                },
+                {
+                    "layer": "sky",
+                    "objName": "Obj_SecretStone_A_02",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": true
+        },
+        {
+            "name": "GSI 2",
+            "points": [
+                {
+                    "layer": "sky",
+                    "objName": "LocationMarker : Dungeon063",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "sky",
+                    "objName": "Npc_HiddenKorokFly",
+                    "locationIdx": 30
+                },
+                {
+                    "layer": "sky",
+                    "objName": "Npc_HiddenKorokFly",
+                    "locationIdx": 31
+                },
+                {
+                    "layer": "sky",
+                    "objName": "Npc_HiddenKorokFly",
+                    "locationIdx": 35
+                },
+                {
+                    "layer": "sky",
+                    "objName": "Npc_HiddenKorokFly",
+                    "locationIdx": 36
+                },
+                {
+                    "layer": "sky",
+                    "objName": "Enemy_Zonau_BlockMaster_Junior_Beginning",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "sky",
+                    "objName": "Npc_HiddenKorokFly",
+                    "locationIdx": 37
+                },
+                {
+                    "layer": "sky",
+                    "objName": "Npc_HiddenKorokFly",
+                    "locationIdx": 32
+                },
+                {
+                    "layer": "sky",
+                    "objName": "KorokCarryPassenger_Pair",
+                    "locationIdx": 1
+                },
+                {
+                    "layer": "sky",
+                    "objName": "KorokCarry_Destination",
+                    "locationIdx": 1
+                },
+                {
+                    "layer": "sky",
+                    "objName": "Enemy_CaveMaster_000",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": true
+        },
+        {
+            "name": "Autobuild",
+            "points": [
+                {
+                    "layer": "sky",
+                    "objName": "SkyObj_MasterSwordAltar_A_01",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "sky",
+                    "objName": "LocationMarker : Dungeon062",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "sky",
+                    "objName": "TBox_Field_Stone_Zonau : Obj_SageWill",
+                    "locationIdx": 4
+                },
+                {
+                    "layer": "sky",
+                    "objName": "Npc_HiddenKorokGround",
+                    "locationIdx": 4
+                },
+                {
+                    "layer": "surface",
+                    "objName": "LocationArea : DeepHole_FirstLandNorth",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "depths",
+                    "objName": "LocationArea : CheckPoint068",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "depths",
+                    "objName": "Npc_Zonau_Golem_Servant_Minus0001",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": true
+        },
+        {
+            "name": "Paraglider",
+            "points": [
+                {
+                    "layer": "sky",
+                    "objName": "LocationMarker : Dungeon060",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "Npc_BaseCamp_Assistant",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "Npc_TamourHatago004",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "Npc_HiddenKorokGround",
+                    "locationIdx": 132
+                },
+                {
+                    "layer": "surface",
+                    "objName": "Npc_HiddenKorokFly",
+                    "locationIdx": 154
+                },
+                {
+                    "layer": "surface",
+                    "objName": "TBox_Field_Iron : Item_Ore_A",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "Npc_AncientDoctor",
+                    "locationIdx": 1
+                },
+                {
+                    "layer": "surface",
+                    "objName": "LocationArea : Tower01",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": true
+        },
+        {
+            "name": "Kara Kara for dupe food",
+            "points": [
+                {
+                    "layer": "sky",
+                    "objName": "LocationMarker : Dungeon060",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "sky",
+                    "objName": "Npc_HiddenKorokGround",
+                    "locationIdx": 13
+                },
+                {
+                    "layer": "sky",
+                    "objName": "TBox_Field_Iron_Zonau : Obj_TreasureMap_01",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "sky",
+                    "objName": "FldObj_ZonauShrine_KeyCrystal_PresenceDistanceMiddle",
+                    "locationIdx": 1
+                },
+                {
+                    "layer": "sky",
+                    "objName": "LocationMarker : Dungeon145",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "sky",
+                    "objName": "LocationMarker : Dungeon015",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "sky",
+                    "objName": "Item_Plant_S",
+                    "locationIdx": 125
+                },
+                {
+                    "layer": "sky",
+                    "objName": "Npc_HiddenKorokFly",
+                    "locationIdx": 10
+                },
+                {
+                    "layer": "sky",
+                    "objName": "TBox_Field_Stone_Zonau : Obj_TreasureMap_24",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "sky",
+                    "objName": "TBox_Field_Stone_Zonau : Obj_SageWill",
+                    "locationIdx": 6
+                },
+                {
+                    "layer": "surface",
+                    "objName": "Npc_CraftSignboard001",
+                    "locationIdx": 14
+                },
+                {
+                    "layer": "surface",
+                    "objName": "LocationArea : Tower09",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "LocationArea : Well_0034",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "Npc_HiddenKorokFly",
+                    "locationIdx": 73
+                },
+                {
+                    "layer": "surface",
+                    "objName": "LocationMarker : Dungeon047",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": true
+        },
+        {
+            "name": "Wind Temple",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_Tulin_Sage",
+                    "locationIdx": 1,
+                    "note": "Tulin"
+                },
+                {
+                    "layer": "surface",
+                    "objName": "Npc_HighMountain009",
+                    "locationIdx": 0,
+                    "note": "Hotch"
+                },
+                {
+                    "layer": "surface",
+                    "objName": "Npc_Tulin_Sage",
+                    "locationIdx": 0,
+                    "note": "Tulin"
+                },
+                {
+                    "layer": "sky",
+                    "objName": "DestinationAnchor",
+                    "locationIdx": 10,
+                    "note": "Tulin Trigger before Wind Temple"
+                },
+                {
+                    "layer": "sky",
+                    "objName": "LocationArea : Dungeon105",
+                    "locationIdx": 0,
+                    "note": "Kahatanaum Shrine: Rauru's Blessing"
+                },
+                {
+                    "layer": "sky",
+                    "objName": "DestinationAnchor",
+                    "locationIdx": 14,
+                    "note": "Skyship"
+                }
+            ]
+        },
+        {
+            "name": "2",
+            "points": [
+                {
+                    "layer": "sky",
+                    "objName": "SkyObj_MasterSwordAltar_A_01",
+                    "locationIdx": 0,
+                    "note": "End of GSI"
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "3",
+            "points": [
+                {
+                    "layer": "sky",
+                    "objName": "SkyObj_MasterSwordAltar_A_01",
+                    "locationIdx": 0,
+                    "note": "End of GSI"
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "4",
+            "points": [
+                {
+                    "layer": "sky",
+                    "objName": "SkyObj_MasterSwordAltar_A_01",
+                    "locationIdx": 0,
+                    "note": "End of GSI"
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "5",
+            "points": [
+                {
+                    "layer": "sky",
+                    "objName": "SkyObj_MasterSwordAltar_A_01",
+                    "locationIdx": 0,
+                    "note": "End of GSI"
+                }
+            ],
+            "visible": false
+        }
     ]
 }

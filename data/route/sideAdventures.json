@@ -1,1349 +1,1449 @@
 {
-  "enabledMarkers": {},
-  "disabledMarkers": {
-    "shrine": {
-      "objNames": [
-        "LocationMarker : Dungeon000",
-        "LocationMarker : Dungeon001",
-        "LocationMarker : Dungeon002",
-        "LocationMarker : Dungeon003",
-        "LocationMarker : Dungeon004",
-        "LocationMarker : Dungeon005",
-        "LocationMarker : Dungeon006",
-        "LocationMarker : Dungeon007",
-        "LocationMarker : Dungeon008",
-        "LocationMarker : Dungeon009",
-        "LocationMarker : Dungeon010",
-        "LocationMarker : Dungeon011",
-        "LocationMarker : Dungeon012",
-        "LocationMarker : Dungeon013",
-        "LocationMarker : Dungeon014",
-        "LocationMarker : Dungeon015",
-        "LocationMarker : Dungeon016",
-        "LocationMarker : Dungeon017",
-        "LocationMarker : Dungeon018",
-        "LocationMarker : Dungeon019",
-        "LocationMarker : Dungeon020",
-        "LocationMarker : Dungeon021",
-        "LocationMarker : Dungeon022",
-        "LocationMarker : Dungeon023",
-        "LocationMarker : Dungeon024",
-        "LocationMarker : Dungeon025",
-        "LocationMarker : Dungeon026",
-        "LocationMarker : Dungeon027",
-        "LocationMarker : Dungeon028",
-        "LocationMarker : Dungeon029",
-        "LocationMarker : Dungeon030",
-        "LocationMarker : Dungeon031",
-        "LocationMarker : Dungeon032",
-        "LocationMarker : Dungeon033",
-        "LocationMarker : Dungeon034",
-        "LocationMarker : Dungeon035",
-        "LocationMarker : Dungeon036",
-        "LocationMarker : Dungeon037",
-        "LocationMarker : Dungeon038",
-        "LocationMarker : Dungeon039",
-        "LocationMarker : Dungeon040",
-        "LocationMarker : Dungeon041",
-        "LocationMarker : Dungeon042",
-        "LocationMarker : Dungeon043",
-        "LocationMarker : Dungeon044",
-        "LocationMarker : Dungeon045",
-        "LocationMarker : Dungeon046",
-        "LocationMarker : Dungeon047",
-        "LocationMarker : Dungeon048",
-        "LocationMarker : Dungeon049",
-        "LocationMarker : Dungeon050",
-        "LocationMarker : Dungeon051",
-        "LocationMarker : Dungeon052",
-        "LocationMarker : Dungeon053",
-        "LocationMarker : Dungeon054",
-        "LocationMarker : Dungeon055",
-        "LocationMarker : Dungeon056",
-        "LocationMarker : Dungeon057",
-        "LocationMarker : Dungeon058",
-        "LocationMarker : Dungeon059",
-        "LocationMarker : Dungeon060",
-        "LocationMarker : Dungeon061",
-        "LocationMarker : Dungeon062",
-        "LocationMarker : Dungeon063",
-        "LocationMarker : Dungeon064",
-        "LocationMarker : Dungeon065",
-        "LocationMarker : Dungeon066",
-        "LocationMarker : Dungeon067",
-        "LocationMarker : Dungeon068",
-        "LocationMarker : Dungeon069",
-        "LocationMarker : Dungeon070",
-        "LocationMarker : Dungeon071",
-        "LocationMarker : Dungeon072",
-        "LocationMarker : Dungeon073",
-        "LocationMarker : Dungeon074",
-        "LocationMarker : Dungeon075",
-        "LocationMarker : Dungeon076",
-        "LocationMarker : Dungeon077",
-        "LocationMarker : Dungeon078",
-        "LocationMarker : Dungeon079",
-        "LocationMarker : Dungeon080",
-        "LocationMarker : Dungeon081",
-        "LocationMarker : Dungeon082",
-        "LocationMarker : Dungeon083",
-        "LocationMarker : Dungeon084",
-        "LocationMarker : Dungeon085",
-        "LocationMarker : Dungeon086",
-        "LocationMarker : Dungeon087",
-        "LocationMarker : Dungeon088",
-        "LocationMarker : Dungeon089",
-        "LocationMarker : Dungeon090",
-        "LocationMarker : Dungeon091",
-        "LocationMarker : Dungeon092",
-        "LocationMarker : Dungeon093",
-        "LocationMarker : Dungeon094",
-        "LocationMarker : Dungeon095",
-        "LocationMarker : Dungeon096",
-        "LocationMarker : Dungeon097",
-        "LocationMarker : Dungeon098",
-        "LocationMarker : Dungeon099",
-        "LocationMarker : Dungeon100",
-        "LocationMarker : Dungeon101",
-        "LocationMarker : Dungeon102",
-        "LocationMarker : Dungeon103",
-        "LocationMarker : Dungeon104",
-        "LocationMarker : Dungeon105",
-        "LocationMarker : Dungeon106",
-        "LocationMarker : Dungeon107",
-        "LocationMarker : Dungeon108",
-        "LocationMarker : Dungeon109",
-        "LocationMarker : Dungeon110",
-        "LocationMarker : Dungeon111",
-        "LocationMarker : Dungeon112",
-        "LocationMarker : Dungeon113",
-        "LocationMarker : Dungeon114",
-        "LocationMarker : Dungeon115",
-        "LocationMarker : Dungeon116",
-        "LocationMarker : Dungeon117",
-        "LocationMarker : Dungeon118",
-        "LocationMarker : Dungeon119",
-        "LocationMarker : Dungeon120",
-        "LocationMarker : Dungeon121",
-        "LocationMarker : Dungeon122",
-        "LocationMarker : Dungeon123",
-        "LocationMarker : Dungeon124",
-        "LocationMarker : Dungeon125",
-        "LocationMarker : Dungeon126",
-        "LocationMarker : Dungeon127",
-        "LocationMarker : Dungeon128",
-        "LocationMarker : Dungeon129",
-        "LocationMarker : Dungeon130",
-        "LocationMarker : Dungeon131",
-        "LocationMarker : Dungeon132",
-        "LocationMarker : Dungeon133",
-        "LocationMarker : Dungeon134",
-        "LocationMarker : Dungeon135",
-        "LocationMarker : Dungeon136",
-        "LocationMarker : Dungeon137",
-        "LocationMarker : Dungeon138",
-        "LocationMarker : Dungeon139",
-        "LocationMarker : Dungeon140",
-        "LocationMarker : Dungeon141",
-        "LocationMarker : Dungeon142",
-        "LocationMarker : Dungeon143",
-        "LocationMarker : Dungeon144",
-        "LocationMarker : Dungeon145",
-        "LocationMarker : Dungeon146",
-        "LocationMarker : Dungeon147",
-        "LocationMarker : Dungeon148",
-        "LocationMarker : Dungeon149",
-        "LocationMarker : Dungeon150",
-        "LocationMarker : Dungeon151"
-      ]
-    },
-    "lightroot": {
-      "objNames": [
-        "LocationArea : CheckPoint000",
-        "LocationArea : CheckPoint001",
-        "LocationArea : CheckPoint002",
-        "LocationArea : CheckPoint003",
-        "LocationArea : CheckPoint004",
-        "LocationArea : CheckPoint005",
-        "LocationArea : CheckPoint006",
-        "LocationArea : CheckPoint007",
-        "LocationArea : CheckPoint008",
-        "LocationArea : CheckPoint009",
-        "LocationArea : CheckPoint010",
-        "LocationArea : CheckPoint011",
-        "LocationArea : CheckPoint012",
-        "LocationArea : CheckPoint013",
-        "LocationArea : CheckPoint014",
-        "LocationArea : CheckPoint015",
-        "LocationArea : CheckPoint016",
-        "LocationArea : CheckPoint017",
-        "LocationArea : CheckPoint018",
-        "LocationArea : CheckPoint019",
-        "LocationArea : CheckPoint020",
-        "LocationArea : CheckPoint021",
-        "LocationArea : CheckPoint022",
-        "LocationArea : CheckPoint023",
-        "LocationArea : CheckPoint024",
-        "LocationArea : CheckPoint025",
-        "LocationArea : CheckPoint026",
-        "LocationArea : CheckPoint027",
-        "LocationArea : CheckPoint028",
-        "LocationArea : CheckPoint029",
-        "LocationArea : CheckPoint030",
-        "LocationArea : CheckPoint031",
-        "LocationArea : CheckPoint032",
-        "LocationArea : CheckPoint033",
-        "LocationArea : CheckPoint034",
-        "LocationArea : CheckPoint035",
-        "LocationArea : CheckPoint036",
-        "LocationArea : CheckPoint037",
-        "LocationArea : CheckPoint038",
-        "LocationArea : CheckPoint039",
-        "LocationArea : CheckPoint040",
-        "LocationArea : CheckPoint041",
-        "LocationArea : CheckPoint042",
-        "LocationArea : CheckPoint043",
-        "LocationArea : CheckPoint044",
-        "LocationArea : CheckPoint045",
-        "LocationArea : CheckPoint046",
-        "LocationArea : CheckPoint047",
-        "LocationArea : CheckPoint048",
-        "LocationArea : CheckPoint049",
-        "LocationArea : CheckPoint050",
-        "LocationArea : CheckPoint051",
-        "LocationArea : CheckPoint052",
-        "LocationArea : CheckPoint053",
-        "LocationArea : CheckPoint054",
-        "LocationArea : CheckPoint055",
-        "LocationArea : CheckPoint056",
-        "LocationArea : CheckPoint057",
-        "LocationArea : CheckPoint058",
-        "LocationArea : CheckPoint059",
-        "LocationArea : CheckPoint060",
-        "LocationArea : CheckPoint061",
-        "LocationArea : CheckPoint062",
-        "LocationArea : CheckPoint063",
-        "LocationArea : CheckPoint064",
-        "LocationArea : CheckPoint065",
-        "LocationArea : CheckPoint066",
-        "LocationArea : CheckPoint067",
-        "LocationArea : CheckPoint068",
-        "LocationArea : CheckPoint069",
-        "LocationArea : CheckPoint070",
-        "LocationArea : CheckPoint071",
-        "LocationArea : CheckPoint072",
-        "LocationArea : CheckPoint073",
-        "LocationArea : CheckPoint074",
-        "LocationArea : CheckPoint075",
-        "LocationArea : CheckPoint076",
-        "LocationArea : CheckPoint077",
-        "LocationArea : CheckPoint078",
-        "LocationArea : CheckPoint079",
-        "LocationArea : CheckPoint080",
-        "LocationArea : CheckPoint081",
-        "LocationArea : CheckPoint082",
-        "LocationArea : CheckPoint083",
-        "LocationArea : CheckPoint084",
-        "LocationArea : CheckPoint085",
-        "LocationArea : CheckPoint086",
-        "LocationArea : CheckPoint087",
-        "LocationArea : CheckPoint088",
-        "LocationArea : CheckPoint089",
-        "LocationArea : CheckPoint090",
-        "LocationArea : CheckPoint091",
-        "LocationArea : CheckPoint092",
-        "LocationArea : CheckPoint093",
-        "LocationArea : CheckPoint094",
-        "LocationArea : CheckPoint095",
-        "LocationArea : CheckPoint096",
-        "LocationArea : CheckPoint097",
-        "LocationArea : CheckPoint098",
-        "LocationArea : CheckPoint099",
-        "LocationArea : CheckPoint100",
-        "LocationArea : CheckPoint101",
-        "LocationArea : CheckPoint102",
-        "LocationArea : CheckPoint103",
-        "LocationArea : CheckPoint104",
-        "LocationArea : CheckPoint105",
-        "LocationArea : CheckPoint106",
-        "LocationArea : CheckPoint107",
-        "LocationArea : CheckPoint108",
-        "LocationArea : CheckPoint109",
-        "LocationArea : CheckPoint110",
-        "LocationArea : CheckPoint111",
-        "LocationArea : CheckPoint112",
-        "LocationArea : CheckPoint113",
-        "LocationArea : CheckPoint114",
-        "LocationArea : CheckPoint115",
-        "LocationArea : CheckPoint116",
-        "LocationArea : CheckPoint117",
-        "LocationArea : CheckPoint118",
-        "LocationArea : CheckPoint119",
-        "LocationArea : CheckPoint120",
-        "LocationArea : CheckPoint121",
-        "LocationArea : CheckPoint122",
-        "LocationArea : CheckPoint123",
-        "LocationArea : CheckPoint124",
-        "LocationArea : CheckPoint125",
-        "LocationArea : CheckPoint126",
-        "LocationArea : CheckPoint127",
-        "LocationArea : CheckPoint128",
-        "LocationArea : CheckPoint129",
-        "LocationArea : CheckPoint130",
-        "LocationArea : CheckPoint131",
-        "LocationArea : CheckPoint132",
-        "LocationArea : CheckPoint133",
-        "LocationArea : CheckPoint134",
-        "LocationArea : CheckPoint135",
-        "LocationArea : CheckPoint136",
-        "LocationArea : CheckPoint137",
-        "LocationArea : CheckPoint138",
-        "LocationArea : CheckPoint139",
-        "LocationArea : CheckPoint140",
-        "LocationArea : CheckPoint141",
-        "LocationArea : CheckPoint142",
-        "LocationArea : CheckPoint143",
-        "LocationArea : CheckPoint144",
-        "LocationArea : CheckPoint145",
-        "LocationArea : CheckPoint146",
-        "LocationArea : CheckPoint147"
-      ]
-    },
-    "tower": {
-      "objNames": [
-        "LocationArea : Tower01",
-        "LocationArea : Tower02",
-        "LocationArea : Tower03",
-        "LocationArea : Tower04",
-        "LocationArea : Tower05",
-        "LocationArea : Tower06",
-        "LocationArea : Tower07",
-        "LocationArea : Tower08",
-        "LocationArea : Tower09",
-        "LocationArea : Tower10",
-        "LocationArea : Tower11",
-        "LocationArea : Tower12",
-        "LocationArea : Tower13",
-        "LocationArea : Tower14",
-        "LocationArea : Tower15"
-      ]
-    }
-  },
-  "segments": [
-    {
-      "name": "Hateno Village Research Lab",
-      "points": [
-        {
-          "layer": "surface",
-          "objName": "Npc_BaseCamp_Assistant",
-          "locationIdx": 0
+    "enabledMarkers": {},
+    "disabledMarkers": {
+        "shrine": {
+            "objNames": [
+                "LocationMarker : Dungeon000",
+                "LocationMarker : Dungeon001",
+                "LocationMarker : Dungeon002",
+                "LocationMarker : Dungeon003",
+                "LocationMarker : Dungeon004",
+                "LocationMarker : Dungeon005",
+                "LocationMarker : Dungeon006",
+                "LocationMarker : Dungeon007",
+                "LocationMarker : Dungeon008",
+                "LocationMarker : Dungeon009",
+                "LocationMarker : Dungeon010",
+                "LocationMarker : Dungeon011",
+                "LocationMarker : Dungeon012",
+                "LocationMarker : Dungeon013",
+                "LocationMarker : Dungeon014",
+                "LocationMarker : Dungeon015",
+                "LocationMarker : Dungeon016",
+                "LocationMarker : Dungeon017",
+                "LocationMarker : Dungeon018",
+                "LocationMarker : Dungeon019",
+                "LocationMarker : Dungeon020",
+                "LocationMarker : Dungeon021",
+                "LocationMarker : Dungeon022",
+                "LocationMarker : Dungeon023",
+                "LocationMarker : Dungeon024",
+                "LocationMarker : Dungeon025",
+                "LocationMarker : Dungeon026",
+                "LocationMarker : Dungeon027",
+                "LocationMarker : Dungeon028",
+                "LocationMarker : Dungeon029",
+                "LocationMarker : Dungeon030",
+                "LocationMarker : Dungeon031",
+                "LocationMarker : Dungeon032",
+                "LocationMarker : Dungeon033",
+                "LocationMarker : Dungeon034",
+                "LocationMarker : Dungeon035",
+                "LocationMarker : Dungeon036",
+                "LocationMarker : Dungeon037",
+                "LocationMarker : Dungeon038",
+                "LocationMarker : Dungeon039",
+                "LocationMarker : Dungeon040",
+                "LocationMarker : Dungeon041",
+                "LocationMarker : Dungeon042",
+                "LocationMarker : Dungeon043",
+                "LocationMarker : Dungeon044",
+                "LocationMarker : Dungeon045",
+                "LocationMarker : Dungeon046",
+                "LocationMarker : Dungeon047",
+                "LocationMarker : Dungeon048",
+                "LocationMarker : Dungeon049",
+                "LocationMarker : Dungeon050",
+                "LocationMarker : Dungeon051",
+                "LocationMarker : Dungeon052",
+                "LocationMarker : Dungeon053",
+                "LocationMarker : Dungeon054",
+                "LocationMarker : Dungeon055",
+                "LocationMarker : Dungeon056",
+                "LocationMarker : Dungeon057",
+                "LocationMarker : Dungeon058",
+                "LocationMarker : Dungeon059",
+                "LocationMarker : Dungeon060",
+                "LocationMarker : Dungeon061",
+                "LocationMarker : Dungeon062",
+                "LocationMarker : Dungeon063",
+                "LocationMarker : Dungeon064",
+                "LocationMarker : Dungeon065",
+                "LocationMarker : Dungeon066",
+                "LocationMarker : Dungeon067",
+                "LocationMarker : Dungeon068",
+                "LocationMarker : Dungeon069",
+                "LocationMarker : Dungeon070",
+                "LocationMarker : Dungeon071",
+                "LocationMarker : Dungeon072",
+                "LocationMarker : Dungeon073",
+                "LocationMarker : Dungeon074",
+                "LocationMarker : Dungeon075",
+                "LocationMarker : Dungeon076",
+                "LocationMarker : Dungeon077",
+                "LocationMarker : Dungeon078",
+                "LocationMarker : Dungeon079",
+                "LocationMarker : Dungeon080",
+                "LocationMarker : Dungeon081",
+                "LocationMarker : Dungeon082",
+                "LocationMarker : Dungeon083",
+                "LocationMarker : Dungeon084",
+                "LocationMarker : Dungeon085",
+                "LocationMarker : Dungeon086",
+                "LocationMarker : Dungeon087",
+                "LocationMarker : Dungeon088",
+                "LocationMarker : Dungeon089",
+                "LocationMarker : Dungeon090",
+                "LocationMarker : Dungeon091",
+                "LocationMarker : Dungeon092",
+                "LocationMarker : Dungeon093",
+                "LocationMarker : Dungeon094",
+                "LocationMarker : Dungeon095",
+                "LocationMarker : Dungeon096",
+                "LocationMarker : Dungeon097",
+                "LocationMarker : Dungeon098",
+                "LocationMarker : Dungeon099",
+                "LocationMarker : Dungeon100",
+                "LocationMarker : Dungeon101",
+                "LocationMarker : Dungeon102",
+                "LocationMarker : Dungeon103",
+                "LocationMarker : Dungeon104",
+                "LocationMarker : Dungeon105",
+                "LocationMarker : Dungeon106",
+                "LocationMarker : Dungeon107",
+                "LocationMarker : Dungeon108",
+                "LocationMarker : Dungeon109",
+                "LocationMarker : Dungeon110",
+                "LocationMarker : Dungeon111",
+                "LocationMarker : Dungeon112",
+                "LocationMarker : Dungeon113",
+                "LocationMarker : Dungeon114",
+                "LocationMarker : Dungeon115",
+                "LocationMarker : Dungeon116",
+                "LocationMarker : Dungeon117",
+                "LocationMarker : Dungeon118",
+                "LocationMarker : Dungeon119",
+                "LocationMarker : Dungeon120",
+                "LocationMarker : Dungeon121",
+                "LocationMarker : Dungeon122",
+                "LocationMarker : Dungeon123",
+                "LocationMarker : Dungeon124",
+                "LocationMarker : Dungeon125",
+                "LocationMarker : Dungeon126",
+                "LocationMarker : Dungeon127",
+                "LocationMarker : Dungeon128",
+                "LocationMarker : Dungeon129",
+                "LocationMarker : Dungeon130",
+                "LocationMarker : Dungeon131",
+                "LocationMarker : Dungeon132",
+                "LocationMarker : Dungeon133",
+                "LocationMarker : Dungeon134",
+                "LocationMarker : Dungeon135",
+                "LocationMarker : Dungeon136",
+                "LocationMarker : Dungeon137",
+                "LocationMarker : Dungeon138",
+                "LocationMarker : Dungeon139",
+                "LocationMarker : Dungeon140",
+                "LocationMarker : Dungeon141",
+                "LocationMarker : Dungeon142",
+                "LocationMarker : Dungeon143",
+                "LocationMarker : Dungeon144",
+                "LocationMarker : Dungeon145",
+                "LocationMarker : Dungeon146",
+                "LocationMarker : Dungeon147",
+                "LocationMarker : Dungeon148",
+                "LocationMarker : Dungeon149",
+                "LocationMarker : Dungeon150",
+                "LocationMarker : Dungeon151"
+            ]
         },
-        {
-          "layer": "surface",
-          "objName": "LocationArea : HatenoLabo",
-          "locationIdx": 0
+        "lightroot": {
+            "objNames": [
+                "LocationArea : CheckPoint000",
+                "LocationArea : CheckPoint001",
+                "LocationArea : CheckPoint002",
+                "LocationArea : CheckPoint003",
+                "LocationArea : CheckPoint004",
+                "LocationArea : CheckPoint005",
+                "LocationArea : CheckPoint006",
+                "LocationArea : CheckPoint007",
+                "LocationArea : CheckPoint008",
+                "LocationArea : CheckPoint009",
+                "LocationArea : CheckPoint010",
+                "LocationArea : CheckPoint011",
+                "LocationArea : CheckPoint012",
+                "LocationArea : CheckPoint013",
+                "LocationArea : CheckPoint014",
+                "LocationArea : CheckPoint015",
+                "LocationArea : CheckPoint016",
+                "LocationArea : CheckPoint017",
+                "LocationArea : CheckPoint018",
+                "LocationArea : CheckPoint019",
+                "LocationArea : CheckPoint020",
+                "LocationArea : CheckPoint021",
+                "LocationArea : CheckPoint022",
+                "LocationArea : CheckPoint023",
+                "LocationArea : CheckPoint024",
+                "LocationArea : CheckPoint025",
+                "LocationArea : CheckPoint026",
+                "LocationArea : CheckPoint027",
+                "LocationArea : CheckPoint028",
+                "LocationArea : CheckPoint029",
+                "LocationArea : CheckPoint030",
+                "LocationArea : CheckPoint031",
+                "LocationArea : CheckPoint032",
+                "LocationArea : CheckPoint033",
+                "LocationArea : CheckPoint034",
+                "LocationArea : CheckPoint035",
+                "LocationArea : CheckPoint036",
+                "LocationArea : CheckPoint037",
+                "LocationArea : CheckPoint038",
+                "LocationArea : CheckPoint039",
+                "LocationArea : CheckPoint040",
+                "LocationArea : CheckPoint041",
+                "LocationArea : CheckPoint042",
+                "LocationArea : CheckPoint043",
+                "LocationArea : CheckPoint044",
+                "LocationArea : CheckPoint045",
+                "LocationArea : CheckPoint046",
+                "LocationArea : CheckPoint047",
+                "LocationArea : CheckPoint048",
+                "LocationArea : CheckPoint049",
+                "LocationArea : CheckPoint050",
+                "LocationArea : CheckPoint051",
+                "LocationArea : CheckPoint052",
+                "LocationArea : CheckPoint053",
+                "LocationArea : CheckPoint054",
+                "LocationArea : CheckPoint055",
+                "LocationArea : CheckPoint056",
+                "LocationArea : CheckPoint057",
+                "LocationArea : CheckPoint058",
+                "LocationArea : CheckPoint059",
+                "LocationArea : CheckPoint060",
+                "LocationArea : CheckPoint061",
+                "LocationArea : CheckPoint062",
+                "LocationArea : CheckPoint063",
+                "LocationArea : CheckPoint064",
+                "LocationArea : CheckPoint065",
+                "LocationArea : CheckPoint066",
+                "LocationArea : CheckPoint067",
+                "LocationArea : CheckPoint068",
+                "LocationArea : CheckPoint069",
+                "LocationArea : CheckPoint070",
+                "LocationArea : CheckPoint071",
+                "LocationArea : CheckPoint072",
+                "LocationArea : CheckPoint073",
+                "LocationArea : CheckPoint074",
+                "LocationArea : CheckPoint075",
+                "LocationArea : CheckPoint076",
+                "LocationArea : CheckPoint077",
+                "LocationArea : CheckPoint078",
+                "LocationArea : CheckPoint079",
+                "LocationArea : CheckPoint080",
+                "LocationArea : CheckPoint081",
+                "LocationArea : CheckPoint082",
+                "LocationArea : CheckPoint083",
+                "LocationArea : CheckPoint084",
+                "LocationArea : CheckPoint085",
+                "LocationArea : CheckPoint086",
+                "LocationArea : CheckPoint087",
+                "LocationArea : CheckPoint088",
+                "LocationArea : CheckPoint089",
+                "LocationArea : CheckPoint090",
+                "LocationArea : CheckPoint091",
+                "LocationArea : CheckPoint092",
+                "LocationArea : CheckPoint093",
+                "LocationArea : CheckPoint094",
+                "LocationArea : CheckPoint095",
+                "LocationArea : CheckPoint096",
+                "LocationArea : CheckPoint097",
+                "LocationArea : CheckPoint098",
+                "LocationArea : CheckPoint099",
+                "LocationArea : CheckPoint100",
+                "LocationArea : CheckPoint101",
+                "LocationArea : CheckPoint102",
+                "LocationArea : CheckPoint103",
+                "LocationArea : CheckPoint104",
+                "LocationArea : CheckPoint105",
+                "LocationArea : CheckPoint106",
+                "LocationArea : CheckPoint107",
+                "LocationArea : CheckPoint108",
+                "LocationArea : CheckPoint109",
+                "LocationArea : CheckPoint110",
+                "LocationArea : CheckPoint111",
+                "LocationArea : CheckPoint112",
+                "LocationArea : CheckPoint113",
+                "LocationArea : CheckPoint114",
+                "LocationArea : CheckPoint115",
+                "LocationArea : CheckPoint116",
+                "LocationArea : CheckPoint117",
+                "LocationArea : CheckPoint118",
+                "LocationArea : CheckPoint119",
+                "LocationArea : CheckPoint120",
+                "LocationArea : CheckPoint121",
+                "LocationArea : CheckPoint122",
+                "LocationArea : CheckPoint123",
+                "LocationArea : CheckPoint124",
+                "LocationArea : CheckPoint125",
+                "LocationArea : CheckPoint126",
+                "LocationArea : CheckPoint127",
+                "LocationArea : CheckPoint128",
+                "LocationArea : CheckPoint129",
+                "LocationArea : CheckPoint130",
+                "LocationArea : CheckPoint131",
+                "LocationArea : CheckPoint132",
+                "LocationArea : CheckPoint133",
+                "LocationArea : CheckPoint134",
+                "LocationArea : CheckPoint135",
+                "LocationArea : CheckPoint136",
+                "LocationArea : CheckPoint137",
+                "LocationArea : CheckPoint138",
+                "LocationArea : CheckPoint139",
+                "LocationArea : CheckPoint140",
+                "LocationArea : CheckPoint141",
+                "LocationArea : CheckPoint142",
+                "LocationArea : CheckPoint143",
+                "LocationArea : CheckPoint144",
+                "LocationArea : CheckPoint145",
+                "LocationArea : CheckPoint146",
+                "LocationArea : CheckPoint147"
+            ]
         },
-        {
-          "layer": "cave",
-          "objName": "LocationMarker : Dungeon095",
-          "locationIdx": 0
-        },
-        {
-          "layer": "surface",
-          "objName": "LocationArea : HatenoLabo",
-          "locationIdx": 0
+        "tower": {
+            "objNames": [
+                "LocationArea : Tower01",
+                "LocationArea : Tower02",
+                "LocationArea : Tower03",
+                "LocationArea : Tower04",
+                "LocationArea : Tower05",
+                "LocationArea : Tower06",
+                "LocationArea : Tower07",
+                "LocationArea : Tower08",
+                "LocationArea : Tower09",
+                "LocationArea : Tower10",
+                "LocationArea : Tower11",
+                "LocationArea : Tower12",
+                "LocationArea : Tower13",
+                "LocationArea : Tower14",
+                "LocationArea : Tower15"
+            ]
         }
-      ],
-      "visible": false
     },
-    {
-      "name": "Filling out the Compendium",
-      "points": [
+    "segments": [
         {
-          "layer": "surface",
-          "objName": "Npc_AncientDoctor_Hateno",
-          "locationIdx": 1
+            "name": "Hateno Village Research Lab",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_BaseCamp_Assistant",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "LocationArea : HatenoLabo",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "cave",
+                    "objName": "LocationMarker : Dungeon095",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "LocationArea : HatenoLabo",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "Filling out the Compendium",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_AncientDoctor_Hateno",
+                    "locationIdx": 1
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "Presenting: The Travel Medallion",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_AncientDoctor_Hateno",
+                    "locationIdx": 1
+                },
+                {
+                    "layer": "surface",
+                    "objName": "LocationArea : AncientLabo",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "Npc_AncientDoctor_Hateno",
+                    "locationIdx": 1
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "Presenting: Hero's Path Mode",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_AncientDoctor_Hateno",
+                    "locationIdx": 1
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "Presenting: Sensor +!",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "BGM_HatenoAncientLabo_Robbie",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "Mattison's Independence",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_oasis050",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "TwnObj_UMiiVillage033Book",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "Npc_UMiiVillage003",
+                    "locationIdx": 1
+                },
+                {
+                    "layer": "surface",
+                    "objName": "Npc_UMiiVillage009",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "Npc_UMiiVillage031",
+                    "locationIdx": 4
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "A Letter to Koyin",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "AnchorAction1",
+                    "locationIdx": 1257
+                },
+                {
+                    "layer": "surface",
+                    "objName": "FldObj_MessageBottle",
+                    "locationIdx": 3
+                },
+                {
+                    "layer": "surface",
+                    "objName": "Area",
+                    "locationIdx": 4251
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "A New Signature Food",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "AnchorAction1",
+                    "locationIdx": 1270
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "Reede's Secret",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_HatenoVillage018",
+                    "locationIdx": 1
+                },
+                {
+                    "layer": "surface",
+                    "objName": "TwnObj_HatenoVillage_MayorDiary_A_01",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "Cece's Secret",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_HatenoVillage019",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "DestinationAnchor",
+                    "locationIdx": 1079
+                },
+                {
+                    "layer": "surface",
+                    "objName": "Npc_HatenoVillage019",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "Team Cece or Team Reede?",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_HatenoVillage019_SisterA",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "Npc_HatenoVillage010",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "Npc_HatenoVillage033",
+                    "locationIdx": 1
+                },
+                {
+                    "layer": "surface",
+                    "objName": "Npc_HatenoVillage023",
+                    "locationIdx": 1
+                },
+                {
+                    "layer": "surface",
+                    "objName": "Npc_HatenoVillage012",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "Npc_HatenoVillage011",
+                    "locationIdx": 1
+                },
+                {
+                    "layer": "surface",
+                    "objName": "Npc_HatenoVillage016",
+                    "locationIdx": 1
+                },
+                {
+                    "layer": "surface",
+                    "objName": "Npc_HatenoVillage025",
+                    "locationIdx": 1
+                },
+                {
+                    "layer": "surface",
+                    "objName": "Npc_HatenoVillage013",
+                    "locationIdx": 1
+                },
+                {
+                    "layer": "surface",
+                    "objName": "Npc_HatenoVillage019_SisterA",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "The Mayoral Election",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_HatenoVillage019",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "Ruffian-Infested Village",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_SouthernVillage013",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "Enemy_Bokoblin_Senior : Weapon_Sword_108",
+                    "locationIdx": 43
+                },
+                {
+                    "layer": "surface",
+                    "objName": "Enemy_Bokoblin_Senior : Weapon_Sword_108",
+                    "locationIdx": 47
+                },
+                {
+                    "layer": "surface",
+                    "objName": "Enemy_Bokoblin_Senior : Weapon_Bow_027",
+                    "locationIdx": 19
+                },
+                {
+                    "layer": "surface",
+                    "objName": "Item_Enemy_57",
+                    "locationIdx": 1
+                },
+                {
+                    "layer": "surface",
+                    "objName": "Enemy_Bokoblin_Senior : Weapon_Sword_108",
+                    "locationIdx": 48
+                },
+                {
+                    "layer": "surface",
+                    "objName": "Npc_SouthernVillage013",
+                    "locationIdx": 1
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "Lurelin Village Restoration Project",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_HatenoVillage032",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "Npc_SouthernVillage007",
+                    "locationIdx": 1
+                },
+                {
+                    "layer": "surface",
+                    "objName": "Npc_SouthernVillage001",
+                    "locationIdx": 1
+                },
+                {
+                    "layer": "surface",
+                    "objName": "Npc_SouthernVillage014",
+                    "locationIdx": 1
+                },
+                {
+                    "layer": "surface",
+                    "objName": "RPICA_Manager_SouthernVillage004Shop",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "RPICA_Manager_SouthernVillageGamblerShopTBox",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "Potential Princess Sightings!",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_oasis037",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "The Beckoning Woman",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_Rito_Postman_0013",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "Npc_HatenoVillage024_AssassinFake",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "Npc_HatenoVillage024_AssassinFake",
+                    "locationIdx": 1
+                },
+                {
+                    "layer": "surface",
+                    "objName": "Npc_HatenoVillage024_AssassinFake",
+                    "locationIdx": 3
+                },
+                {
+                    "layer": "surface",
+                    "objName": "Npc_HatenoVillage024_AssassinFake",
+                    "locationIdx": 2
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "Gourmets Gone Missing",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_Rito_Postman_010",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "Npc_Road_025",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "The Beast and the Princess",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_Rito_Postman_002",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "Npc_LakeSideHatago006",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "Zelda's Golden Horse",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_Rito_Postman_003",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "GameRomHorseGold",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "Animal_Horse_A",
+                    "locationIdx": 3
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "White Goats Gone Missing",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_Rito_Postman_011",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "Animal_Goat_A",
+                    "locationIdx": 5
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "For Our Princess!",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_Rito_Postman_013",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "Npc_LanayruRoad_AncientAssistant",
+                    "locationIdx": 1
+                },
+                {
+                    "layer": "cave",
+                    "objName": "Enemy_Bokoblin_Junior : Weapon_Bow_004",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "The All-Clucking Cucco",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_Rito_Postman_006",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "AssassinTextNPC_Tribune",
+                    "locationIdx": 2
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "The Missing Farm Tools",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_Rito_Postman_007",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "Npc_NorthHatelHatago001",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "Npc_Rito_Postman_007",
+                    "locationIdx": 1
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "Princess Zelda Kidnapped?!",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_Rito_Postman_001",
+                    "locationIdx": 5
+                },
+                {
+                    "layer": "surface",
+                    "objName": "AssassinTextNPC_Tribune",
+                    "locationIdx": 1
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "An Eerie Voice",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_Rito_Postman_014",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "LocationArea : Well_0058",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "The Blocked Well",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_Rito_Postman_008",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "LocationArea : Well_0045",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "The Flute Player's Plan",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_Orchestra_BT_F_Road",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "Npc_HyruleDepthHatago001",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "Npc_Orchestra_BT_F_Road",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "Honey, Bee Mine",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_Orchestra_M_P_Road",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "The Hornist's Dramatic Escape",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_Orchestra_M_H_Road",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "Serenade to a Great Fairy",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_Rito_Postman_012",
+                    "locationIdx": 1
+                },
+                {
+                    "layer": "surface",
+                    "objName": "Npc_DressFairy_03",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "Serenade to Kaysa",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_Orchestra_M_00_FairySiza",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "Npc_DressFairy_02",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "Serenade to Cotera",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_Orchestra_M_00_FairyCotera",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "Npc_DressFairy_00",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "Serenade to Mija",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_Orchestra_M_00_FairyMisure",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "Npc_DressFairy_01",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "Bring Peace to Hyrule Field!",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_TamourHatago004",
+                    "locationIdx": 1
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "Bring Peace to Necluda!",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_TamourHatago004",
+                    "locationIdx": 2
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "Bring Peace to Eldin!",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_TabantaBridgeHatago005",
+                    "locationIdx": 1
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "Bring Peace to Akkala!",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_TabantaBridgeHatago005",
+                    "locationIdx": 2
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "Bring Peace to Faron!",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "FldObj_PirateShipBridge_A_01",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "Bring Peace to Hebra!",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "NPC_oasis004_fr02",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "Hestu's Concerns",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_OldKorok",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "The Hunt for Bubbul Gems!",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_NushiShop",
+                    "locationIdx": 5
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "The Search for Koltin",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_MamonoShop",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "Npc_NushiShop",
+                    "locationIdx": 7
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "A Monsterous Collection I",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_MamonoShop",
+                    "locationIdx": 1
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "A Monsterous Collection II",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_MamonoShop",
+                    "locationIdx": 1
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "A Monsterous Collection III",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_MamonoShop",
+                    "locationIdx": 1
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "A Monsterous Collection IV",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_MamonoShop",
+                    "locationIdx": 1
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "A Monsterous Collection V",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_MamonoShop",
+                    "locationIdx": 1
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "Investigate the Thyphlo Ruins",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_Road_023",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "FldObj_SignboardStone_BlindRuins_A_05",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "The Owl Protected by Dragons",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "FldObj_SignboardStone_BlindRuins_A_01",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "FldObj_RuinStone_Room_A_01",
+                    "locationIdx": 3
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "The Corridor between Two Dragons",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "FldObj_SignboardStone_BlindRuins_A_02",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "FldObj_RuinStonePillar_A_02",
+                    "locationIdx": 1
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "The Six Dragons",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "FldObj_SignboardStone_BlindRuins_A_03",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "FldObj_RuinStonePillar_A_04",
+                    "locationIdx": 22
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "The Long Dragon",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "FldObj_SignboardStone_BlindRuins_A_04",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "FldObj_RuinStonePillar_A_02",
+                    "locationIdx": 6
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "Legend of the Great Sky Island",
+            "points": [
+                {
+                    "layer": "sky",
+                    "objName": "Npc_Zonau_Golem_Servant_FirstIsland_20",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "Messages from an Ancient Era",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_AncientAssistant005",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "Npc_AncientAssistant005",
+                    "locationIdx": 1
+                },
+                {
+                    "layer": "sky",
+                    "objName": "Obj_Zonau_RockRelief_A_04",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "sky",
+                    "objName": "Obj_Zonau_RockRelief_A_10",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "sky",
+                    "objName": "Obj_Zonau_RockRelief_A_09",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "sky",
+                    "objName": "Obj_Zonau_RockRelief_A_07",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "sky",
+                    "objName": "Obj_Zonau_RockRelief_A_13",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "sky",
+                    "objName": "Obj_Zonau_RockRelief_A_08",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "sky",
+                    "objName": "Obj_Zonau_RockRelief_A_11",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "sky",
+                    "objName": "Obj_Zonau_RockRelief_A_05",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "sky",
+                    "objName": "Obj_Zonau_RockRelief_A_06",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "sky",
+                    "objName": "Obj_Zonau_RockRelief_A_12",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "sky",
+                    "objName": "Obj_Zonau_RockRelief_A_03",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "sky",
+                    "objName": "Obj_Zonau_RockRelief_A_14",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "A Deal With the Statue",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "TwnObj_DemonStatue_A_01",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "Who Goes There?",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_AncientAssistant004",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "TwnObj_DemonStatue_A_01",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "A Call from the Depths",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "DestinationAnchor",
+                    "locationIdx": 483
+                },
+                {
+                    "layer": "surface",
+                    "objName": "TwnObj_DemonStatuePart_A_01",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "TwnObj_DemonStatuePart_A_04",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "TwnObj_DemonStatuePart_A_03",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "TwnObj_DemonStatuePart_A_02",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "TwnObj_GoddesStatue_A_01",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "depths",
+                    "objName": "LocationMarker : DemonStatue_00",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "Infiltrating the Yiga Clan",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "AssassinVehicleInterestEmitActor",
+                    "locationIdx": 1
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "The Yiga Clan Exam",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_Assassin_Middle_Azito002",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "FldObj_SecretBaseFrogStatue_A_02",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "FldObj_SecretBaseFrogStatue_A_02",
+                    "locationIdx": 1
+                },
+                {
+                    "layer": "surface",
+                    "objName": "FldObj_SecretBaseFrogStatue_A_02",
+                    "locationIdx": 2
+                },
+                {
+                    "layer": "cave",
+                    "objName": "FldObj_SecretBaseFrogStatue_A_02",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "cave",
+                    "objName": "FldObj_SecretBaseFrogStatue_A_02",
+                    "locationIdx": 1
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "Master Kohga of the Yiga Clan",
+            "points": [
+                {
+                    "layer": "depths",
+                    "objName": "Enemy_Assassin_Senior",
+                    "locationIdx": 2
+                },
+                {
+                    "layer": "depths",
+                    "objName": "Enemy_Assassin_Senior",
+                    "locationIdx": 1
+                },
+                {
+                    "layer": "depths",
+                    "objName": "Enemy_Assassin_Senior",
+                    "locationIdx": 3
+                },
+                {
+                    "layer": "depths",
+                    "objName": "Enemy_Assassin_Senior",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
         }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Presenting: The Travel Medallion",
-      "points": [
-        {
-          "layer": "surface",
-          "objName": "Npc_AncientDoctor_Hateno",
-          "locationIdx": 1
-        },
-        {
-          "layer": "surface",
-          "objName": "LocationArea : AncientLabo",
-          "locationIdx": 0
-        },
-        {
-          "layer": "surface",
-          "objName": "Npc_AncientDoctor_Hateno",
-          "locationIdx": 1
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Presenting: Hero's Path Mode",
-      "points": [
-        {
-          "layer": "surface",
-          "objName": "Npc_AncientDoctor_Hateno",
-          "locationIdx": 1
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Presenting: Sensor +!",
-      "points": [
-        {
-          "layer": "surface",
-          "objName": "BGM_HatenoAncientLabo_Robbie",
-          "locationIdx": 0
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Mattison's Independence",
-      "points": [
-        { "layer": "surface", "objName": "Npc_oasis050", "locationIdx": 0 },
-        {
-          "layer": "surface",
-          "objName": "TwnObj_UMiiVillage033Book",
-          "locationIdx": 0
-        },
-        {
-          "layer": "surface",
-          "objName": "Npc_UMiiVillage003",
-          "locationIdx": 1
-        },
-        {
-          "layer": "surface",
-          "objName": "Npc_UMiiVillage009",
-          "locationIdx": 0
-        },
-        {
-          "layer": "surface",
-          "objName": "Npc_UMiiVillage031",
-          "locationIdx": 4
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "A Letter to Koyin",
-      "points": [
-        { "layer": "surface", "objName": "AnchorAction1", "locationIdx": 1190 },
-        {
-          "layer": "surface",
-          "objName": "FldObj_MessageBottle",
-          "locationIdx": 3
-        },
-        { "layer": "surface", "objName": "Area", "locationIdx": 4098 }
-      ],
-      "visible": false
-    },
-    {
-      "name": "A New Signature Food",
-      "points": [
-        { "layer": "surface", "objName": "AnchorAction1", "locationIdx": 1203 }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Reede's Secret",
-      "points": [
-        {
-          "layer": "surface",
-          "objName": "Npc_HatenoVillage018",
-          "locationIdx": 0
-        },
-        {
-          "layer": "surface",
-          "objName": "TwnObj_HatenoVillage_MayorDiary_A_01",
-          "locationIdx": 0
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Cece's Secret",
-      "points": [
-        {
-          "layer": "surface",
-          "objName": "Npc_HatenoVillage019",
-          "locationIdx": 0
-        },
-        {
-          "layer": "surface",
-          "objName": "DestinationAnchor",
-          "locationIdx": 928
-        },
-        {
-          "layer": "surface",
-          "objName": "Npc_HatenoVillage019",
-          "locationIdx": 0
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Team Cece or Team Reede?",
-      "points": [
-        {
-          "layer": "surface",
-          "objName": "Npc_HatenoVillage019_SisterA",
-          "locationIdx": 0
-        },
-        {
-          "layer": "surface",
-          "objName": "Npc_HatenoVillage010",
-          "locationIdx": 0
-        },
-        {
-          "layer": "surface",
-          "objName": "Npc_HatenoVillage033",
-          "locationIdx": 0
-        },
-        {
-          "layer": "surface",
-          "objName": "Npc_HatenoVillage023",
-          "locationIdx": 0
-        },
-        {
-          "layer": "surface",
-          "objName": "Npc_HatenoVillage012",
-          "locationIdx": 0
-        },
-        {
-          "layer": "surface",
-          "objName": "Npc_HatenoVillage011",
-          "locationIdx": 0
-        },
-        {
-          "layer": "surface",
-          "objName": "Npc_HatenoVillage016",
-          "locationIdx": 0
-        },
-        {
-          "layer": "surface",
-          "objName": "Npc_HatenoVillage025",
-          "locationIdx": 0
-        },
-        {
-          "layer": "surface",
-          "objName": "Npc_HatenoVillage013",
-          "locationIdx": 0
-        },
-        {
-          "layer": "surface",
-          "objName": "Npc_HatenoVillage019_SisterA",
-          "locationIdx": 0
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "The Mayoral Election",
-      "points": [
-        {
-          "layer": "surface",
-          "objName": "Npc_HatenoVillage019",
-          "locationIdx": 0
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Ruffian-Infested Village",
-      "points": [
-        {
-          "layer": "surface",
-          "objName": "Npc_SouthernVillage013",
-          "locationIdx": 0
-        },
-        {
-          "layer": "surface",
-          "objName": "Enemy_Bokoblin_Senior : Weapon_Sword_108",
-          "locationIdx": 36
-        },
-        {
-          "layer": "surface",
-          "objName": "Enemy_Bokoblin_Senior : Weapon_Sword_108",
-          "locationIdx": 40
-        },
-        {
-          "layer": "surface",
-          "objName": "Enemy_Bokoblin_Senior : Weapon_Bow_027",
-          "locationIdx": 13
-        },
-        { "layer": "surface", "objName": "Item_Enemy_57", "locationIdx": 1 },
-        {
-          "layer": "surface",
-          "objName": "Enemy_Bokoblin_Senior : Weapon_Sword_108",
-          "locationIdx": 41
-        },
-        {
-          "layer": "surface",
-          "objName": "Npc_SouthernVillage013",
-          "locationIdx": 1
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Lurelin Village Restoration Project",
-      "points": [
-        {
-          "layer": "surface",
-          "objName": "Npc_HatenoVillage032",
-          "locationIdx": 0
-        },
-        {
-          "layer": "surface",
-          "objName": "Npc_SouthernVillage007",
-          "locationIdx": 1
-        },
-        {
-          "layer": "surface",
-          "objName": "Npc_SouthernVillage001",
-          "locationIdx": 1
-        },
-        {
-          "layer": "surface",
-          "objName": "Npc_SouthernVillage014",
-          "locationIdx": 1
-        },
-        {
-          "layer": "surface",
-          "objName": "RPICA_Manager_SouthernVillage004Shop",
-          "locationIdx": 0
-        },
-        {
-          "layer": "surface",
-          "objName": "RPICA_Manager_SouthernVillageGamblerShopTBox",
-          "locationIdx": 0
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Potential Princess Sightings!",
-      "points": [
-        { "layer": "surface", "objName": "Npc_oasis037", "locationIdx": 0 }
-      ],
-      "visible": false
-    },
-    {
-      "name": "The Beckoning Woman",
-      "points": [
-        {
-          "layer": "surface",
-          "objName": "Npc_Rito_Postman_0013",
-          "locationIdx": 0
-        },
-        {
-          "layer": "surface",
-          "objName": "Npc_HatenoVillage024_AssassinFake",
-          "locationIdx": 0
-        },
-        {
-          "layer": "surface",
-          "objName": "Npc_HatenoVillage024_AssassinFake",
-          "locationIdx": 1
-        },
-        {
-          "layer": "surface",
-          "objName": "Npc_HatenoVillage024_AssassinFake",
-          "locationIdx": 3
-        },
-        {
-          "layer": "surface",
-          "objName": "Npc_HatenoVillage024_AssassinFake",
-          "locationIdx": 2
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Gourmets Gone Missing",
-      "points": [
-        {
-          "layer": "surface",
-          "objName": "Npc_Rito_Postman_010",
-          "locationIdx": 0
-        },
-        { "layer": "surface", "objName": "Npc_Road_025", "locationIdx": 0 }
-      ],
-      "visible": false
-    },
-    {
-      "name": "The Beast and the Princess",
-      "points": [
-        {
-          "layer": "surface",
-          "objName": "Npc_Rito_Postman_002",
-          "locationIdx": 0
-        },
-        {
-          "layer": "surface",
-          "objName": "Npc_LakeSideHatago006",
-          "locationIdx": 0
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Zelda's Golden Horse",
-      "points": [
-        {
-          "layer": "surface",
-          "objName": "Npc_Rito_Postman_003",
-          "locationIdx": 0
-        },
-        { "layer": "surface", "objName": "GameRomHorseGold", "locationIdx": 0 },
-        { "layer": "surface", "objName": "Animal_Horse_A", "locationIdx": 3 }
-      ],
-      "visible": false
-    },
-    {
-      "name": "White Goats Gone Missing",
-      "points": [
-        {
-          "layer": "surface",
-          "objName": "Npc_Rito_Postman_011",
-          "locationIdx": 0
-        },
-        { "layer": "surface", "objName": "Animal_Goat_A", "locationIdx": 5 }
-      ],
-      "visible": false
-    },
-    {
-      "name": "For Our Princess!",
-      "points": [
-        {
-          "layer": "surface",
-          "objName": "Npc_Rito_Postman_013",
-          "locationIdx": 0
-        },
-        {
-          "layer": "surface",
-          "objName": "Npc_LanayruRoad_AncientAssistant",
-          "locationIdx": 1
-        },
-        {
-          "layer": "cave",
-          "objName": "Enemy_Bokoblin_Junior : Weapon_Bow_004",
-          "locationIdx": 0
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "The All-Clucking Cucco",
-      "points": [
-        {
-          "layer": "surface",
-          "objName": "Npc_Rito_Postman_006",
-          "locationIdx": 0
-        },
-        {
-          "layer": "surface",
-          "objName": "AssassinTextNPC_Tribune",
-          "locationIdx": 2
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "The Missing Farm Tools",
-      "points": [
-        {
-          "layer": "surface",
-          "objName": "Npc_Rito_Postman_007",
-          "locationIdx": 0
-        },
-        {
-          "layer": "surface",
-          "objName": "Npc_NorthHatelHatago001",
-          "locationIdx": 0
-        },
-        {
-          "layer": "surface",
-          "objName": "Npc_Rito_Postman_007",
-          "locationIdx": 1
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Princess Zelda Kidnapped?!",
-      "points": [
-        {
-          "layer": "surface",
-          "objName": "Npc_Rito_Postman_001",
-          "locationIdx": 4
-        },
-        {
-          "layer": "surface",
-          "objName": "AssassinTextNPC_Tribune",
-          "locationIdx": 1
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "An Eerie Voice",
-      "points": [
-        {
-          "layer": "surface",
-          "objName": "Npc_Rito_Postman_014",
-          "locationIdx": 0
-        },
-        {
-          "layer": "surface",
-          "objName": "LocationArea : Well_0058",
-          "locationIdx": 0
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "The Blocked Well",
-      "points": [
-        {
-          "layer": "surface",
-          "objName": "Npc_Rito_Postman_008",
-          "locationIdx": 0
-        },
-        {
-          "layer": "surface",
-          "objName": "LocationArea : Well_0045",
-          "locationIdx": 0
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "The Flute Player's Plan",
-      "points": [
-        {
-          "layer": "surface",
-          "objName": "Npc_Orchestra_BT_F_Road",
-          "locationIdx": 0
-        },
-        {
-          "layer": "surface",
-          "objName": "Npc_HyruleDepthHatago001",
-          "locationIdx": 0
-        },
-        {
-          "layer": "surface",
-          "objName": "Npc_Orchestra_BT_F_Road",
-          "locationIdx": 0
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Honey, Bee Mine",
-      "points": [
-        {
-          "layer": "surface",
-          "objName": "Npc_Orchestra_M_P_Road",
-          "locationIdx": 0
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "The Hornist's Dramatic Escape",
-      "points": [
-        {
-          "layer": "surface",
-          "objName": "Npc_Orchestra_M_H_Road",
-          "locationIdx": 0
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Serenade to a Great Fairy",
-      "points": [
-        {
-          "layer": "surface",
-          "objName": "Npc_Rito_Postman_012",
-          "locationIdx": 1
-        },
-        { "layer": "surface", "objName": "Npc_DressFairy_03", "locationIdx": 0 }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Serenade to Kaysa",
-      "points": [
-        {
-          "layer": "surface",
-          "objName": "Npc_Orchestra_M_00_FairySiza",
-          "locationIdx": 0
-        },
-        { "layer": "surface", "objName": "Npc_DressFairy_02", "locationIdx": 0 }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Serenade to Cotera",
-      "points": [
-        {
-          "layer": "surface",
-          "objName": "Npc_Orchestra_M_00_FairyCotera",
-          "locationIdx": 0
-        },
-        { "layer": "surface", "objName": "Npc_DressFairy_00", "locationIdx": 0 }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Serenade to Mija",
-      "points": [
-        {
-          "layer": "surface",
-          "objName": "Npc_Orchestra_M_00_FairyMisure",
-          "locationIdx": 0
-        },
-        { "layer": "surface", "objName": "Npc_DressFairy_01", "locationIdx": 0 }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Bring Peace to Hyrule Field!",
-      "points": [
-        {
-          "layer": "surface",
-          "objName": "Npc_TamourHatago004",
-          "locationIdx": 1
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Bring Peace to Necluda!",
-      "points": [
-        {
-          "layer": "surface",
-          "objName": "Npc_TamourHatago004",
-          "locationIdx": 2
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Bring Peace to Eldin!",
-      "points": [
-        {
-          "layer": "surface",
-          "objName": "Npc_TabantaBridgeHatago005",
-          "locationIdx": 1
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Bring Peace to Akkala!",
-      "points": [
-        {
-          "layer": "surface",
-          "objName": "Npc_TabantaBridgeHatago005",
-          "locationIdx": 2
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Bring Peace to Faron!",
-      "points": [
-        {
-          "layer": "surface",
-          "objName": "FldObj_PirateShipBridge_A_01",
-          "locationIdx": 0
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Bring Peace to Hebra!",
-      "points": [
-        { "layer": "surface", "objName": "NPC_oasis004_fr02", "locationIdx": 0 }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Hestu's Concerns",
-      "points": [
-        { "layer": "surface", "objName": "Npc_OldKorok", "locationIdx": 0 }
-      ],
-      "visible": false
-    },
-    {
-      "name": "The Hunt for Bubbul Gems!",
-      "points": [
-        { "layer": "surface", "objName": "Npc_NushiShop", "locationIdx": 5 }
-      ],
-      "visible": false
-    },
-    {
-      "name": "The Search for Koltin",
-      "points": [
-        { "layer": "surface", "objName": "Npc_MamonoShop", "locationIdx": 0 },
-        { "layer": "surface", "objName": "Npc_NushiShop", "locationIdx": 7 }
-      ],
-      "visible": false
-    },
-    {
-      "name": "A Monsterous Collection I",
-      "points": [
-        { "layer": "surface", "objName": "Npc_MamonoShop", "locationIdx": 1 }
-      ],
-      "visible": false
-    },
-    {
-      "name": "A Monsterous Collection II",
-      "points": [
-        { "layer": "surface", "objName": "Npc_MamonoShop", "locationIdx": 1 }
-      ],
-      "visible": false
-    },
-    {
-      "name": "A Monsterous Collection III",
-      "points": [
-        { "layer": "surface", "objName": "Npc_MamonoShop", "locationIdx": 1 }
-      ],
-      "visible": false
-    },
-    {
-      "name": "A Monsterous Collection IV",
-      "points": [
-        { "layer": "surface", "objName": "Npc_MamonoShop", "locationIdx": 1 }
-      ],
-      "visible": false
-    },
-    {
-      "name": "A Monsterous Collection V",
-      "points": [
-        { "layer": "surface", "objName": "Npc_MamonoShop", "locationIdx": 1 }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Investigate the Thyphlo Ruins",
-      "points": [
-        { "layer": "surface", "objName": "Npc_Road_023", "locationIdx": 0 },
-        {
-          "layer": "surface",
-          "objName": "FldObj_SignboardStone_BlindRuins_A_05",
-          "locationIdx": 0
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "The Owl Protected by Dragons",
-      "points": [
-        {
-          "layer": "surface",
-          "objName": "FldObj_SignboardStone_BlindRuins_A_01",
-          "locationIdx": 0
-        },
-        {
-          "layer": "surface",
-          "objName": "FldObj_RuinStone_Room_A_01",
-          "locationIdx": 3
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "The Corridor between Two Dragons",
-      "points": [
-        {
-          "layer": "surface",
-          "objName": "FldObj_SignboardStone_BlindRuins_A_02",
-          "locationIdx": 0
-        },
-        {
-          "layer": "surface",
-          "objName": "FldObj_RuinStonePillar_A_02",
-          "locationIdx": 1
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "The Six Dragons",
-      "points": [
-        {
-          "layer": "surface",
-          "objName": "FldObj_SignboardStone_BlindRuins_A_03",
-          "locationIdx": 0
-        },
-        {
-          "layer": "surface",
-          "objName": "FldObj_RuinStonePillar_A_04",
-          "locationIdx": 22
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "The Long Dragon",
-      "points": [
-        {
-          "layer": "surface",
-          "objName": "FldObj_SignboardStone_BlindRuins_A_04",
-          "locationIdx": 0
-        },
-        {
-          "layer": "surface",
-          "objName": "FldObj_RuinStonePillar_A_02",
-          "locationIdx": 6
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Legend of the Great Sky Island",
-      "points": [
-        {
-          "layer": "sky",
-          "objName": "Npc_Zonau_Golem_Servant_FirstIsland_20",
-          "locationIdx": 0
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Messages from an Ancient Era",
-      "points": [
-        {
-          "layer": "surface",
-          "objName": "Npc_AncientAssistant005",
-          "locationIdx": 0
-        },
-        {
-          "layer": "surface",
-          "objName": "Npc_AncientAssistant005",
-          "locationIdx": 1
-        },
-        {
-          "layer": "sky",
-          "objName": "Obj_Zonau_RockRelief_A_04",
-          "locationIdx": 0
-        },
-        {
-          "layer": "sky",
-          "objName": "Obj_Zonau_RockRelief_A_10",
-          "locationIdx": 0
-        },
-        {
-          "layer": "sky",
-          "objName": "Obj_Zonau_RockRelief_A_09",
-          "locationIdx": 0
-        },
-        {
-          "layer": "sky",
-          "objName": "Obj_Zonau_RockRelief_A_07",
-          "locationIdx": 0
-        },
-        {
-          "layer": "sky",
-          "objName": "Obj_Zonau_RockRelief_A_13",
-          "locationIdx": 0
-        },
-        {
-          "layer": "sky",
-          "objName": "Obj_Zonau_RockRelief_A_08",
-          "locationIdx": 0
-        },
-        {
-          "layer": "sky",
-          "objName": "Obj_Zonau_RockRelief_A_11",
-          "locationIdx": 0
-        },
-        {
-          "layer": "sky",
-          "objName": "Obj_Zonau_RockRelief_A_05",
-          "locationIdx": 0
-        },
-        {
-          "layer": "sky",
-          "objName": "Obj_Zonau_RockRelief_A_06",
-          "locationIdx": 0
-        },
-        {
-          "layer": "sky",
-          "objName": "Obj_Zonau_RockRelief_A_12",
-          "locationIdx": 0
-        },
-        {
-          "layer": "sky",
-          "objName": "Obj_Zonau_RockRelief_A_03",
-          "locationIdx": 0
-        },
-        {
-          "layer": "sky",
-          "objName": "Obj_Zonau_RockRelief_A_14",
-          "locationIdx": 0
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "A Deal With the Statue",
-      "points": [
-        {
-          "layer": "surface",
-          "objName": "TwnObj_DemonStatue_A_01",
-          "locationIdx": 0
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Who Goes There?",
-      "points": [
-        {
-          "layer": "surface",
-          "objName": "Npc_AncientAssistant004",
-          "locationIdx": 0
-        },
-        {
-          "layer": "surface",
-          "objName": "TwnObj_DemonStatue_A_01",
-          "locationIdx": 0
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "A Call from the Depths",
-      "points": [
-        {
-          "layer": "surface",
-          "objName": "MergedActorD100",
-          "locationIdx": 32185
-        },
-        {
-          "layer": "surface",
-          "objName": "TwnObj_DemonStatuePart_A_01",
-          "locationIdx": 0
-        },
-        {
-          "layer": "surface",
-          "objName": "TwnObj_DemonStatuePart_A_04",
-          "locationIdx": 0
-        },
-        {
-          "layer": "surface",
-          "objName": "TwnObj_DemonStatuePart_A_03",
-          "locationIdx": 0
-        },
-        {
-          "layer": "surface",
-          "objName": "TwnObj_DemonStatuePart_A_02",
-          "locationIdx": 0
-        },
-        {
-          "layer": "surface",
-          "objName": "TwnObj_GoddesStatue_A_01",
-          "locationIdx": 0
-        },
-        {
-          "layer": "depths",
-          "objName": "LocationMarker : DemonStatue_00",
-          "locationIdx": 0
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Infiltrating the Yiga Clan",
-      "points": [
-        {
-          "layer": "surface",
-          "objName": "AssassinVehicleInterestEmitActor",
-          "locationIdx": 1
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "The Yiga Clan Exam",
-      "points": [
-        {
-          "layer": "surface",
-          "objName": "Npc_Assassin_Middle_Azito002",
-          "locationIdx": 0
-        },
-        {
-          "layer": "surface",
-          "objName": "FldObj_SecretBaseFrogStatue_A_02",
-          "locationIdx": 0
-        },
-        {
-          "layer": "surface",
-          "objName": "FldObj_SecretBaseFrogStatue_A_02",
-          "locationIdx": 1
-        },
-        {
-          "layer": "surface",
-          "objName": "FldObj_SecretBaseFrogStatue_A_02",
-          "locationIdx": 2
-        },
-        {
-          "layer": "cave",
-          "objName": "FldObj_SecretBaseFrogStatue_A_02",
-          "locationIdx": 0
-        },
-        {
-          "layer": "cave",
-          "objName": "FldObj_SecretBaseFrogStatue_A_02",
-          "locationIdx": 1
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Master Kohga of the Yiga Clan",
-      "points": [
-        {
-          "layer": "depths",
-          "objName": "Enemy_Assassin_Senior",
-          "locationIdx": 2
-        },
-        {
-          "layer": "depths",
-          "objName": "Enemy_Assassin_Senior",
-          "locationIdx": 1
-        },
-        {
-          "layer": "depths",
-          "objName": "Enemy_Assassin_Senior",
-          "locationIdx": 3
-        },
-        {
-          "layer": "depths",
-          "objName": "Enemy_Assassin_Senior",
-          "locationIdx": 0
-        }
-      ],
-      "visible": false
-    }
-  ]
+    ]
 }

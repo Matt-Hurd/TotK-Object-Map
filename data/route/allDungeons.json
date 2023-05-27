@@ -1,7 +1,8 @@
 {
     "enabledMarkers": {},
     "segments": [
-        {   "name": "Autobuild",
+        {
+            "name": "Autobuild",
             "points": [
                 {
                     "layer": "sky",
@@ -60,7 +61,8 @@
                 }
             ]
         },
-        {   "name": "Wind Temple",
+        {
+            "name": "Wind Temple",
             "points": [
                 {
                     "layer": "surface",
@@ -82,8 +84,8 @@
                 },
                 {
                     "layer": "sky",
-                    "objName": "MergedActorD300",
-                    "locationIdx": 8,
+                    "objName": "DestinationAnchor",
+                    "locationIdx": 10,
                     "note": "Tulin Trigger before Wind Temple"
                 },
                 {
@@ -95,13 +97,14 @@
                 {
                     "layer": "sky",
                     "objName": "DestinationAnchor",
-                    "locationIdx": 13,
+                    "locationIdx": 15,
                     "note": "Skyship"
                 }
             ]
         },
-        {   "name": "Activate Thunder Shrine, grab Lynel bow",
-            "points" : [
+        {
+            "name": "Activate Thunder Shrine, grab Lynel bow",
+            "points": [
                 {
                     "layer": "sky",
                     "objName": "LocationMarker : Dungeon060",
@@ -123,8 +126,9 @@
                 }
             ]
         },
-        {   "name": "Water Temple",
-            "points":[
+        {
+            "name": "Water Temple",
+            "points": [
                 {
                     "layer": "sky",
                     "objName": "LocationMarker : Dungeon060",

@@ -1,982 +1,1374 @@
 {
-  "enabledMarkers": {},
-  "disabledMarkers": {
-    "shrine": {
-      "objNames": [
-        "LocationMarker : Dungeon000",
-        "LocationMarker : Dungeon001",
-        "LocationMarker : Dungeon002",
-        "LocationMarker : Dungeon003",
-        "LocationMarker : Dungeon004",
-        "LocationMarker : Dungeon005",
-        "LocationMarker : Dungeon006",
-        "LocationMarker : Dungeon007",
-        "LocationMarker : Dungeon008",
-        "LocationMarker : Dungeon009",
-        "LocationMarker : Dungeon010",
-        "LocationMarker : Dungeon011",
-        "LocationMarker : Dungeon012",
-        "LocationMarker : Dungeon013",
-        "LocationMarker : Dungeon014",
-        "LocationMarker : Dungeon015",
-        "LocationMarker : Dungeon016",
-        "LocationMarker : Dungeon017",
-        "LocationMarker : Dungeon018",
-        "LocationMarker : Dungeon019",
-        "LocationMarker : Dungeon020",
-        "LocationMarker : Dungeon021",
-        "LocationMarker : Dungeon022",
-        "LocationMarker : Dungeon023",
-        "LocationMarker : Dungeon024",
-        "LocationMarker : Dungeon025",
-        "LocationMarker : Dungeon026",
-        "LocationMarker : Dungeon027",
-        "LocationMarker : Dungeon028",
-        "LocationMarker : Dungeon029",
-        "LocationMarker : Dungeon030",
-        "LocationMarker : Dungeon031",
-        "LocationMarker : Dungeon032",
-        "LocationMarker : Dungeon033",
-        "LocationMarker : Dungeon034",
-        "LocationMarker : Dungeon035",
-        "LocationMarker : Dungeon036",
-        "LocationMarker : Dungeon037",
-        "LocationMarker : Dungeon038",
-        "LocationMarker : Dungeon039",
-        "LocationMarker : Dungeon040",
-        "LocationMarker : Dungeon041",
-        "LocationMarker : Dungeon042",
-        "LocationMarker : Dungeon043",
-        "LocationMarker : Dungeon044",
-        "LocationMarker : Dungeon045",
-        "LocationMarker : Dungeon046",
-        "LocationMarker : Dungeon047",
-        "LocationMarker : Dungeon048",
-        "LocationMarker : Dungeon049",
-        "LocationMarker : Dungeon050",
-        "LocationMarker : Dungeon051",
-        "LocationMarker : Dungeon052",
-        "LocationMarker : Dungeon053",
-        "LocationMarker : Dungeon054",
-        "LocationMarker : Dungeon055",
-        "LocationMarker : Dungeon056",
-        "LocationMarker : Dungeon057",
-        "LocationMarker : Dungeon058",
-        "LocationMarker : Dungeon059",
-        "LocationMarker : Dungeon060",
-        "LocationMarker : Dungeon061",
-        "LocationMarker : Dungeon062",
-        "LocationMarker : Dungeon063",
-        "LocationMarker : Dungeon064",
-        "LocationMarker : Dungeon065",
-        "LocationMarker : Dungeon066",
-        "LocationMarker : Dungeon067",
-        "LocationMarker : Dungeon068",
-        "LocationMarker : Dungeon069",
-        "LocationMarker : Dungeon070",
-        "LocationMarker : Dungeon071",
-        "LocationMarker : Dungeon072",
-        "LocationMarker : Dungeon073",
-        "LocationMarker : Dungeon074",
-        "LocationMarker : Dungeon075",
-        "LocationMarker : Dungeon076",
-        "LocationMarker : Dungeon077",
-        "LocationMarker : Dungeon078",
-        "LocationMarker : Dungeon079",
-        "LocationMarker : Dungeon080",
-        "LocationMarker : Dungeon081",
-        "LocationMarker : Dungeon082",
-        "LocationMarker : Dungeon083",
-        "LocationMarker : Dungeon084",
-        "LocationMarker : Dungeon085",
-        "LocationMarker : Dungeon086",
-        "LocationMarker : Dungeon087",
-        "LocationMarker : Dungeon088",
-        "LocationMarker : Dungeon089",
-        "LocationMarker : Dungeon090",
-        "LocationMarker : Dungeon091",
-        "LocationMarker : Dungeon092",
-        "LocationMarker : Dungeon093",
-        "LocationMarker : Dungeon094",
-        "LocationMarker : Dungeon095",
-        "LocationMarker : Dungeon096",
-        "LocationMarker : Dungeon097",
-        "LocationMarker : Dungeon098",
-        "LocationMarker : Dungeon099",
-        "LocationMarker : Dungeon100",
-        "LocationMarker : Dungeon101",
-        "LocationMarker : Dungeon102",
-        "LocationMarker : Dungeon103",
-        "LocationMarker : Dungeon104",
-        "LocationMarker : Dungeon105",
-        "LocationMarker : Dungeon106",
-        "LocationMarker : Dungeon107",
-        "LocationMarker : Dungeon108",
-        "LocationMarker : Dungeon109",
-        "LocationMarker : Dungeon110",
-        "LocationMarker : Dungeon111",
-        "LocationMarker : Dungeon112",
-        "LocationMarker : Dungeon113",
-        "LocationMarker : Dungeon114",
-        "LocationMarker : Dungeon115",
-        "LocationMarker : Dungeon116",
-        "LocationMarker : Dungeon117",
-        "LocationMarker : Dungeon118",
-        "LocationMarker : Dungeon119",
-        "LocationMarker : Dungeon120",
-        "LocationMarker : Dungeon121",
-        "LocationMarker : Dungeon122",
-        "LocationMarker : Dungeon123",
-        "LocationMarker : Dungeon124",
-        "LocationMarker : Dungeon125",
-        "LocationMarker : Dungeon126",
-        "LocationMarker : Dungeon127",
-        "LocationMarker : Dungeon128",
-        "LocationMarker : Dungeon129",
-        "LocationMarker : Dungeon130",
-        "LocationMarker : Dungeon131",
-        "LocationMarker : Dungeon132",
-        "LocationMarker : Dungeon133",
-        "LocationMarker : Dungeon134",
-        "LocationMarker : Dungeon135",
-        "LocationMarker : Dungeon136",
-        "LocationMarker : Dungeon137",
-        "LocationMarker : Dungeon138",
-        "LocationMarker : Dungeon139",
-        "LocationMarker : Dungeon140",
-        "LocationMarker : Dungeon141",
-        "LocationMarker : Dungeon142",
-        "LocationMarker : Dungeon143",
-        "LocationMarker : Dungeon144",
-        "LocationMarker : Dungeon145",
-        "LocationMarker : Dungeon146",
-        "LocationMarker : Dungeon147",
-        "LocationMarker : Dungeon148",
-        "LocationMarker : Dungeon149",
-        "LocationMarker : Dungeon150",
-        "LocationMarker : Dungeon151"
-      ]
+    "enabledMarkers": {},
+    "disabledMarkers": {
+        "shrine": {
+            "objNames": [
+                "LocationMarker : Dungeon000",
+                "LocationMarker : Dungeon001",
+                "LocationMarker : Dungeon002",
+                "LocationMarker : Dungeon003",
+                "LocationMarker : Dungeon004",
+                "LocationMarker : Dungeon005",
+                "LocationMarker : Dungeon006",
+                "LocationMarker : Dungeon007",
+                "LocationMarker : Dungeon008",
+                "LocationMarker : Dungeon009",
+                "LocationMarker : Dungeon010",
+                "LocationMarker : Dungeon011",
+                "LocationMarker : Dungeon012",
+                "LocationMarker : Dungeon013",
+                "LocationMarker : Dungeon014",
+                "LocationMarker : Dungeon015",
+                "LocationMarker : Dungeon016",
+                "LocationMarker : Dungeon017",
+                "LocationMarker : Dungeon018",
+                "LocationMarker : Dungeon019",
+                "LocationMarker : Dungeon020",
+                "LocationMarker : Dungeon021",
+                "LocationMarker : Dungeon022",
+                "LocationMarker : Dungeon023",
+                "LocationMarker : Dungeon024",
+                "LocationMarker : Dungeon025",
+                "LocationMarker : Dungeon026",
+                "LocationMarker : Dungeon027",
+                "LocationMarker : Dungeon028",
+                "LocationMarker : Dungeon029",
+                "LocationMarker : Dungeon030",
+                "LocationMarker : Dungeon031",
+                "LocationMarker : Dungeon032",
+                "LocationMarker : Dungeon033",
+                "LocationMarker : Dungeon034",
+                "LocationMarker : Dungeon035",
+                "LocationMarker : Dungeon036",
+                "LocationMarker : Dungeon037",
+                "LocationMarker : Dungeon038",
+                "LocationMarker : Dungeon039",
+                "LocationMarker : Dungeon040",
+                "LocationMarker : Dungeon041",
+                "LocationMarker : Dungeon042",
+                "LocationMarker : Dungeon043",
+                "LocationMarker : Dungeon044",
+                "LocationMarker : Dungeon045",
+                "LocationMarker : Dungeon046",
+                "LocationMarker : Dungeon047",
+                "LocationMarker : Dungeon048",
+                "LocationMarker : Dungeon049",
+                "LocationMarker : Dungeon050",
+                "LocationMarker : Dungeon051",
+                "LocationMarker : Dungeon052",
+                "LocationMarker : Dungeon053",
+                "LocationMarker : Dungeon054",
+                "LocationMarker : Dungeon055",
+                "LocationMarker : Dungeon056",
+                "LocationMarker : Dungeon057",
+                "LocationMarker : Dungeon058",
+                "LocationMarker : Dungeon059",
+                "LocationMarker : Dungeon060",
+                "LocationMarker : Dungeon061",
+                "LocationMarker : Dungeon062",
+                "LocationMarker : Dungeon063",
+                "LocationMarker : Dungeon064",
+                "LocationMarker : Dungeon065",
+                "LocationMarker : Dungeon066",
+                "LocationMarker : Dungeon067",
+                "LocationMarker : Dungeon068",
+                "LocationMarker : Dungeon069",
+                "LocationMarker : Dungeon070",
+                "LocationMarker : Dungeon071",
+                "LocationMarker : Dungeon072",
+                "LocationMarker : Dungeon073",
+                "LocationMarker : Dungeon074",
+                "LocationMarker : Dungeon075",
+                "LocationMarker : Dungeon076",
+                "LocationMarker : Dungeon077",
+                "LocationMarker : Dungeon078",
+                "LocationMarker : Dungeon079",
+                "LocationMarker : Dungeon080",
+                "LocationMarker : Dungeon081",
+                "LocationMarker : Dungeon082",
+                "LocationMarker : Dungeon083",
+                "LocationMarker : Dungeon084",
+                "LocationMarker : Dungeon085",
+                "LocationMarker : Dungeon086",
+                "LocationMarker : Dungeon087",
+                "LocationMarker : Dungeon088",
+                "LocationMarker : Dungeon089",
+                "LocationMarker : Dungeon090",
+                "LocationMarker : Dungeon091",
+                "LocationMarker : Dungeon092",
+                "LocationMarker : Dungeon093",
+                "LocationMarker : Dungeon094",
+                "LocationMarker : Dungeon095",
+                "LocationMarker : Dungeon096",
+                "LocationMarker : Dungeon097",
+                "LocationMarker : Dungeon098",
+                "LocationMarker : Dungeon099",
+                "LocationMarker : Dungeon100",
+                "LocationMarker : Dungeon101",
+                "LocationMarker : Dungeon102",
+                "LocationMarker : Dungeon103",
+                "LocationMarker : Dungeon104",
+                "LocationMarker : Dungeon105",
+                "LocationMarker : Dungeon106",
+                "LocationMarker : Dungeon107",
+                "LocationMarker : Dungeon108",
+                "LocationMarker : Dungeon109",
+                "LocationMarker : Dungeon110",
+                "LocationMarker : Dungeon111",
+                "LocationMarker : Dungeon112",
+                "LocationMarker : Dungeon113",
+                "LocationMarker : Dungeon114",
+                "LocationMarker : Dungeon115",
+                "LocationMarker : Dungeon116",
+                "LocationMarker : Dungeon117",
+                "LocationMarker : Dungeon118",
+                "LocationMarker : Dungeon119",
+                "LocationMarker : Dungeon120",
+                "LocationMarker : Dungeon121",
+                "LocationMarker : Dungeon122",
+                "LocationMarker : Dungeon123",
+                "LocationMarker : Dungeon124",
+                "LocationMarker : Dungeon125",
+                "LocationMarker : Dungeon126",
+                "LocationMarker : Dungeon127",
+                "LocationMarker : Dungeon128",
+                "LocationMarker : Dungeon129",
+                "LocationMarker : Dungeon130",
+                "LocationMarker : Dungeon131",
+                "LocationMarker : Dungeon132",
+                "LocationMarker : Dungeon133",
+                "LocationMarker : Dungeon134",
+                "LocationMarker : Dungeon135",
+                "LocationMarker : Dungeon136",
+                "LocationMarker : Dungeon137",
+                "LocationMarker : Dungeon138",
+                "LocationMarker : Dungeon139",
+                "LocationMarker : Dungeon140",
+                "LocationMarker : Dungeon141",
+                "LocationMarker : Dungeon142",
+                "LocationMarker : Dungeon143",
+                "LocationMarker : Dungeon144",
+                "LocationMarker : Dungeon145",
+                "LocationMarker : Dungeon146",
+                "LocationMarker : Dungeon147",
+                "LocationMarker : Dungeon148",
+                "LocationMarker : Dungeon149",
+                "LocationMarker : Dungeon150",
+                "LocationMarker : Dungeon151"
+            ]
+        },
+        "lightroot": {
+            "objNames": [
+                "LocationArea : CheckPoint000",
+                "LocationArea : CheckPoint001",
+                "LocationArea : CheckPoint002",
+                "LocationArea : CheckPoint003",
+                "LocationArea : CheckPoint004",
+                "LocationArea : CheckPoint005",
+                "LocationArea : CheckPoint006",
+                "LocationArea : CheckPoint007",
+                "LocationArea : CheckPoint008",
+                "LocationArea : CheckPoint009",
+                "LocationArea : CheckPoint010",
+                "LocationArea : CheckPoint011",
+                "LocationArea : CheckPoint012",
+                "LocationArea : CheckPoint013",
+                "LocationArea : CheckPoint014",
+                "LocationArea : CheckPoint015",
+                "LocationArea : CheckPoint016",
+                "LocationArea : CheckPoint017",
+                "LocationArea : CheckPoint018",
+                "LocationArea : CheckPoint019",
+                "LocationArea : CheckPoint020",
+                "LocationArea : CheckPoint021",
+                "LocationArea : CheckPoint022",
+                "LocationArea : CheckPoint023",
+                "LocationArea : CheckPoint024",
+                "LocationArea : CheckPoint025",
+                "LocationArea : CheckPoint026",
+                "LocationArea : CheckPoint027",
+                "LocationArea : CheckPoint028",
+                "LocationArea : CheckPoint029",
+                "LocationArea : CheckPoint030",
+                "LocationArea : CheckPoint031",
+                "LocationArea : CheckPoint032",
+                "LocationArea : CheckPoint033",
+                "LocationArea : CheckPoint034",
+                "LocationArea : CheckPoint035",
+                "LocationArea : CheckPoint036",
+                "LocationArea : CheckPoint037",
+                "LocationArea : CheckPoint038",
+                "LocationArea : CheckPoint039",
+                "LocationArea : CheckPoint040",
+                "LocationArea : CheckPoint041",
+                "LocationArea : CheckPoint042",
+                "LocationArea : CheckPoint043",
+                "LocationArea : CheckPoint044",
+                "LocationArea : CheckPoint045",
+                "LocationArea : CheckPoint046",
+                "LocationArea : CheckPoint047",
+                "LocationArea : CheckPoint048",
+                "LocationArea : CheckPoint049",
+                "LocationArea : CheckPoint050",
+                "LocationArea : CheckPoint051",
+                "LocationArea : CheckPoint052",
+                "LocationArea : CheckPoint053",
+                "LocationArea : CheckPoint054",
+                "LocationArea : CheckPoint055",
+                "LocationArea : CheckPoint056",
+                "LocationArea : CheckPoint057",
+                "LocationArea : CheckPoint058",
+                "LocationArea : CheckPoint059",
+                "LocationArea : CheckPoint060",
+                "LocationArea : CheckPoint061",
+                "LocationArea : CheckPoint062",
+                "LocationArea : CheckPoint063",
+                "LocationArea : CheckPoint064",
+                "LocationArea : CheckPoint065",
+                "LocationArea : CheckPoint066",
+                "LocationArea : CheckPoint067",
+                "LocationArea : CheckPoint068",
+                "LocationArea : CheckPoint069",
+                "LocationArea : CheckPoint070",
+                "LocationArea : CheckPoint071",
+                "LocationArea : CheckPoint072",
+                "LocationArea : CheckPoint073",
+                "LocationArea : CheckPoint074",
+                "LocationArea : CheckPoint075",
+                "LocationArea : CheckPoint076",
+                "LocationArea : CheckPoint077",
+                "LocationArea : CheckPoint078",
+                "LocationArea : CheckPoint079",
+                "LocationArea : CheckPoint080",
+                "LocationArea : CheckPoint081",
+                "LocationArea : CheckPoint082",
+                "LocationArea : CheckPoint083",
+                "LocationArea : CheckPoint084",
+                "LocationArea : CheckPoint085",
+                "LocationArea : CheckPoint086",
+                "LocationArea : CheckPoint087",
+                "LocationArea : CheckPoint088",
+                "LocationArea : CheckPoint089",
+                "LocationArea : CheckPoint090",
+                "LocationArea : CheckPoint091",
+                "LocationArea : CheckPoint092",
+                "LocationArea : CheckPoint093",
+                "LocationArea : CheckPoint094",
+                "LocationArea : CheckPoint095",
+                "LocationArea : CheckPoint096",
+                "LocationArea : CheckPoint097",
+                "LocationArea : CheckPoint098",
+                "LocationArea : CheckPoint099",
+                "LocationArea : CheckPoint100",
+                "LocationArea : CheckPoint101",
+                "LocationArea : CheckPoint102",
+                "LocationArea : CheckPoint103",
+                "LocationArea : CheckPoint104",
+                "LocationArea : CheckPoint105",
+                "LocationArea : CheckPoint106",
+                "LocationArea : CheckPoint107",
+                "LocationArea : CheckPoint108",
+                "LocationArea : CheckPoint109",
+                "LocationArea : CheckPoint110",
+                "LocationArea : CheckPoint111",
+                "LocationArea : CheckPoint112",
+                "LocationArea : CheckPoint113",
+                "LocationArea : CheckPoint114",
+                "LocationArea : CheckPoint115",
+                "LocationArea : CheckPoint116",
+                "LocationArea : CheckPoint117",
+                "LocationArea : CheckPoint118",
+                "LocationArea : CheckPoint119",
+                "LocationArea : CheckPoint120",
+                "LocationArea : CheckPoint121",
+                "LocationArea : CheckPoint122",
+                "LocationArea : CheckPoint123",
+                "LocationArea : CheckPoint124",
+                "LocationArea : CheckPoint125",
+                "LocationArea : CheckPoint126",
+                "LocationArea : CheckPoint127",
+                "LocationArea : CheckPoint128",
+                "LocationArea : CheckPoint129",
+                "LocationArea : CheckPoint130",
+                "LocationArea : CheckPoint131",
+                "LocationArea : CheckPoint132",
+                "LocationArea : CheckPoint133",
+                "LocationArea : CheckPoint134",
+                "LocationArea : CheckPoint135",
+                "LocationArea : CheckPoint136",
+                "LocationArea : CheckPoint137",
+                "LocationArea : CheckPoint138",
+                "LocationArea : CheckPoint139",
+                "LocationArea : CheckPoint140",
+                "LocationArea : CheckPoint141",
+                "LocationArea : CheckPoint142",
+                "LocationArea : CheckPoint143",
+                "LocationArea : CheckPoint144",
+                "LocationArea : CheckPoint145",
+                "LocationArea : CheckPoint146",
+                "LocationArea : CheckPoint147"
+            ]
+        },
+        "tower": {
+            "objNames": [
+                "LocationArea : Tower01",
+                "LocationArea : Tower02",
+                "LocationArea : Tower03",
+                "LocationArea : Tower04",
+                "LocationArea : Tower05",
+                "LocationArea : Tower06",
+                "LocationArea : Tower07",
+                "LocationArea : Tower08",
+                "LocationArea : Tower09",
+                "LocationArea : Tower10",
+                "LocationArea : Tower11",
+                "LocationArea : Tower12",
+                "LocationArea : Tower13",
+                "LocationArea : Tower14",
+                "LocationArea : Tower15"
+            ]
+        }
     },
-    "lightroot": {
-      "objNames": [
-        "LocationArea : CheckPoint000",
-        "LocationArea : CheckPoint001",
-        "LocationArea : CheckPoint002",
-        "LocationArea : CheckPoint003",
-        "LocationArea : CheckPoint004",
-        "LocationArea : CheckPoint005",
-        "LocationArea : CheckPoint006",
-        "LocationArea : CheckPoint007",
-        "LocationArea : CheckPoint008",
-        "LocationArea : CheckPoint009",
-        "LocationArea : CheckPoint010",
-        "LocationArea : CheckPoint011",
-        "LocationArea : CheckPoint012",
-        "LocationArea : CheckPoint013",
-        "LocationArea : CheckPoint014",
-        "LocationArea : CheckPoint015",
-        "LocationArea : CheckPoint016",
-        "LocationArea : CheckPoint017",
-        "LocationArea : CheckPoint018",
-        "LocationArea : CheckPoint019",
-        "LocationArea : CheckPoint020",
-        "LocationArea : CheckPoint021",
-        "LocationArea : CheckPoint022",
-        "LocationArea : CheckPoint023",
-        "LocationArea : CheckPoint024",
-        "LocationArea : CheckPoint025",
-        "LocationArea : CheckPoint026",
-        "LocationArea : CheckPoint027",
-        "LocationArea : CheckPoint028",
-        "LocationArea : CheckPoint029",
-        "LocationArea : CheckPoint030",
-        "LocationArea : CheckPoint031",
-        "LocationArea : CheckPoint032",
-        "LocationArea : CheckPoint033",
-        "LocationArea : CheckPoint034",
-        "LocationArea : CheckPoint035",
-        "LocationArea : CheckPoint036",
-        "LocationArea : CheckPoint037",
-        "LocationArea : CheckPoint038",
-        "LocationArea : CheckPoint039",
-        "LocationArea : CheckPoint040",
-        "LocationArea : CheckPoint041",
-        "LocationArea : CheckPoint042",
-        "LocationArea : CheckPoint043",
-        "LocationArea : CheckPoint044",
-        "LocationArea : CheckPoint045",
-        "LocationArea : CheckPoint046",
-        "LocationArea : CheckPoint047",
-        "LocationArea : CheckPoint048",
-        "LocationArea : CheckPoint049",
-        "LocationArea : CheckPoint050",
-        "LocationArea : CheckPoint051",
-        "LocationArea : CheckPoint052",
-        "LocationArea : CheckPoint053",
-        "LocationArea : CheckPoint054",
-        "LocationArea : CheckPoint055",
-        "LocationArea : CheckPoint056",
-        "LocationArea : CheckPoint057",
-        "LocationArea : CheckPoint058",
-        "LocationArea : CheckPoint059",
-        "LocationArea : CheckPoint060",
-        "LocationArea : CheckPoint061",
-        "LocationArea : CheckPoint062",
-        "LocationArea : CheckPoint063",
-        "LocationArea : CheckPoint064",
-        "LocationArea : CheckPoint065",
-        "LocationArea : CheckPoint066",
-        "LocationArea : CheckPoint067",
-        "LocationArea : CheckPoint068",
-        "LocationArea : CheckPoint069",
-        "LocationArea : CheckPoint070",
-        "LocationArea : CheckPoint071",
-        "LocationArea : CheckPoint072",
-        "LocationArea : CheckPoint073",
-        "LocationArea : CheckPoint074",
-        "LocationArea : CheckPoint075",
-        "LocationArea : CheckPoint076",
-        "LocationArea : CheckPoint077",
-        "LocationArea : CheckPoint078",
-        "LocationArea : CheckPoint079",
-        "LocationArea : CheckPoint080",
-        "LocationArea : CheckPoint081",
-        "LocationArea : CheckPoint082",
-        "LocationArea : CheckPoint083",
-        "LocationArea : CheckPoint084",
-        "LocationArea : CheckPoint085",
-        "LocationArea : CheckPoint086",
-        "LocationArea : CheckPoint087",
-        "LocationArea : CheckPoint088",
-        "LocationArea : CheckPoint089",
-        "LocationArea : CheckPoint090",
-        "LocationArea : CheckPoint091",
-        "LocationArea : CheckPoint092",
-        "LocationArea : CheckPoint093",
-        "LocationArea : CheckPoint094",
-        "LocationArea : CheckPoint095",
-        "LocationArea : CheckPoint096",
-        "LocationArea : CheckPoint097",
-        "LocationArea : CheckPoint098",
-        "LocationArea : CheckPoint099",
-        "LocationArea : CheckPoint100",
-        "LocationArea : CheckPoint101",
-        "LocationArea : CheckPoint102",
-        "LocationArea : CheckPoint103",
-        "LocationArea : CheckPoint104",
-        "LocationArea : CheckPoint105",
-        "LocationArea : CheckPoint106",
-        "LocationArea : CheckPoint107",
-        "LocationArea : CheckPoint108",
-        "LocationArea : CheckPoint109",
-        "LocationArea : CheckPoint110",
-        "LocationArea : CheckPoint111",
-        "LocationArea : CheckPoint112",
-        "LocationArea : CheckPoint113",
-        "LocationArea : CheckPoint114",
-        "LocationArea : CheckPoint115",
-        "LocationArea : CheckPoint116",
-        "LocationArea : CheckPoint117",
-        "LocationArea : CheckPoint118",
-        "LocationArea : CheckPoint119",
-        "LocationArea : CheckPoint120",
-        "LocationArea : CheckPoint121",
-        "LocationArea : CheckPoint122",
-        "LocationArea : CheckPoint123",
-        "LocationArea : CheckPoint124",
-        "LocationArea : CheckPoint125",
-        "LocationArea : CheckPoint126",
-        "LocationArea : CheckPoint127",
-        "LocationArea : CheckPoint128",
-        "LocationArea : CheckPoint129",
-        "LocationArea : CheckPoint130",
-        "LocationArea : CheckPoint131",
-        "LocationArea : CheckPoint132",
-        "LocationArea : CheckPoint133",
-        "LocationArea : CheckPoint134",
-        "LocationArea : CheckPoint135",
-        "LocationArea : CheckPoint136",
-        "LocationArea : CheckPoint137",
-        "LocationArea : CheckPoint138",
-        "LocationArea : CheckPoint139",
-        "LocationArea : CheckPoint140",
-        "LocationArea : CheckPoint141",
-        "LocationArea : CheckPoint142",
-        "LocationArea : CheckPoint143",
-        "LocationArea : CheckPoint144",
-        "LocationArea : CheckPoint145",
-        "LocationArea : CheckPoint146",
-        "LocationArea : CheckPoint147"
-      ]
-    },
-    "tower": {
-      "objNames": [
-        "LocationArea : Tower01",
-        "LocationArea : Tower02",
-        "LocationArea : Tower03",
-        "LocationArea : Tower04",
-        "LocationArea : Tower05",
-        "LocationArea : Tower06",
-        "LocationArea : Tower07",
-        "LocationArea : Tower08",
-        "LocationArea : Tower09",
-        "LocationArea : Tower10",
-        "LocationArea : Tower11",
-        "LocationArea : Tower12",
-        "LocationArea : Tower13",
-        "LocationArea : Tower14",
-        "LocationArea : Tower15"
-      ]
-    }
-  },
-  "segments": [
-    {
-      "name": "Camera Work in the Depths",
-      "points": [
+    "segments": [
         {
-          "layer": "surface",
-          "objName": "Npc_AncientDoctor_Hateno",
-          "locationIdx": 0
+            "name": "Camera Work in the Depths",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_AncientDoctor_Hateno",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "LocationArea : DeepHole_HyrulePlains",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "depths",
+                    "objName": "LocationArea : CheckPoint142",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "depths",
+                    "objName": "LocationArea : CheckPoint048",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "depths",
+                    "objName": "Npc_AncientDoctor_Hateno",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
         },
         {
-          "layer": "surface",
-          "objName": "LocationArea : DeepHole_HyrulePlains",
-          "locationIdx": 0
+            "name": "A Mystery in the Depths",
+            "points": [],
+            "visible": false
         },
         {
-          "layer": "depths",
-          "objName": "LocationArea : CheckPoint142",
-          "locationIdx": 0
+            "name": "Spotting Spot",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_RitoHatago001",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "GameRomHorseSpPattern",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
         },
         {
-          "layer": "depths",
-          "objName": "LocationArea : CheckPoint048",
-          "locationIdx": 0
+            "name": "Village Attacked by Pirates",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_SouthernVillage005",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "Npc_SouthernVillage014",
+                    "locationIdx": 0
+                },
+                {
+                    "layer": "surface",
+                    "objName": "LocationArea : Well_0041",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
         },
         {
-          "layer": "depths",
-          "objName": "Npc_AncientDoctor_Hateno",
-          "locationIdx": 0
-        }
-      ],
-      "visible": false
-    },
-    { "name": "A Mystery in the Depths", "points": [], "visible": false },
-    {
-      "name": "Spotting Spot",
-      "points": [
-        {
-          "layer": "surface",
-          "objName": "Npc_RitoHatago001",
-          "locationIdx": 0
+            "name": "Today's Menu",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_BaseCamp001",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
         },
         {
-          "layer": "surface",
-          "objName": "GameRomHorseSpPattern",
-          "locationIdx": 0
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Village Attacked by Pirates",
-      "points": [
-        {
-          "layer": "surface",
-          "objName": "Npc_SouthernVillage005",
-          "locationIdx": 0
+            "name": "The Incomplete Stable",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_RitoHatago001",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
         },
         {
-          "layer": "surface",
-          "objName": "Npc_SouthernVillage014",
-          "locationIdx": 0
+            "name": "WANTED: Stone Talus",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_MercenarySoldier_Hylia001",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
         },
         {
-          "layer": "surface",
-          "objName": "LocationArea : Well_0041",
-          "locationIdx": 0
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Today's Menu",
-      "points": [
-        { "layer": "surface", "objName": "Npc_BaseCamp001", "locationIdx": 0 }
-      ],
-      "visible": false
-    },
-    {
-      "name": "The Incomplete Stable",
-      "points": [
-        { "layer": "surface", "objName": "Npc_RitoHatago001", "locationIdx": 0 }
-      ],
-      "visible": false
-    },
-    {
-      "name": "WANTED: Stone Talus",
-      "points": [
+            "name": "WANTED: Molduga",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_MercenarySoldier_Hylia001",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
         {
-          "layer": "surface",
-          "objName": "Npc_MercenarySoldier_Hylia001",
-          "locationIdx": 0
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "WANTED: Molduga",
-      "points": [
+            "name": "WANTED: Hinox",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_MercenarySoldier_Hylia001",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
         {
-          "layer": "surface",
-          "objName": "Npc_MercenarySoldier_Hylia001",
-          "locationIdx": 0
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "WANTED: Hinox",
-      "points": [
+            "name": "Unknown Sky Giant",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_MercenarySoldier_Hylia001",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
         {
-          "layer": "surface",
-          "objName": "Npc_MercenarySoldier_Hylia001",
-          "locationIdx": 0
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Unknown Sky Giant",
-      "points": [
+            "name": "Unknown Three-Headed Monster",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_MercenarySoldier_Hylia001",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
         {
-          "layer": "surface",
-          "objName": "Npc_MercenarySoldier_Hylia001",
-          "locationIdx": 0
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Unknown Three-Headed Monster",
-      "points": [
+            "name": "Unknown Huge Silhouette",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_MercenarySoldier_Hylia001",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
         {
-          "layer": "surface",
-          "objName": "Npc_MercenarySoldier_Hylia001",
-          "locationIdx": 0
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Unknown Huge Silhouette",
-      "points": [
+            "name": "The Horse Guard's Request",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_HyruleDepthHatago007",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
         {
-          "layer": "surface",
-          "objName": "Npc_MercenarySoldier_Hylia001",
-          "locationIdx": 0
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "The Horse Guard's Request",
-      "points": [
+            "name": "A Picture for Outskirt Stable",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_HyruleDepthHatago005",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
         {
-          "layer": "surface",
-          "objName": "Npc_HyruleDepthHatago007",
-          "locationIdx": 0
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "A Picture for Outskirt Stable",
-      "points": [
+            "name": "Feathered Fugitives",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_Road_020",
+                    "locationIdx": 1
+                }
+            ],
+            "visible": false
+        },
         {
-          "layer": "surface",
-          "objName": "Npc_HyruleDepthHatago005",
-          "locationIdx": 0
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Feathered Fugitives",
-      "points": [
-        { "layer": "surface", "objName": "Npc_Road_020", "locationIdx": 1 }
-      ],
-      "visible": false
-    },
-    {
-      "name": "A Picture for Riverside Stable",
-      "points": [
+            "name": "A Picture for Riverside Stable",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_RiverSideHatago003",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
         {
-          "layer": "surface",
-          "objName": "Npc_RiverSideHatago003",
-          "locationIdx": 0
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Horse-Drawn Dreams",
-      "points": [
+            "name": "Horse-Drawn Dreams",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_HyruleWestHatago001",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
         {
-          "layer": "surface",
-          "objName": "Npc_HyruleWestHatago001",
-          "locationIdx": 0
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "A Picture for New Serenne Stable",
-      "points": [
+            "name": "A Picture for New Serenne Stable",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_HyruleWestHatago005",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
         {
-          "layer": "surface",
-          "objName": "Npc_HyruleWestHatago005",
-          "locationIdx": 0
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Genli's Home Cooking",
-      "points": [
+            "name": "Genli's Home Cooking",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_HighMountain033",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
         {
-          "layer": "surface",
-          "objName": "Npc_HighMountain033",
-          "locationIdx": 0
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Treasure of the Secret Springs",
-      "points": [
-        { "layer": "surface", "objName": "Npc_Tulin_Sage", "locationIdx": 1 }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Molli the Fletcher's Quest",
-      "points": [
+            "name": "Treasure of the Secret Springs",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_Tulin_Sage",
+                    "locationIdx": 1
+                }
+            ],
+            "visible": false
+        },
         {
-          "layer": "surface",
-          "objName": "Npc_HighMountain003",
-          "locationIdx": 0
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Legacy of the Rito",
-      "points": [
+            "name": "Molli the Fletcher's Quest",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_HighMountain003",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
         {
-          "layer": "surface",
-          "objName": "Npc_ValleyVillage010",
-          "locationIdx": 0
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Fish for Fletching",
-      "points": [
+            "name": "Legacy of the Rito",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_ValleyVillage010",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
         {
-          "layer": "surface",
-          "objName": "Npc_HighMountain012",
-          "locationIdx": 0
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "The Rito Rope Bridge",
-      "points": [
+            "name": "Fish for Fletching",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_HighMountain012",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
         {
-          "layer": "surface",
-          "objName": "Npc_HighMountain037",
-          "locationIdx": 3
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "A Picture for Tabantha Bridge Stable",
-      "points": [
+            "name": "The Rito Rope Bridge",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_HighMountain037",
+                    "locationIdx": 3
+                }
+            ],
+            "visible": false
+        },
         {
-          "layer": "surface",
-          "objName": "Npc_TabantaBridgeHatago006",
-          "locationIdx": 0
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "A Picture for Snowfield Stable",
-      "points": [
+            "name": "A Picture for Tabantha Bridge Stable",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_TabantaBridgeHatago006",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
         {
-          "layer": "surface",
-          "objName": "Npc_TabantaHatago004",
-          "locationIdx": 0
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Crossing the Cold Pool",
-      "points": [
+            "name": "A Picture for Snowfield Stable",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_TabantaHatago004",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
         {
-          "layer": "surface",
-          "objName": "Npc_HighMountain025",
-          "locationIdx": 0
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Open the Door",
-      "points": [
+            "name": "Crossing the Cold Pool",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_HighMountain025",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
         {
-          "layer": "surface",
-          "objName": "Npc_HighMountain040",
-          "locationIdx": 0
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Supply-Eyeing Fliers",
-      "points": [
+            "name": "Open the Door",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_HighMountain040",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
         {
-          "layer": "surface",
-          "objName": "Npc_HighMountain013",
-          "locationIdx": 1
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "The Blocked Cave",
-      "points": [
+            "name": "Supply-Eyeing Fliers",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_HighMountain013",
+                    "locationIdx": 1
+                }
+            ],
+            "visible": false
+        },
         {
-          "layer": "surface",
-          "objName": "Npc_HighMountain011",
-          "locationIdx": 0
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "The Duchess Who Dissapeared",
-      "points": [
-        { "layer": "surface", "objName": "NPC_Lanayru001", "locationIdx": 0 }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Kaneli's Flight Training",
-      "points": [
+            "name": "The Blocked Cave",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_HighMountain011",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
         {
-          "layer": "surface",
-          "objName": "Npc_HighMountain004",
-          "locationIdx": 0
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Cave Mushrooms That Glow",
-      "points": [
-        { "layer": "surface", "objName": "Npc_Attacked_008", "locationIdx": 0 }
-      ],
-      "visible": false
-    },
-    {
-      "name": "The Captured Tent",
-      "points": [
-        { "layer": "surface", "objName": "Npc_Attacked_008", "locationIdx": 1 }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Who Finds the Haven?",
-      "points": [
-        { "layer": "surface", "objName": "Npc_Attacked_008", "locationIdx": 1 }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Whirly Swirly Things",
-      "points": [
-        { "layer": "surface", "objName": "Npc_kokiri012", "locationIdx": 0 }
-      ],
-      "visible": false
-    },
-    {
-      "name": "The Secret Room",
-      "points": [
-        { "layer": "surface", "objName": "Npc_kokiri009", "locationIdx": 0 }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Walton's Treasure Hunt",
-      "points": [
-        { "layer": "surface", "objName": "Npc_kokiri002", "locationIdx": 0 }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Amber Dealer",
-      "points": [
-        { "layer": "surface", "objName": "Npc_Goron018", "locationIdx": 0 }
-      ],
-      "visible": false
-    },
-    {
-      "name": "The Ancient City Gorondia!",
-      "points": [
-        { "layer": "surface", "objName": "Npc_Goron031", "locationIdx": 0 }
-      ],
-      "visible": false
-    },
-    {
-      "name": "The Ancient City Gorondia?",
-      "points": [
-        { "layer": "surface", "objName": "Npc_Goron031", "locationIdx": 0 }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Soul of the Gorons",
-      "points": [
-        { "layer": "surface", "objName": "Npc_Goron017", "locationIdx": 0 }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Moon-Gazing Gorons",
-      "points": [
-        { "layer": "surface", "objName": "Npc_goron001", "locationIdx": 0 }
-      ],
-      "visible": false
-    },
-    {
-      "name": "The Hidden Teasure at Lizard Lakes",
-      "points": [
-        { "layer": "surface", "objName": "Npc_Goron006", "locationIdx": 0 }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Simmerstone Springs",
-      "points": [
+            "name": "The Duchess Who Dissapeared",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "NPC_Lanayru001",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
         {
-          "layer": "surface",
-          "objName": "Npc_DeathEastHatago_002",
-          "locationIdx": 0
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Cash In on Ripened Flint",
-      "points": [
-        { "layer": "surface", "objName": "Npc_Goron_Cafe002", "locationIdx": 0 }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Meat for Meat",
-      "points": [
+            "name": "Kaneli's Flight Training",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_HighMountain004",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
         {
-          "layer": "surface",
-          "objName": "Npc_Goron_Cafe03 : Obj_MeatRock_Miasma_A_02",
-          "locationIdx": 0
-        }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Rock Roast or Dust",
-      "points": [
+            "name": "Cave Mushrooms That Glow",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_Attacked_008",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
         {
-          "layer": "surface",
-          "objName": "Npc_Goron_Cafe001 : Obj_MeatRock_Miasma_A_02",
-          "locationIdx": 0
+            "name": "The Captured Tent",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_Attacked_008",
+                    "locationIdx": 1
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "Who Finds the Haven?",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_Attacked_008",
+                    "locationIdx": 1
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "Whirly Swirly Things",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_kokiri012",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "The Secret Room",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_kokiri009",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "Walton's Treasure Hunt",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_kokiri002",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "Amber Dealer",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_Goron018",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "The Ancient City Gorondia!",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_Goron031",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "The Ancient City Gorondia?",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_Goron031",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "Soul of the Gorons",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_Goron017",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "Moon-Gazing Gorons",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_goron001",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "The Hidden Teasure at Lizard Lakes",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_Goron006",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "Simmerstone Springs",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_DeathEastHatago_002",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "Cash In on Ripened Flint",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_Goron_Cafe002",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "Meat for Meat",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_Goron_Cafe03 : Obj_MeatRock_Miasma_A_02",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "Rock Roast or Dust",
+            "points": [
+                {
+                    "layer": "surface",
+                    "objName": "Npc_Goron_Cafe001 : Obj_MeatRock_Miasma_A_02",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "Mine-Cart Land: Open for Business!",
+            "points": [
+                {
+                    "layer": "cave",
+                    "objName": "Npc_Gaman02",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "Mine-Cart Land: Quickshot Course",
+            "points": [
+                {
+                    "layer": "cave",
+                    "objName": "Npc_Gaman01",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": false
+        },
+        {
+            "name": "Mine-Cart Land: Death Mountain",
+            "points": [
+                {
+                    "layer": "cave",
+                    "objName": "Npc_Gaman02",
+                    "locationIdx": 0
+                }
+            ],
+            "visible": true
+        },
+        {
+            "name": "A Picture for Woodland Stable",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "A Picture for Foothill Stable",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "Fell into a Well!",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "The Abandoned Laborer",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "The Treasure Hunters",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "Misko's Cave of Chests",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "Misko's Treasure: The Fierce Diety",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "Misko's Treasure: Twins Manuscript",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "Misko's Treasure: Pirate Manuscript",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "Misko's Treasure: Heroines Manuscript",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "Misko's Treasure of Awakening I",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "Misko's Treasure of Awakening II",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "Misko's Treasure of Awakening III",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "The Tarrey Town Race Is On!",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "Secrets Within",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "Master the Vehicle Prototype",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "Home on Arrange",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "Strongest in the World",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "The Gathering Pirates",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "A Picure for East Akkala Stable",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "Eldin's Colossal Fossil",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "Hebra's Colossal Fossil",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "Gerudo's Colossal Fossil",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "One-Hit Wonder!",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "A Picture for South Akkala Stable",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "True Treasure",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "Secret Treasure under the Great Fish",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "The Never-Ending Lecture",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "The Moonlit Princess",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "The Fort at Ja'Abu Ridge",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "Glory of the Zora",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "A Crabulous Deal",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "A Wife Wafted Away",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "A Token of Friendship",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "A Picture for Wetland Stable",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "An Uninvited Guest",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "The Blue Stone",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "The Ultimate Dish?",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "Mired in Muck",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "Out of the Inn",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "Follow the Cuccos",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "A Trip through history",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "Codgers' Quarrel",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "Gloom-Borne Illness",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "A New Champion's Tunic",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "Teach Me a Lesson I",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "Teach Me a Lesson II",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "Dantz's Price Cows",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "Homegrown in Hateno",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "Photographing a Chuchu",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "Uma's Garden",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "Manny's Beloved",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "Lurelin Resort Project",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "Dad's Blue Shirt",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "A Way to Trade, Washed Away",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "Rattled Ralera",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "A Picture for Dueling Peaks Stable",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "A Bottle Cry for Help",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "Seeking the Pirate Hideout",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "Ousting the Giants",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "A Picture for Lakeside Stable",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "A Picture for Highland Stable",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "The Heroines' Secret",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "Treasure of the Gerudo Desert",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "Pride of the Gerudo",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "Dalia's Game",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "The Mysterious Eighth",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "The Missing Owner",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "To the Ruins!",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "Decorate with Passion",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "Lost in the Dunes",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "A Picture for the Closed Stable I",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "A Picture for the Closed Stable II",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "Piaffe, Packed Away",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "Gleeok Guts",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "Disaster in Gerudo Canyon",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "The Great Tumbleweed Purge",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "Heat-Endurance Contest!",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "Cold-Endurance Contest!",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "The Iceless Icehouse",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "Where Are the Wells?",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "Ancient Blades Below",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "The North Lomei Prophecy",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "The Lomei Labyrinth Island Prophecy",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "The South Lomei Prohecy",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "Goddess Statue of Wisdom",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "Goddess Statue of Power",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "Goddess Statue of Courage",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "The Mother Goddess Statue",
+            "points": [],
+            "visible": false
+        },
+        {
+            "name": "The Shrine Explorer",
+            "points": [],
+            "visible": false
         }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Mine-Cart Land: Open for Business!",
-      "points": [
-        { "layer": "cave", "objName": "Npc_Gaman02", "locationIdx": 0 }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Mine-Cart Land: Quickshot Course",
-      "points": [
-        { "layer": "cave", "objName": "Npc_Gaman01", "locationIdx": 0 }
-      ],
-      "visible": false
-    },
-    {
-      "name": "Mine-Cart Land: Death Mountain",
-      "points": [
-        { "layer": "cave", "objName": "Npc_Gaman02", "locationIdx": 0 }
-      ],
-      "visible": true
-    },
-    { "name": "A Picture for Woodland Stable", "points": [], "visible": false },
-    { "name": "A Picture for Foothill Stable", "points": [], "visible": false },
-    { "name": "Fell into a Well!", "points": [], "visible": false },
-    { "name": "The Abandoned Laborer", "points": [], "visible": false },
-    { "name": "The Treasure Hunters", "points": [], "visible": false },
-    { "name": "Misko's Cave of Chests", "points": [], "visible": false },
-    {
-      "name": "Misko's Treasure: The Fierce Diety",
-      "points": [],
-      "visible": false
-    },
-    {
-      "name": "Misko's Treasure: Twins Manuscript",
-      "points": [],
-      "visible": false
-    },
-    {
-      "name": "Misko's Treasure: Pirate Manuscript",
-      "points": [],
-      "visible": false
-    },
-    {
-      "name": "Misko's Treasure: Heroines Manuscript",
-      "points": [],
-      "visible": false
-    },
-    {
-      "name": "Misko's Treasure of Awakening I",
-      "points": [],
-      "visible": false
-    },
-    {
-      "name": "Misko's Treasure of Awakening II",
-      "points": [],
-      "visible": false
-    },
-    {
-      "name": "Misko's Treasure of Awakening III",
-      "points": [],
-      "visible": false
-    },
-    { "name": "The Tarrey Town Race Is On!", "points": [], "visible": false },
-    { "name": "Secrets Within", "points": [], "visible": false },
-    { "name": "Master the Vehicle Prototype", "points": [], "visible": false },
-    { "name": "Home on Arrange", "points": [], "visible": false },
-    { "name": "Strongest in the World", "points": [], "visible": false },
-    { "name": "The Gathering Pirates", "points": [], "visible": false },
-    {
-      "name": "A Picure for East Akkala Stable",
-      "points": [],
-      "visible": false
-    },
-    { "name": "Eldin's Colossal Fossil", "points": [], "visible": false },
-    { "name": "Hebra's Colossal Fossil", "points": [], "visible": false },
-    { "name": "Gerudo's Colossal Fossil", "points": [], "visible": false },
-    { "name": "One-Hit Wonder!", "points": [], "visible": false },
-    {
-      "name": "A Picture for South Akkala Stable",
-      "points": [],
-      "visible": false
-    },
-    { "name": "True Treasure", "points": [], "visible": false },
-    {
-      "name": "Secret Treasure under the Great Fish",
-      "points": [],
-      "visible": false
-    },
-    { "name": "The Never-Ending Lecture", "points": [], "visible": false },
-    { "name": "The Moonlit Princess", "points": [], "visible": false },
-    { "name": "The Fort at Ja'Abu Ridge", "points": [], "visible": false },
-    { "name": "Glory of the Zora", "points": [], "visible": false },
-    { "name": "A Crabulous Deal", "points": [], "visible": false },
-    { "name": "A Wife Wafted Away", "points": [], "visible": false },
-    { "name": "A Token of Friendship", "points": [], "visible": false },
-    { "name": "A Picture for Wetland Stable", "points": [], "visible": false },
-    { "name": "An Uninvited Guest", "points": [], "visible": false },
-    { "name": "The Blue Stone", "points": [], "visible": false },
-    { "name": "The Ultimate Dish?", "points": [], "visible": false },
-    { "name": "Mired in Muck", "points": [], "visible": false },
-    { "name": "Out of the Inn", "points": [], "visible": false },
-    { "name": "Follow the Cuccos", "points": [], "visible": false },
-    { "name": "A Trip through history", "points": [], "visible": false },
-    { "name": "Codgers' Quarrel", "points": [], "visible": false },
-    { "name": "Gloom-Borne Illness", "points": [], "visible": false },
-    { "name": "A New Champion's Tunic", "points": [], "visible": false },
-    { "name": "Teach Me a Lesson I", "points": [], "visible": false },
-    { "name": "Teach Me a Lesson II", "points": [], "visible": false },
-    { "name": "Dantz's Price Cows", "points": [], "visible": false },
-    { "name": "Homegrown in Hateno", "points": [], "visible": false },
-    { "name": "Photographing a Chuchu", "points": [], "visible": false },
-    { "name": "Uma's Garden", "points": [], "visible": false },
-    { "name": "Manny's Beloved", "points": [], "visible": false },
-    { "name": "Lurelin Resort Project", "points": [], "visible": false },
-    { "name": "Dad's Blue Shirt", "points": [], "visible": false },
-    { "name": "A Way to Trade, Washed Away", "points": [], "visible": false },
-    { "name": "Rattled Ralera", "points": [], "visible": false },
-    {
-      "name": "A Picture for Dueling Peaks Stable",
-      "points": [],
-      "visible": false
-    },
-    { "name": "A Bottle Cry for Help", "points": [], "visible": false },
-    { "name": "Seeking the Pirate Hideout", "points": [], "visible": false },
-    { "name": "Ousting the Giants", "points": [], "visible": false },
-    { "name": "A Picture for Lakeside Stable", "points": [], "visible": false },
-    { "name": "A Picture for Highland Stable", "points": [], "visible": false },
-    { "name": "The Heroines' Secret", "points": [], "visible": false },
-    { "name": "Treasure of the Gerudo Desert", "points": [], "visible": false },
-    { "name": "Pride of the Gerudo", "points": [], "visible": false },
-    { "name": "Dalia's Game", "points": [], "visible": false },
-    { "name": "The Mysterious Eighth", "points": [], "visible": false },
-    { "name": "The Missing Owner", "points": [], "visible": false },
-    { "name": "To the Ruins!", "points": [], "visible": false },
-    { "name": "Decorate with Passion", "points": [], "visible": false },
-    { "name": "Lost in the Dunes", "points": [], "visible": false },
-    {
-      "name": "A Picture for the Closed Stable I",
-      "points": [],
-      "visible": false
-    },
-    {
-      "name": "A Picture for the Closed Stable II",
-      "points": [],
-      "visible": false
-    },
-    { "name": "Piaffe, Packed Away", "points": [], "visible": false },
-    { "name": "Gleeok Guts", "points": [], "visible": false },
-    { "name": "Disaster in Gerudo Canyon", "points": [], "visible": false },
-    { "name": "The Great Tumbleweed Purge", "points": [], "visible": false },
-    { "name": "Heat-Endurance Contest!", "points": [], "visible": false },
-    { "name": "Cold-Endurance Contest!", "points": [], "visible": false },
-    { "name": "The Iceless Icehouse", "points": [], "visible": false },
-    { "name": "Where Are the Wells?", "points": [], "visible": false },
-    { "name": "Ancient Blades Below", "points": [], "visible": false },
-    { "name": "The North Lomei Prophecy", "points": [], "visible": false },
-    {
-      "name": "The Lomei Labyrinth Island Prophecy",
-      "points": [],
-      "visible": false
-    },
-    { "name": "The South Lomei Prohecy", "points": [], "visible": false },
-    { "name": "Goddess Statue of Wisdom", "points": [], "visible": false },
-    { "name": "Goddess Statue of Power", "points": [], "visible": false },
-    { "name": "Goddess Statue of Courage", "points": [], "visible": false },
-    { "name": "The Mother Goddess Statue", "points": [], "visible": false },
-    { "name": "The Shrine Explorer", "points": [], "visible": false }
-  ]
+    ]
 }
