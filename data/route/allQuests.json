@@ -1077,7 +1077,7 @@
           "locationIdx": 0
         }
       ],
-      "visible": true
+      "visible": false
     },
     {
       "name": "Misko's Treasure of Awakening I",
@@ -1141,7 +1141,12 @@
     {
       "name": "Secrets Within",
       "points": [
-        { "layer": "surface", "objName": "Npc_BaseCamp008", "locationIdx": 2 }
+        { "layer": "surface", "objName": "Npc_BaseCamp008", "locationIdx": 2 },
+        {
+          "layer": "surface",
+          "objName": "RBox_Field_L_02 : SpObj_WindGenerator_Capsule_A_01 : SpObj_FastWheel_Capsule_A_01 : SpObj_BalloonEnvelope_Capsule_A_01 : SpObj_FastWheel_Capsule_B_01 : SpObj_Rocket_Capsule_A_01 : SpObj_ControlStick_Capsule_A_01",
+          "locationIdx": 0
+        }
       ],
       "visible": false
     },
@@ -1159,13 +1164,28 @@
     {
       "name": "Home on Arrange",
       "points": [
-        { "layer": "surface", "objName": "Npc_oasis050", "locationIdx": 0 }
+        { "layer": "surface", "objName": "Npc_oasis050", "locationIdx": 0 },
+        {
+          "layer": "surface",
+          "objName": "Npc_AncientAssistant003",
+          "locationIdx": 0
+        }
       ],
       "visible": false
     },
     {
       "name": "Strongest in the World",
       "points": [
+        {
+          "layer": "surface",
+          "objName": "Npc_Attacked_005 : Weapon_Sword_112 : Item_Enemy_77 : Weapon_Shield_002",
+          "locationIdx": 0
+        },
+        {
+          "layer": "surface",
+          "objName": "Enemy_Lynel_Junior : Weapon_Bow_009 : Weapon_Lsword_112",
+          "locationIdx": 0
+        },
         {
           "layer": "surface",
           "objName": "Npc_Attacked_005 : Weapon_Sword_112 : Item_Enemy_77 : Weapon_Shield_002",
@@ -1181,6 +1201,11 @@
           "layer": "surface",
           "objName": "Npc_TamourHatago001",
           "locationIdx": 0
+        },
+        {
+          "layer": "surface",
+          "objName": "Enemy_Army_Manager_112",
+          "locationIdx": 0
         }
       ],
       "visible": false
@@ -1191,6 +1216,11 @@
         {
           "layer": "surface",
           "objName": "Npc_TamourHatago005",
+          "locationIdx": 0
+        },
+        {
+          "layer": "surface",
+          "objName": "LocationArea : Akkare_OctaPond",
           "locationIdx": 0
         }
       ],
@@ -1203,6 +1233,11 @@
           "layer": "surface",
           "objName": "Npc_Remains_Fancier001",
           "locationIdx": 1
+        },
+        {
+          "layer": "surface",
+          "objName": "FossilExcavationArea",
+          "locationIdx": 1
         }
       ],
       "visible": false
@@ -1211,10 +1246,11 @@
       "name": "Hebra's Colossal Fossil",
       "points": [
         {
-          "layer": "cave",
+          "layer": "surface",
           "objName": "Npc_Remains_Fancier001",
           "locationIdx": 1
-        }
+        },
+        { "layer": "cave", "objName": "FossilExcavationArea", "locationIdx": 8 }
       ],
       "visible": false
     },
@@ -1222,10 +1258,11 @@
       "name": "Gerudo's Colossal Fossil",
       "points": [
         {
-          "layer": "cave",
+          "layer": "surface",
           "objName": "Npc_Remains_Fancier001",
-          "locationIdx": 0
-        }
+          "locationIdx": 1
+        },
+        { "layer": "cave", "objName": "FossilExcavationArea", "locationIdx": 6 }
       ],
       "visible": false
     },
@@ -1247,6 +1284,11 @@
           "layer": "surface",
           "objName": "Npc_TamourPlainHatago_004",
           "locationIdx": 0
+        },
+        {
+          "layer": "surface",
+          "objName": "TwnObj_Village_IchikaraBell_A_01",
+          "locationIdx": 0
         }
       ],
       "visible": false
@@ -1254,14 +1296,20 @@
     {
       "name": "True Treasure",
       "points": [
-        { "layer": "surface", "objName": "Npc_Zora008", "locationIdx": 0 }
+        { "layer": "surface", "objName": "Npc_Zora008", "locationIdx": 0 },
+        { "layer": "cave", "objName": "Npc_Bottle_Mes001", "locationIdx": 0 }
       ],
       "visible": false
     },
     {
       "name": "Secret Treasure under the Great Fish",
       "points": [
-        { "layer": "surface", "objName": "Npc_ZoraB001", "locationIdx": 2 }
+        { "layer": "surface", "objName": "Npc_ZoraB001", "locationIdx": 2 },
+        {
+          "layer": "cave",
+          "objName": "TBox_Field_Stone : Armor_181_Head",
+          "locationIdx": 0
+        }
       ],
       "visible": false
     },
@@ -1272,6 +1320,11 @@
           "layer": "surface",
           "objName": "Npc_Zora_Attendant001",
           "locationIdx": 2
+        },
+        {
+          "layer": "surface",
+          "objName": "TBox_Field_Stone : Armor_006_Head",
+          "locationIdx": 0
         }
       ],
       "visible": false
@@ -1279,7 +1332,12 @@
     {
       "name": "The Moonlit Princess",
       "points": [
-        { "layer": "surface", "objName": "Npc_Zora014", "locationIdx": 0 }
+        { "layer": "surface", "objName": "Npc_Zora014", "locationIdx": 0 },
+        {
+          "layer": "surface",
+          "objName": "LocationMarker : TryCape",
+          "locationIdx": 0
+        }
       ],
       "visible": false
     },
@@ -1290,6 +1348,11 @@
           "layer": "surface",
           "objName": "Npc_Zora034 : Item_Enemy_106",
           "locationIdx": 1
+        },
+        {
+          "layer": "surface",
+          "objName": "Npc_SouthHateru007",
+          "locationIdx": 3
         }
       ],
       "visible": false
@@ -1311,6 +1374,8 @@
     {
       "name": "A Wife Wafted Away",
       "points": [
+        { "layer": "surface", "objName": "Npc_Zora006", "locationIdx": 0 },
+        { "layer": "sky", "objName": "Npc_Zora010_SkyField", "locationIdx": 0 },
         { "layer": "surface", "objName": "Npc_Zora006", "locationIdx": 0 }
       ],
       "visible": false
@@ -1318,7 +1383,12 @@
     {
       "name": "A Token of Friendship",
       "points": [
-        { "layer": "surface", "objName": "Npc_Zora025", "locationIdx": 0 }
+        { "layer": "surface", "objName": "Npc_Zora025", "locationIdx": 0 },
+        {
+          "layer": "cave",
+          "objName": "TBox_Field_Stone : Armor_006_Lower",
+          "locationIdx": 0
+        }
       ],
       "visible": false
     },
@@ -1329,6 +1399,11 @@
           "layer": "surface",
           "objName": "Npc_NorthHatelHatago006",
           "locationIdx": 0
+        },
+        {
+          "layer": "sky",
+          "objName": "SkyObj_HighwayStartIsland_A_03",
+          "locationIdx": 69
         }
       ],
       "visible": false
@@ -1340,6 +1415,11 @@
           "layer": "surface",
           "objName": "Npc_NorthHatelHatago002",
           "locationIdx": 0
+        },
+        {
+          "layer": "surface",
+          "objName": "Enemy_Moriblin_Middle",
+          "locationIdx": 4
         }
       ],
       "visible": false
@@ -1347,7 +1427,12 @@
     {
       "name": "The Blue Stone",
       "points": [
-        { "layer": "surface", "objName": "Npc_Zora013", "locationIdx": 0 }
+        { "layer": "surface", "objName": "Npc_Zora013", "locationIdx": 0 },
+        {
+          "layer": "cave",
+          "objName": "FldObj_RockZoraCliff_A_03_break_02",
+          "locationIdx": 12
+        }
       ],
       "visible": false
     },
@@ -1365,23 +1450,276 @@
       ],
       "visible": false
     },
-    { "name": "Out of the Inn", "points": [], "visible": false },
-    { "name": "Follow the Cuccos", "points": [], "visible": false },
-    { "name": "A Trip through history", "points": [], "visible": false },
-    { "name": "Codgers' Quarrel", "points": [], "visible": false },
-    { "name": "Gloom-Borne Illness", "points": [], "visible": false },
-    { "name": "A New Champion's Tunic", "points": [], "visible": false },
-    { "name": "Teach Me a Lesson I", "points": [], "visible": false },
-    { "name": "Teach Me a Lesson II", "points": [], "visible": false },
-    { "name": "Dantz's Price Cows", "points": [], "visible": false },
-    { "name": "Homegrown in Hateno", "points": [], "visible": false },
-    { "name": "Photographing a Chuchu", "points": [], "visible": false },
-    { "name": "Uma's Garden", "points": [], "visible": false },
-    { "name": "Manny's Beloved", "points": [], "visible": false },
-    { "name": "Lurelin Resort Project", "points": [], "visible": false },
-    { "name": "Dad's Blue Shirt", "points": [], "visible": false },
-    { "name": "A Way to Trade, Washed Away", "points": [], "visible": false },
-    { "name": "Rattled Ralera", "points": [], "visible": false },
+    {
+      "name": "Out of the Inn",
+      "points": [
+        {
+          "layer": "surface",
+          "objName": "Npc_FirstColony004",
+          "locationIdx": 1
+        },
+        { "layer": "surface", "objName": "Npc_Kakariko011", "locationIdx": 1 },
+        {
+          "layer": "surface",
+          "objName": "Npc_FirstColony004",
+          "locationIdx": 1
+        }
+      ],
+      "visible": false
+    },
+    {
+      "name": "Follow the Cuccos",
+      "points": [
+        { "layer": "surface", "objName": "Npc_Kakariko014", "locationIdx": 0 },
+        {
+          "layer": "surface",
+          "objName": "Item_Material_04",
+          "locationIdx": 410
+        }
+      ],
+      "visible": false
+    },
+    {
+      "name": "A Trip through history",
+      "points": [
+        {
+          "layer": "surface",
+          "objName": "Npc_Kakariko_Road_019",
+          "locationIdx": 0
+        },
+        {
+          "layer": "surface",
+          "objName": "TwnObj_Village_InvestigatorDiary_A_05",
+          "locationIdx": 0
+        },
+        {
+          "layer": "surface",
+          "objName": "TwnObj_Village_InvestigatorDiary_A_03",
+          "locationIdx": 0
+        },
+        {
+          "layer": "surface",
+          "objName": "TwnObj_Village_InvestigatorDiary_A_04",
+          "locationIdx": 0
+        },
+        {
+          "layer": "surface",
+          "objName": "TwnObj_Village_InvestigatorDiary_A_07",
+          "locationIdx": 0
+        },
+        {
+          "layer": "surface",
+          "objName": "Npc_Kakariko_Road_019",
+          "locationIdx": 0
+        }
+      ],
+      "visible": false
+    },
+    {
+      "name": "Codgers' Quarrel",
+      "points": [
+        { "layer": "surface", "objName": "Npc_Kakariko014", "locationIdx": 0 },
+        {
+          "layer": "surface",
+          "objName": "Enemy_Bokoblin_Middle : Weapon_Sword_112 : DgnObj_SpikeBall_A : Weapon_Shield_002",
+          "locationIdx": 0
+        },
+        { "layer": "surface", "objName": "Npc_Kakariko013", "locationIdx": 1 },
+        { "layer": "surface", "objName": "Npc_Kakariko014", "locationIdx": 0 }
+      ],
+      "visible": false
+    },
+    {
+      "name": "Gloom-Borne Illness",
+      "points": [
+        { "layer": "surface", "objName": "Npc_Kakariko016", "locationIdx": 0 }
+      ],
+      "visible": false
+    },
+    {
+      "name": "A New Champion's Tunic",
+      "points": [
+        {
+          "layer": "surface",
+          "objName": "TwnObj_HatenoVillage_ZeldaDiary_A_03",
+          "locationIdx": 0
+        },
+        {
+          "layer": "surface",
+          "objName": "TwnObj_HyruleCastleObject_BigTorch_B_01",
+          "locationIdx": 3
+        },
+        {
+          "layer": "surface",
+          "objName": "TwnObj_HyruleCastleObject_BigTorch_B_01",
+          "locationIdx": 2
+        },
+        {
+          "layer": "surface",
+          "objName": "TBox_Field_Iron : Armor_1106_Upper",
+          "locationIdx": 0
+        }
+      ],
+      "visible": false
+    },
+    {
+      "name": "Teach Me a Lesson I",
+      "points": [
+        {
+          "layer": "surface",
+          "objName": "Npc_AncientAssistant001",
+          "locationIdx": 0
+        },
+        { "layer": "surface", "objName": "Area", "locationIdx": 3031 }
+      ],
+      "visible": false
+    },
+    {
+      "name": "Teach Me a Lesson II",
+      "points": [
+        {
+          "layer": "surface",
+          "objName": "Npc_AncientAssistant001",
+          "locationIdx": 0
+        }
+      ],
+      "visible": false
+    },
+    {
+      "name": "Dantz's Price Cows",
+      "points": [
+        {
+          "layer": "surface",
+          "objName": "Npc_HatenoVillage016",
+          "locationIdx": 0
+        }
+      ],
+      "visible": false
+    },
+    {
+      "name": "Homegrown in Hateno",
+      "points": [
+        {
+          "layer": "surface",
+          "objName": "Npc_HatenoVillage",
+          "locationIdx": 0
+        },
+        {
+          "layer": "surface",
+          "objName": "Npc_HatenoVillage_Armed",
+          "locationIdx": 0
+        }
+      ],
+      "visible": false
+    },
+    {
+      "name": "Photographing a Chuchu",
+      "points": [
+        {
+          "layer": "surface",
+          "objName": "Npc_HatenoVillage001",
+          "locationIdx": 0
+        }
+      ],
+      "visible": false
+    },
+    {
+      "name": "Uma's Garden",
+      "points": [
+        {
+          "layer": "surface",
+          "objName": "Npc_HatenoVillage023",
+          "locationIdx": 0
+        }
+      ],
+      "visible": false
+    },
+    {
+      "name": "Manny's Beloved",
+      "points": [
+        {
+          "layer": "surface",
+          "objName": "Npc_HatenoVillage022",
+          "locationIdx": 0
+        },
+        {
+          "layer": "surface",
+          "objName": "Npc_HatenoVillage003",
+          "locationIdx": 0
+        },
+        {
+          "layer": "surface",
+          "objName": "Npc_HatenoVillage022",
+          "locationIdx": 0
+        }
+      ],
+      "visible": false
+    },
+    {
+      "name": "Lurelin Resort Project",
+      "points": [
+        {
+          "layer": "surface",
+          "objName": "Npc_SouthernVillage013",
+          "locationIdx": 1
+        },
+        { "layer": "surface", "objName": "Npc_oasis039", "locationIdx": 1 },
+        {
+          "layer": "surface",
+          "objName": "Npc_SouthernVillage013",
+          "locationIdx": 1
+        }
+      ],
+      "visible": false
+    },
+    {
+      "name": "Dad's Blue Shirt",
+      "points": [
+        {
+          "layer": "surface",
+          "objName": "Npc_SouthernVillage009",
+          "locationIdx": 1
+        },
+        {
+          "layer": "surface",
+          "objName": "TBox_Field_Iron : Armor_175_Upper",
+          "locationIdx": 0
+        }
+      ],
+      "visible": false
+    },
+    {
+      "name": "A Way to Trade, Washed Away",
+      "points": [
+        {
+          "layer": "surface",
+          "objName": "Npc_SouthernVillage014",
+          "locationIdx": 1
+        },
+        {
+          "layer": "surface",
+          "objName": "SpObj_EnergyBank_A_01",
+          "locationIdx": 47
+        },
+        {
+          "layer": "surface",
+          "objName": "Npc_SouthernVillage014",
+          "locationIdx": 1
+        }
+      ],
+      "visible": false
+    },
+    {
+      "name": "Rattled Ralera",
+      "points": [
+        {
+          "layer": "surface",
+          "objName": "Npc_HatenoVillage024",
+          "locationIdx": 0
+        }
+      ],
+      "visible": false
+    },
     {
       "name": "A Picture for Dueling Peaks Stable",
       "points": [
@@ -1389,19 +1727,89 @@
           "layer": "surface",
           "objName": "Npc_HutagoHatago_001",
           "locationIdx": 0
+        },
+        {
+          "layer": "surface",
+          "objName": "LocationMarker : GobyMt",
+          "locationIdx": 0
         }
       ],
       "visible": false
     },
-    { "name": "A Bottle Cry for Help", "points": [], "visible": false },
-    { "name": "Seeking the Pirate Hideout", "points": [], "visible": false },
-    { "name": "Ousting the Giants", "points": [], "visible": false },
+    {
+      "name": "A Bottle Cry for Help",
+      "points": [
+        { "layer": "cave", "objName": "Npc_Road_015", "locationIdx": 0 }
+      ],
+      "visible": false
+    },
+    {
+      "name": "Seeking the Pirate Hideout",
+      "points": [
+        { "layer": "surface", "objName": "NPC_oasis004", "locationIdx": 0 },
+        {
+          "layer": "surface",
+          "objName": "Enemy_Army_Manager_121",
+          "locationIdx": 0
+        },
+        {
+          "layer": "surface",
+          "objName": "Enemy_Army_Manager_123",
+          "locationIdx": 0
+        },
+        {
+          "layer": "surface",
+          "objName": "Enemy_Army_Manager_122",
+          "locationIdx": 0
+        },
+        { "layer": "surface", "objName": "NPC_oasis004", "locationIdx": 0 },
+        {
+          "layer": "cave",
+          "objName": "Enemy_Army_Manager_111",
+          "locationIdx": 0
+        },
+        { "layer": "surface", "objName": "NPC_oasis004", "locationIdx": 0 }
+      ],
+      "visible": false
+    },
+    {
+      "name": "Ousting the Giants",
+      "points": [
+        {
+          "layer": "surface",
+          "objName": "Npc_LakeSideHatago005",
+          "locationIdx": 0
+        },
+        { "layer": "cave", "objName": "Enemy_Giant_Middle", "locationIdx": 0 },
+        {
+          "layer": "cave",
+          "objName": "Enemy_Giant_Junior : GiantGreave_Wood_L",
+          "locationIdx": 0
+        },
+        {
+          "layer": "cave",
+          "objName": "Enemy_Giant_Senior : GiantGreave_Iron_L",
+          "locationIdx": 1
+        },
+        {
+          "layer": "surface",
+          "objName": "Npc_LakeSideHatago005",
+          "locationIdx": 0
+        }
+      ],
+      "visible": false
+    },
     {
       "name": "A Picture for Lakeside Stable",
       "points": [
         {
           "layer": "surface",
           "objName": "Npc_LakeSideHatago004",
+          "locationIdx": 0
+        },
+        {
+          "layer": "surface",
+          "objName": "LocationMarker : FloriaFalls",
           "locationIdx": 0
         }
       ],
@@ -1414,19 +1822,164 @@
           "layer": "surface",
           "objName": "Npc_FaronHatago_001",
           "locationIdx": 0
+        },
+        { "layer": "surface", "objName": "GameRomHorse01L", "locationIdx": 0 }
+      ],
+      "visible": false
+    },
+    {
+      "name": "The Heroines' Secret",
+      "points": [
+        { "layer": "surface", "objName": "Npc_oasis027", "locationIdx": 0 },
+        {
+          "layer": "surface",
+          "objName": "TwnObj_GerudoUndergroundStoneWall_A_01",
+          "locationIdx": 0
+        },
+        {
+          "layer": "surface",
+          "objName": "TwnObj_GerudoUndergroundStoneWall_A_02",
+          "locationIdx": 0
+        },
+        {
+          "layer": "surface",
+          "objName": "TwnObj_GerudoUndergroundStoneWall_A_03",
+          "locationIdx": 0
+        },
+        {
+          "layer": "surface",
+          "objName": "TwnObj_GerudoUndergroundStoneWall_A_04",
+          "locationIdx": 0
         }
       ],
       "visible": false
     },
-    { "name": "The Heroines' Secret", "points": [], "visible": false },
-    { "name": "Treasure of the Gerudo Desert", "points": [], "visible": false },
-    { "name": "Pride of the Gerudo", "points": [], "visible": false },
-    { "name": "Dalia's Game", "points": [], "visible": false },
-    { "name": "The Mysterious Eighth", "points": [], "visible": false },
-    { "name": "The Missing Owner", "points": [], "visible": false },
-    { "name": "To the Ruins!", "points": [], "visible": false },
-    { "name": "Decorate with Passion", "points": [], "visible": false },
-    { "name": "Lost in the Dunes", "points": [], "visible": false },
+    {
+      "name": "Treasure of the Gerudo Desert",
+      "points": [
+        {
+          "layer": "surface",
+          "objName": "Npc_Gerudo_Queen_Young",
+          "locationIdx": 3
+        },
+        {
+          "layer": "cave",
+          "objName": "TBox_Field_Stone : Armor_184_Head",
+          "locationIdx": 0
+        }
+      ],
+      "visible": false
+    },
+    {
+      "name": "Pride of the Gerudo",
+      "points": [
+        { "layer": "surface", "objName": "Npc_oasis001", "locationIdx": 1 }
+      ],
+      "visible": false
+    },
+    {
+      "name": "Dalia's Game",
+      "points": [
+        { "layer": "surface", "objName": "Npc_oasis016", "locationIdx": 1 }
+      ],
+      "visible": false
+    },
+    {
+      "name": "The Mysterious Eighth",
+      "points": [
+        { "layer": "surface", "objName": "Npc_oasis027", "locationIdx": 0 },
+        {
+          "layer": "surface",
+          "objName": "Obj_GerudoStatueBall_A_01",
+          "locationIdx": 0
+        },
+        {
+          "layer": "surface",
+          "objName": "Obj_GerudoStatueBall_A_05",
+          "locationIdx": 0
+        },
+        {
+          "layer": "surface",
+          "objName": "Obj_GerudoStatueBall_A_04",
+          "locationIdx": 0
+        },
+        {
+          "layer": "surface",
+          "objName": "Obj_GerudoStatueBall_A_03",
+          "locationIdx": 0
+        },
+        {
+          "layer": "surface",
+          "objName": "Obj_GerudoStatueBall_A_06",
+          "locationIdx": 0
+        },
+        {
+          "layer": "surface",
+          "objName": "Obj_GerudoStatueBall_A_02",
+          "locationIdx": 0
+        },
+        {
+          "layer": "surface",
+          "objName": "Obj_GerudoStatueBall_A_07",
+          "locationIdx": 0
+        },
+        { "layer": "surface", "objName": "Npc_oasis027", "locationIdx": 0 }
+      ],
+      "visible": false
+    },
+    {
+      "name": "The Missing Owner",
+      "points": [
+        { "layer": "surface", "objName": "Enemy_Sandworm", "locationIdx": 0 },
+        { "layer": "surface", "objName": "Npc_oasis001", "locationIdx": 1 }
+      ],
+      "visible": false
+    },
+    {
+      "name": "To the Ruins!",
+      "points": [
+        {
+          "layer": "surface",
+          "objName": "Npc_GerudoDesert002",
+          "locationIdx": 0
+        },
+        {
+          "layer": "surface",
+          "objName": "Npc_GerudoDesert002",
+          "locationIdx": 2
+        }
+      ],
+      "visible": false
+    },
+    {
+      "name": "Decorate with Passion",
+      "points": [
+        { "layer": "surface", "objName": "Npc_SmallOasis014", "locationIdx": 0 }
+      ],
+      "visible": false
+    },
+    {
+      "name": "Lost in the Dunes",
+      "points": [
+        {
+          "layer": "surface",
+          "objName": "Npc_SmallOasis006",
+          "locationIdx": 0
+        },
+        {
+          "layer": "surface",
+          "objName": "FldObj_HoleQuicksand_A_02",
+          "locationIdx": 1
+        },
+        {
+          "layer": "surface",
+          "objName": "Npc_RitoHatago003",
+          "locationIdx": 0
+        },
+        { "layer": "surface", "objName": "Npc_SmallOasis006", "locationIdx": 0 }
+      ],
+      "visible": false
+    },
     {
       "name": "A Picture for the Closed Stable I",
       "points": [
@@ -1434,6 +1987,11 @@
           "layer": "surface",
           "objName": "Npc_GerudoCanyonHatago001",
           "locationIdx": 0
+        },
+        {
+          "layer": "sky",
+          "objName": "SkyObj_ZonauRobot_Background_A_03",
+          "locationIdx": 40
         }
       ],
       "visible": false
@@ -1445,30 +2003,224 @@
           "layer": "surface",
           "objName": "Npc_GerudoCanyonHatago001",
           "locationIdx": 0
+        },
+        {
+          "layer": "surface",
+          "objName": "FldObj_RockGerudoHighland_B_02_Far",
+          "locationIdx": 5
         }
       ],
       "visible": false
     },
-    { "name": "Piaffe, Packed Away", "points": [], "visible": false },
-    { "name": "Gleeok Guts", "points": [], "visible": false },
-    { "name": "Disaster in Gerudo Canyon", "points": [], "visible": false },
-    { "name": "The Great Tumbleweed Purge", "points": [], "visible": false },
-    { "name": "Heat-Endurance Contest!", "points": [], "visible": false },
-    { "name": "Cold-Endurance Contest!", "points": [], "visible": false },
-    { "name": "The Iceless Icehouse", "points": [], "visible": false },
-    { "name": "Where Are the Wells?", "points": [], "visible": false },
-    { "name": "Ancient Blades Below", "points": [], "visible": false },
-    { "name": "The North Lomei Prophecy", "points": [], "visible": false },
     {
-      "name": "The Lomei Labyrinth Island Prophecy",
-      "points": [],
+      "name": "Piaffe, Packed Away",
+      "points": [
+        {
+          "layer": "surface",
+          "objName": "Npc_GerudoCanyonHatago001",
+          "locationIdx": 0
+        }
+      ],
       "visible": false
     },
-    { "name": "The South Lomei Prohecy", "points": [], "visible": false },
-    { "name": "Goddess Statue of Wisdom", "points": [], "visible": false },
-    { "name": "Goddess Statue of Power", "points": [], "visible": false },
-    { "name": "Goddess Statue of Courage", "points": [], "visible": false },
-    { "name": "The Mother Goddess Statue", "points": [], "visible": false },
+    {
+      "name": "Gleeok Guts",
+      "points": [
+        { "layer": "surface", "objName": "Npc_oasis028", "locationIdx": 1 }
+      ],
+      "visible": false
+    },
+    {
+      "name": "Disaster in Gerudo Canyon",
+      "points": [
+        {
+          "layer": "surface",
+          "objName": "Npc_NorthHateru005",
+          "locationIdx": 0
+        },
+        { "layer": "surface", "objName": "Npc_Road_001", "locationIdx": 1 },
+        {
+          "layer": "surface",
+          "objName": "Npc_FaronWoods007",
+          "locationIdx": 2
+        },
+        { "layer": "surface", "objName": "Npc_HatenoGate003", "locationIdx": 0 }
+      ],
+      "visible": false
+    },
+    {
+      "name": "The Great Tumbleweed Purge",
+      "points": [
+        {
+          "layer": "surface",
+          "objName": "Npc_GerudoCanyon002",
+          "locationIdx": 0
+        },
+        {
+          "layer": "surface",
+          "objName": "Obj_Tumbleweed_A_01",
+          "locationIdx": 12
+        },
+        {
+          "layer": "surface",
+          "objName": "Obj_Tumbleweed_A_01",
+          "locationIdx": 22
+        },
+        {
+          "layer": "surface",
+          "objName": "Obj_Tumbleweed_A_01",
+          "locationIdx": 64
+        },
+        {
+          "layer": "surface",
+          "objName": "Npc_GerudoCanyon002",
+          "locationIdx": 0
+        }
+      ],
+      "visible": false
+    },
+    {
+      "name": "Heat-Endurance Contest!",
+      "points": [
+        {
+          "layer": "surface",
+          "objName": "Npc_GerudoCanyon003",
+          "locationIdx": 0
+        }
+      ],
+      "visible": false
+    },
+    {
+      "name": "Cold-Endurance Contest!",
+      "points": [
+        {
+          "layer": "surface",
+          "objName": "Npc_GerudoCanyon003",
+          "locationIdx": 0
+        }
+      ],
+      "visible": false
+    },
+    {
+      "name": "The Iceless Icehouse",
+      "points": [
+        {
+          "layer": "surface",
+          "objName": "Npc_GerudoDesert003",
+          "locationIdx": 0
+        }
+      ],
+      "visible": false
+    },
+    {
+      "name": "Where Are the Wells?",
+      "points": [
+        { "layer": "cave", "objName": "Npc_WellMania", "locationIdx": 5 }
+      ],
+      "visible": false
+    },
+    {
+      "name": "Ancient Blades Below",
+      "points": [
+        {
+          "layer": "depths",
+          "objName": "Npc_Zonau_Golem_Servant_ZonauChallenge_02",
+          "locationIdx": 0
+        }
+      ],
+      "visible": false
+    },
+    {
+      "name": "The North Lomei Prophecy",
+      "points": [
+        {
+          "layer": "surface",
+          "objName": "DgnObj_Terminal_A_03",
+          "locationIdx": 1
+        },
+        { "layer": "sky", "objName": "DgnObj_Terminal_A_08", "locationIdx": 6 },
+        { "layer": "sky", "objName": "DgnObj_Terminal_A_07", "locationIdx": 8 },
+        {
+          "layer": "sky",
+          "objName": "DgnObj_Terminal_A_07",
+          "locationIdx": 10
+        },
+        { "layer": "sky", "objName": "DgnObj_Terminal_A_07", "locationIdx": 9 },
+        { "layer": "sky", "objName": "DgnObj_Terminal_A_07", "locationIdx": 7 },
+        {
+          "layer": "depths",
+          "objName": "DgnObj_Terminal_A_08",
+          "locationIdx": 1
+        }
+      ],
+      "visible": false
+    },
+    {
+      "name": "The Lomei Labyrinth Island Prophecy",
+      "points": [
+        {
+          "layer": "surface",
+          "objName": "DgnObj_Terminal_A_08",
+          "locationIdx": 1
+        }
+      ],
+      "visible": false
+    },
+    {
+      "name": "The South Lomei Prohecy",
+      "points": [
+        {
+          "layer": "surface",
+          "objName": "DgnObj_Terminal_A_08",
+          "locationIdx": 0
+        }
+      ],
+      "visible": false
+    },
+    {
+      "name": "Goddess Statue of Wisdom",
+      "points": [
+        {
+          "layer": "surface",
+          "objName": "TwnObj_GoddesStatue_Wisdom_A_10",
+          "locationIdx": 0
+        }
+      ],
+      "visible": false
+    },
+    {
+      "name": "Goddess Statue of Power",
+      "points": [
+        {
+          "layer": "surface",
+          "objName": "TwnObj_GoddesStatue_Power_A_10",
+          "locationIdx": 0
+        }
+      ],
+      "visible": false
+    },
+    {
+      "name": "Goddess Statue of Courage",
+      "points": [
+        {
+          "layer": "surface",
+          "objName": "TwnObj_GoddesStatue_Courage_A_10",
+          "locationIdx": 0
+        }
+      ],
+      "visible": false
+    },
+    {
+      "name": "The Mother Goddess Statue",
+      "points": [
+        {
+          "layer": "surface",
+          "objName": "TwnObj_SuperGoddesStatue_A_01",
+          "locationIdx": 0
+        }
+      ],
+      "visible": true
+    },
     { "name": "The Shrine Explorer", "points": [], "visible": false }
   ]
 }

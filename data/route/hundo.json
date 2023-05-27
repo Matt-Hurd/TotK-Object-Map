@@ -540,6 +540,22 @@
         "LocationArea : Well_0058",
         "LocationArea : Well_0059"
       ]
+    },
+    "tear": {
+        "objNames": [
+            "LocationMarker : DragonTears01",
+            "LocationMarker : DragonTears02",
+            "LocationMarker : DragonTears03",
+            "LocationMarker : DragonTears04",
+            "LocationMarker : DragonTears05",
+            "LocationMarker : DragonTears06",
+            "LocationMarker : DragonTears07",
+            "LocationMarker : DragonTears08",
+            "LocationMarker : DragonTears09",
+            "LocationMarker : DragonTears10",
+            "LocationMarker : DragonTears11",
+            "LocationMarker : DragonTears12"
+        ]
     }
   },
   "segments": [
