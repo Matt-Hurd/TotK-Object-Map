@@ -11986,6 +11986,183 @@
       "nearest": false
     },
     {
+      "name": "Serutabomac Shrine",
+      "locations": [{ "x": 1170.119, "y": -178.779, "z": 293.6 }],
+      "type": "LocationMarker",
+      "raw": "Dungeon010",
+      "nearest": false
+    },
+    {
+      "name": "Sanctum",
+      "locations": [
+        { "x": 1100.951, "y": -253.701, "z": 374.144 },
+        { "x": 1076.94, "y": -254, "z": 339.281 }
+      ],
+      "type": "LocationMarker",
+      "raw": "HyruleCastle_Hall_0",
+      "nearest": false
+    },
+    {
+      "name": "Second Gatehouse",
+      "locations": [{ "x": 859.457, "y": -166.644, "z": 283.311 }],
+      "type": "LocationMarker",
+      "raw": "HyruleCastle_Hall_1",
+      "nearest": false
+    },
+    {
+      "name": "Library",
+      "locations": [{ "x": 1067.451, "y": -157.922, "z": 218.01 }],
+      "type": "LocationMarker",
+      "raw": "HyruleCastle_Room_3",
+      "nearest": false
+    },
+    {
+      "name": "Princess Zelda's Room",
+      "locations": [{ "x": 995.214, "y": -327.721, "z": 300.984 }],
+      "type": "LocationMarker",
+      "raw": "HyruleCastle_Room_6",
+      "nearest": false
+    },
+    {
+      "name": "Princess Zelda's Study",
+      "locations": [
+        { "x": 1004.038, "y": -384.273, "z": 362.645 },
+        { "x": 991.903, "y": -384.151, "z": 314.388 }
+      ],
+      "type": "LocationMarker",
+      "raw": "HyruleCastle_Room_8",
+      "nearest": false
+    },
+    {
+      "name": "King's Study",
+      "locations": [{ "x": 1119.772, "y": -173.506, "z": 214.956 }],
+      "type": "LocationMarker",
+      "raw": "HyruleCastle_Room_9",
+      "nearest": false
+    },
+    {
+      "name": "King's Study",
+      "locations": [{ "x": 1119.56, "y": -173.31, "z": 214.588 }],
+      "type": "LocationArea",
+      "raw": "HyruleCastle_Room_9",
+      "nearest": false
+    },
+    {
+      "name": "Library",
+      "locations": [{ "x": 1014.834, "y": -145.831, "z": 224.696 }],
+      "type": "LocationArea",
+      "raw": "HyruleCastle_Room_3",
+      "nearest": false
+    },
+    {
+      "name": "Library",
+      "locations": [
+        { "x": 1014.834, "y": -145.831, "z": 224.696 },
+        { "x": 1046.464, "y": -128.637, "z": 230.765 }
+      ],
+      "type": "LocationArea",
+      "raw": "HyruleCastle_Room_3",
+      "nearest": false
+    },
+    {
+      "name": "Library",
+      "locations": [
+        { "x": 1014.834, "y": -145.831, "z": 224.696 },
+        { "x": 1046.464, "y": -128.637, "z": 230.765 },
+        { "x": 1096.508, "y": -139.59, "z": 230.652 }
+      ],
+      "type": "LocationArea",
+      "raw": "HyruleCastle_Room_3",
+      "nearest": false
+    },
+    {
+      "name": "Library",
+      "locations": [
+        { "x": 1014.834, "y": -145.831, "z": 224.696 },
+        { "x": 1046.464, "y": -128.637, "z": 230.765 },
+        { "x": 1096.508, "y": -139.59, "z": 230.652 },
+        { "x": 1119.805, "y": -170.453, "z": 224.341 }
+      ],
+      "type": "LocationArea",
+      "raw": "HyruleCastle_Room_3",
+      "nearest": false
+    },
+    {
+      "name": "Hyrule Castle",
+      "locations": [{ "x": 1005.367, "y": -224, "z": 199.281 }],
+      "type": "LocationArea",
+      "raw": "LargeDungeonHyruleCastle",
+      "nearest": false
+    },
+    {
+      "name": "Serutabomac Shrine",
+      "locations": [{ "x": 1170.119, "y": -178.779, "z": 276.7 }],
+      "type": "LocationArea",
+      "raw": "Dungeon010",
+      "nearest": false
+    },
+    {
+      "name": "Sanctum",
+      "locations": [{ "x": 1061.367, "y": -254, "z": 335.818 }],
+      "type": "LocationArea",
+      "raw": "HyruleCastle_Hall_0",
+      "nearest": false
+    },
+    {
+      "name": "Second Gatehouse",
+      "locations": [{ "x": 879.367, "y": -160, "z": 282.281 }],
+      "type": "LocationArea",
+      "raw": "HyruleCastle_Hall_1",
+      "nearest": false
+    },
+    {
+      "name": "Princess Zelda's Room",
+      "locations": [{ "x": 986.294, "y": -299.909, "z": 300.692 }],
+      "type": "LocationArea",
+      "raw": "HyruleCastle_Room_6",
+      "nearest": false
+    },
+    {
+      "name": "Princess Zelda's Room",
+      "locations": [
+        { "x": 986.294, "y": -299.909, "z": 300.692 },
+        { "x": 996.217, "y": -314.971, "z": 300.692 }
+      ],
+      "type": "LocationArea",
+      "raw": "HyruleCastle_Room_6",
+      "nearest": false
+    },
+    {
+      "name": "Princess Zelda's Room",
+      "locations": [
+        { "x": 986.294, "y": -299.909, "z": 300.692 },
+        { "x": 996.217, "y": -314.971, "z": 300.692 },
+        { "x": 995.974, "y": -321.523, "z": 300.692 }
+      ],
+      "type": "LocationArea",
+      "raw": "HyruleCastle_Room_6",
+      "nearest": false
+    },
+    {
+      "name": "Princess Zelda's Room",
+      "locations": [
+        { "x": 986.294, "y": -299.909, "z": 300.692 },
+        { "x": 996.217, "y": -314.971, "z": 300.692 },
+        { "x": 995.974, "y": -321.523, "z": 300.692 },
+        { "x": 995.676, "y": -332.152, "z": 301.131 }
+      ],
+      "type": "LocationArea",
+      "raw": "HyruleCastle_Room_6",
+      "nearest": false
+    },
+    {
+      "name": "Princess Zelda's Study",
+      "locations": [{ "x": 995.659, "y": -383.949, "z": 314.388 }],
+      "type": "LocationArea",
+      "raw": "HyruleCastle_Room_8",
+      "nearest": false
+    },
+    {
       "name": "Kyokugon Shrine",
       "locations": [{ "x": -1551.043, "y": -709.245, "z": 19.785 }],
       "type": "LocationMarker",
