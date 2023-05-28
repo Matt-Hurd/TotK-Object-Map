@@ -387,6 +387,157 @@
       ]
     },
     "bubbulfrog": { "objNames": ["Enemy_CaveMaster_000"] },
+    "cave": {
+      "objNames": [
+        "LocationArea : Cave_CentralHyrule_0011",
+        "LocationArea : Cave_CentralHyrule_0013",
+        "LocationArea : Cave_CentralHyrule_0017",
+        "LocationArea : Cave_CentralHyrule_0019",
+        "LocationArea : Cave_Akkala_0000",
+        "LocationArea : Cave_Akkala_0003",
+        "LocationArea : Cave_Akkala_0005",
+        "LocationArea : Cave_Akkala_0007",
+        "LocationArea : Cave_Akkala_0010",
+        "LocationArea : Cave_Akkala_0011",
+        "LocationArea : Cave_Akkala_0014",
+        "LocationArea : Cave_Akkala_0017",
+        "LocationArea : Cave_CentralHyrule_0008",
+        "LocationArea : Cave_CentralHyrule_0009",
+        "LocationArea : Cave_CentralHyrule_0018",
+        "LocationArea : Cave_CentralHyrule_0020",
+        "LocationArea : Cave_CentralHyrule_0021",
+        "LocationArea : Cave_CentralHyrule_0022",
+        "LocationArea : Cave_CentralHyrule_0023",
+        "LocationArea : Cave_CentralHyrule_0030",
+        "LocationArea : Cave_Eldin_0020",
+        "LocationArea : Cave_Eldin_0021",
+        "LocationArea : Cave_Eldin_0022",
+        "LocationArea : Cave_Eldin_0023",
+        "LocationArea : Cave_Eldin_0025",
+        "LocationArea : Cave_Eldin_0026",
+        "LocationArea : Cave_Eldin_0027",
+        "LocationArea : Cave_Eldin_0028",
+        "LocationArea : Cave_Eldin_0029",
+        "LocationArea : Cave_Eldin_0030",
+        "LocationArea : Cave_Eldin_0031",
+        "LocationArea : Cave_Eldin_0033",
+        "LocationArea : Cave_Eldin_0034",
+        "LocationArea : Cave_Eldin_0035",
+        "LocationArea : Cave_Eldin_0037",
+        "LocationArea : Cave_Eldin_0038",
+        "LocationArea : Cave_Eldin_0039",
+        "LocationArea : Cave_Firone_0002",
+        "LocationArea : Cave_Firone_0008",
+        "LocationArea : Cave_Firone_0009",
+        "LocationArea : Cave_Firone_0020",
+        "LocationArea : Cave_Firone_0022",
+        "LocationArea : Cave_Firone_0023",
+        "LocationArea : Cave_Firone_0029",
+        "LocationArea : Cave_FirstPlateau_0001",
+        "LocationArea : Cave_FirstPlateau_0002",
+        "LocationArea : Cave_GerudoDesert_0007",
+        "LocationArea : Cave_GerudoDesert_0008",
+        "LocationArea : Cave_GerudoDesert_0015",
+        "LocationArea : Cave_GerudoDesert_0022",
+        "LocationArea : Cave_GerudoDesert_0030",
+        "LocationArea : Cave_GerudoDesert_0031",
+        "LocationArea : Cave_GerudoDesert_0032",
+        "LocationArea : Cave_GerudoDesert_0035",
+        "LocationArea : Cave_GerudoDesert_0036",
+        "LocationArea : Cave_GerudoDesert_0037",
+        "LocationArea : Cave_GerudoDesert_0039",
+        "LocationArea : Cave_GerudoDesert_0040",
+        "LocationArea : Cave_GerudoDesert_0041",
+        "LocationArea : Cave_GerudoDesert_0043",
+        "LocationArea : Cave_GerudoDesert_0044",
+        "LocationArea : Cave_GerudoDesert_0045",
+        "LocationArea : Cave_GerudoDesert_0046",
+        "LocationArea : Cave_GerudoDesert_0050",
+        "LocationArea : Cave_GerudoDesert_0051",
+        "LocationArea : Cave_GerudoHighlands_0002",
+        "LocationArea : Cave_GerudoHighlands_0008",
+        "LocationArea : Cave_GerudoHighlands_0017",
+        "LocationArea : Cave_HateruEast_0000",
+        "LocationArea : Cave_HateruEast_0002",
+        "LocationArea : Cave_HateruEast_0006",
+        "LocationArea : Cave_HateruEast_0007",
+        "LocationArea : Cave_HateruEast_0008",
+        "LocationArea : Cave_HateruEast_0009",
+        "LocationArea : Cave_HateruEast_0013",
+        "LocationArea : Cave_HateruEast_0014",
+        "LocationArea : Cave_HateruEast_0016",
+        "LocationArea : Cave_HateruWest_0002",
+        "LocationArea : Cave_HateruWest_0005",
+        "LocationArea : Cave_HateruWest_0006",
+        "LocationArea : Cave_HateruWest_0008",
+        "LocationArea : Cave_HateruWest_0011",
+        "LocationArea : Cave_HateruWest_0012",
+        "LocationArea : Cave_Hebra_0000",
+        "LocationArea : Cave_Hebra_0013",
+        "LocationArea : Cave_Hebra_0015",
+        "LocationArea : Cave_Hebra_0016",
+        "LocationArea : Cave_Hebra_0019",
+        "LocationArea : Cave_Hebra_0021",
+        "LocationArea : Cave_Hebra_0022",
+        "LocationArea : Cave_Hebra_0023",
+        "LocationArea : Cave_Hebra_0025",
+        "LocationArea : Cave_Hebra_0026",
+        "LocationArea : Cave_Hebra_0030",
+        "LocationArea : Cave_Hebra_0035",
+        "LocationArea : Cave_Hebra_0036",
+        "LocationArea : Cave_Hebra_0037",
+        "LocationArea : Cave_Hebra_0039",
+        "LocationArea : Cave_Hebra_0041",
+        "LocationArea : Cave_HyruleForest_0001",
+        "LocationArea : Cave_HyruleForest_0006",
+        "LocationArea : Cave_HyruleForest_0007",
+        "LocationArea : Cave_HyruleForest_0008",
+        "LocationArea : Cave_HyruleRidge_0000",
+        "LocationArea : Cave_HyruleRidge_0002",
+        "LocationArea : Cave_HyruleRidge_0003",
+        "LocationArea : Cave_HyruleRidge_0004",
+        "LocationArea : Cave_HyruleRidge_0005",
+        "LocationArea : Cave_HyruleRidge_0006",
+        "LocationArea : Cave_HyruleRidge_0007",
+        "LocationArea : Cave_HyruleRidge_0008",
+        "LocationArea : Cave_LanayruMountain_0002",
+        "LocationArea : Cave_LanayruMountain_0006",
+        "LocationArea : Cave_LanayruMountain_0008",
+        "LocationArea : Cave_LanayruMountain_0010",
+        "LocationArea : Cave_LanayruMountain_0014",
+        "LocationArea : Cave_LanayruMountain_0016",
+        "LocationArea : Cave_LanayruMountain_0022",
+        "LocationArea : Cave_LanayruMountain_0024",
+        "LocationArea : Cave_LanayruMountain_0025",
+        "LocationArea : Cave_LanayruMountain_0026",
+        "LocationArea : Cave_Lanayru_0006",
+        "LocationArea : Cave_Lanayru_0008",
+        "LocationArea : Cave_Lanayru_0014",
+        "LocationArea : Cave_Lanayru_0019",
+        "LocationArea : Cave_Lanayru_0024",
+        "LocationArea : Cave_Lanayru_0032",
+        "LocationArea : Cave_Lanayru_0033",
+        "LocationArea : Cave_Lanayru_0035",
+        "LocationArea : Cave_Lanayru_0036",
+        "LocationArea : Cave_Lanayru_0048",
+        "LocationArea : Cave_Lanayru_0049",
+        "LocationArea : Cave_Lanayru_0050",
+        "LocationArea : Cave_Lanayru_0052",
+        "LocationArea : Cave_Lanayru_0053",
+        "LocationArea : Cave_Lanayru_0055",
+        "LocationArea : Cave_Lanayru_0057",
+        "LocationArea : Cave_Lanayru_0060",
+        "LocationArea : Cave_Lanayru_0063",
+        "LocationArea : Cave_Tabantha_0001",
+        "LocationArea : Cave_Tabantha_0002",
+        "LocationArea : Cave_Tabantha_0003",
+        "LocationArea : Cave_Firone_0024",
+        "LocationArea : Cave_GerudoDesert_0049",
+        "LocationArea : Cave_GerudoHighlands_0014",
+        "LocationArea : Cave_Hebra_0040",
+        "LocationArea : Cave_Lanayru_0061"
+      ]
+    },
     "bargainer": {
       "objNames": [
         "LocationMarker : DemonStatue_00",
@@ -452,7 +603,40 @@
     },
     "schematic": {
       "objNames": [
-        "TBox_Field_Enemy_Assassin : Obj_AutoBuilderDraftAssassin_00"
+        "TBox_Field_Enemy_Assassin : Obj_AutoBuilderDraftAssassin_00",
+      "TBox_Field_Enemy_Assassin : Obj_AutoBuilderDraftAssassin_01",
+      "TBox_Field_Enemy_Assassin : Obj_AutoBuilderDraftAssassin_02",
+      "TBox_Field_Enemy_Assassin : Obj_AutoBuilderDraftAssassin_03",
+      "TBox_Field_Enemy_Assassin : Obj_AutoBuilderDraftAssassin_04",
+      "TBox_Field_Enemy_Assassin : Obj_AutoBuilderDraftAssassin_05",
+      "TBox_Field_Enemy_Assassin : Obj_AutoBuilderDraftAssassin_06",
+      "TBox_Field_Enemy_Assassin : Obj_AutoBuilderDraftAssassin_07",
+      "TBox_Field_Enemy_Assassin : Obj_AutoBuilderDraftAssassin_08",
+      "TBox_Field_Enemy_Assassin : Obj_AutoBuilderDraftAssassin_09",
+      "TBox_Field_Enemy_Assassin : Obj_AutoBuilderDraftAssassin_10",
+      "TBox_Field_Enemy_Assassin : Obj_AutoBuilderDraftAssassin_11",
+      "TBox_Field_Enemy_Assassin : Obj_AutoBuilderDraftAssassin_12",
+      "TBox_Field_Enemy_Assassin : Obj_AutoBuilderDraftAssassin_13",
+      "TBox_Field_Enemy_Assassin : Obj_AutoBuilderDraftAssassin_14",
+      "TBox_Field_Enemy_Assassin : Obj_AutoBuilderDraftAssassin_15",
+      "TBox_Field_Enemy_Assassin : Obj_AutoBuilderDraftAssassin_16",
+      "TBox_Field_Enemy_Assassin : Obj_AutoBuilderDraftAssassin_17",
+      "TBox_Field_Enemy_Assassin : Obj_AutoBuilderDraftAssassin_18",
+      "TBox_Field_Enemy_Assassin : Obj_AutoBuilderDraftAssassin_19",
+      "TBox_Field_Enemy_Assassin : Obj_AutoBuilderDraftAssassin_20",
+      "TBox_Field_Enemy_Assassin : Obj_AutoBuilderDraftAssassin_21",
+      "TBox_Field_Enemy_Assassin : Obj_AutoBuilderDraftAssassin_22",
+      "TBox_Field_Enemy_Assassin : Obj_AutoBuilderDraftAssassin_23",
+      "TBox_Field_Enemy_Assassin : Obj_AutoBuilderDraftAssassin_24",
+      "TBox_Field_Enemy_Assassin : Obj_AutoBuilderDraftAssassin_25",
+      "TBox_Field_Enemy_Assassin : Obj_AutoBuilderDraftAssassin_26",
+      "TBox_Field_Enemy_Assassin : Obj_AutoBuilderDraftAssassin_27",
+      "TBox_Field_Enemy_Assassin : Obj_AutoBuilderDraftAssassin_28",
+      "TBox_Field_Enemy_Assassin : Obj_AutoBuilderDraftAssassin_29",
+      "TBox_Field_Enemy_Assassin : Obj_AutoBuilderDraftAssassin_30",
+      "TBox_Field_Enemy_Assassin : Obj_AutoBuilderDraftAssassin_31",
+      "TBox_Field_Enemy_Assassin : Obj_AutoBuilderDraftAssassin_32",
+      "TBox_Field_Enemy_Assassin : Obj_AutoBuilderDraftAssassin_33"
       ]
     },
     "schema": {
@@ -542,445 +726,517 @@
       ]
     },
     "tear": {
-        "objNames": [
-            "LocationMarker : DragonTears01",
-            "LocationMarker : DragonTears02",
-            "LocationMarker : DragonTears03",
-            "LocationMarker : DragonTears04",
-            "LocationMarker : DragonTears05",
-            "LocationMarker : DragonTears06",
-            "LocationMarker : DragonTears07",
-            "LocationMarker : DragonTears08",
-            "LocationMarker : DragonTears09",
-            "LocationMarker : DragonTears10",
-            "LocationMarker : DragonTears11",
-            "LocationMarker : DragonTears12"
-        ]
+      "objNames": [
+        "LocationMarker : DragonTears01",
+        "LocationMarker : DragonTears02",
+        "LocationMarker : DragonTears03",
+        "LocationMarker : DragonTears04",
+        "LocationMarker : DragonTears05",
+        "LocationMarker : DragonTears06",
+        "LocationMarker : DragonTears07",
+        "LocationMarker : DragonTears08",
+        "LocationMarker : DragonTears09",
+        "LocationMarker : DragonTears10",
+        "LocationMarker : DragonTears11",
+        "LocationMarker : DragonTears12"
+      ]
+    },
+    "camera": {
+      "objNames": [
+        "TwnObj_SuperGoddesStatue_A_01",
+        "LocationArea : StonePillers",
+        "LocationMarker : ShariverMt",
+        "LocationArea : Cave_Firone_0023",
+        "LocationArea : Cave_Eldin_0037",
+        "LocationMarker : GoronSpa",
+        "LocationMarker : Dungeon064",
+        "LocationArea : Akkare_OctaPond",
+        "TwnObj_Village_IchikaraBell_A_01",
+        "LocationMarker : TryCape",
+        "LocationMarker : RingLegacy",
+        "TwnObj_Village_SheikerMemoryPicture_A_01",
+        "LocationMarker : GobyMt",
+        "LocationMarker : FloriaFalls",
+        "GameRomHorse01L",
+        "TwnObj_GerudoUndergroundStoneWall_A_01",
+        "TwnObj_GerudoUndergroundStoneWall_A_02",
+        "TwnObj_GerudoUndergroundStoneWall_A_03",
+        "TwnObj_GerudoUndergroundStoneWall_A_04",
+        "LocationMarker : Dungeon015",
+        "FldObj_RuinStatueKnightSword_B_01"
+      ]
+    },
+    "x": {
+      "objNames": [
+        "TBox_Field_Stone_Zonau : Armor_005_Head",
+        "TBox_Field_Stone_Zonau : Armor_005_Lower",
+        "TBox_Field_Stone_Zonau : Armor_005_Upper",
+        "TBox_Field_Stone_Zonau : Armor_1051_Head",
+        "TBox_Field_Stone_Zonau : Armor_1051_Lower",
+        "TBox_Field_Stone_Zonau : Armor_1051_Upper",
+        "TBox_Field_Stone_Zonau : Armor_180_Head",
+        "TBox_Field_Stone_Zonau : Armor_180_Lower",
+        "TBox_Field_Stone_Zonau : Armor_180_Upper",
+        "TBox_Field_Stone_Zonau : Armor_200_Head",
+        "TBox_Field_Stone_Zonau : Armor_200_Lower",
+        "TBox_Field_Stone_Zonau : Armor_200_Upper",
+        "TBox_Field_Stone_Zonau : Armor_205_Head",
+        "TBox_Field_Stone_Zonau : Armor_205_Lower",
+        "TBox_Field_Stone_Zonau : Armor_205_Upper",
+        "TBox_Field_Stone_Zonau : Armor_210_Lower",
+        "TBox_Field_Stone_Zonau : Armor_210_Upper",
+        "TBox_Field_Stone_Zonau : Armor_215_Head",
+        "TBox_Field_Stone_Zonau : Armor_215_Lower",
+        "TBox_Field_Stone_Zonau : Armor_215_Upper",
+        "TBox_Field_Stone_Zonau : Armor_230_Head",
+        "TBox_Field_Stone_Zonau : Armor_230_Lower",
+        "TBox_Field_Stone_Zonau : Armor_230_Upper",
+        "TBox_Field_Stone_Zonau : Weapon_Shield_057",
+        "TBox_Field_Stone_Zonau : Weapon_Sword_058",
+        "TBox_Field_Stone_Zonau : Weapon_Sword_059",
+        "TBox_Field_Enemy_Miasma : Weapon_Lsword_059",
+        "TBox_Field_Enemy_Miasma : Armor_172_Head",
+        "TBox_Field_Enemy_Miasma : Armor_173_Head",
+        "TBox_Field_Enemy_Miasma : Armor_176_Head",
+        "TBox_Field_Enemy_Miasma : Armor_177_Head",
+        "TBox_Field_Enemy_Miasma : Armor_178_Head",
+        "TBox_Field_Enemy_Miasma : Armor_210_Head",
+        "TBox_Field_Enemy_Miasma : Armor_220_Head"
+      ]
     }
   },
   "segments": [
-      {
-        "name": "GSI 1",
-        "points": [
-          {
-            "layer": "sky",
-            "objName": "Weapon_Sword_071_Broken",
-            "locationIdx": 0
-          },
-          {
-            "layer": "sky",
-            "objName": "Npc_HiddenKorokGround",
-            "locationIdx": 12
-          },
-          { "layer": "sky", "objName": "Animal_Insect_A", "locationIdx": 30 },
-          {
-            "layer": "sky",
-            "objName": "Enemy_Zonau_Robot_Junior_Lookout : Weapon_Sword_168",
-            "locationIdx": 0
-          },
-          {
-            "layer": "sky",
-            "objName": "Enemy_Zonau_Robot_Junior : Weapon_Sword_021 : Weapon_Shield_107",
-            "locationIdx": 0
-          },
-          { "layer": "sky", "objName": "Item_Mushroom_D", "locationIdx": 19 },
-          {
-            "layer": "sky",
-            "objName": "LocationMarker : Dungeon060",
-            "locationIdx": 0
-          },
-          {
-            "layer": "sky",
-            "objName": "SkyObj_ZonauBrokenRuin_A_05_StartIsland",
-            "locationIdx": 4
-          },
-          { "layer": "sky", "objName": "Weapon_Sword_168", "locationIdx": 2 },
-          {
-            "layer": "sky",
-            "objName": "Npc_HiddenKorokGround",
-            "locationIdx": 14
-          },
-          { "layer": "sky", "objName": "Animal_Fish_AA", "locationIdx": 59 },
-          { "layer": "sky", "objName": "Weapon_Bow_107", "locationIdx": 0 },
-          {
-            "layer": "sky",
-            "objName": "KorokCarryPassenger_Pair",
-            "locationIdx": 0
-          },
-          {
-            "layer": "sky",
-            "objName": "KorokCarry_Destination",
-            "locationIdx": 0
-          },
-          {
-            "layer": "sky",
-            "objName": "LocationMarker : Dungeon062",
-            "locationIdx": 0
-          },
-          {
-            "layer": "sky",
-            "objName": "Npc_HiddenKorokGround",
-            "locationIdx": 15
-          },
-          {
-            "layer": "sky",
-            "objName": "Npc_HiddenKorokGround",
-            "locationIdx": 16
-          },
-          {
-            "layer": "sky",
-            "objName": "Enemy_CaveMaster_000",
-            "locationIdx": 1
-          },
-          { "layer": "sky", "objName": "Item_Fruit_I", "locationIdx": 42 },
-          {
-            "layer": "sky",
-            "objName": "Enemy_CaveMaster_000",
-            "locationIdx": 2
-          },
-          {
-            "layer": "sky",
-            "objName": "Npc_HiddenKorokFly",
-            "locationIdx": 31
-          },
-          {
-            "layer": "sky",
-            "objName": "Npc_HiddenKorokGround",
-            "locationIdx": 18
-          },
-          {
-            "layer": "sky",
-            "objName": "Enemy_CaveMaster_000",
-            "locationIdx": 3
-          },
-          {
-            "layer": "sky",
-            "objName": "LocationMarker : Dungeon061",
-            "locationIdx": 0
-          },
-          {
-            "layer": "sky",
-            "objName": "Npc_HiddenKorokGround",
-            "locationIdx": 17
-          },
-          {
-            "layer": "sky",
-            "objName": "RBox_Field_B : SpObj_FlameThrower_Capsule_A_01 : SpObj_LiftGeneratorWing_Capsule_A_01 : SpObj_WindGenerator_Capsule_A_01 : SpObj_CookSet_Capsule_A_01",
-            "locationIdx": 0
-          },
-          {
-            "layer": "sky",
-            "objName": "Npc_HiddenKorokFly",
-            "locationIdx": 32
-          },
-          {
-            "layer": "sky",
-            "objName": "Obj_SecretStone_A_02",
-            "locationIdx": 0
-          }
-        ],
-        "visible": true
-      },
-      {
-        "name": "GSI 2",
-        "points": [
-          {
-            "layer": "sky",
-            "objName": "LocationMarker : Dungeon063",
-            "locationIdx": 0
-          },
-          {
-            "layer": "sky",
-            "objName": "Npc_HiddenKorokFly",
-            "locationIdx": 28
-          },
-          {
-            "layer": "sky",
-            "objName": "Npc_HiddenKorokFly",
-            "locationIdx": 29
-          },
-          {
-            "layer": "sky",
-            "objName": "Npc_HiddenKorokFly",
-            "locationIdx": 33
-          },
-          {
-            "layer": "sky",
-            "objName": "Npc_HiddenKorokFly",
-            "locationIdx": 34
-          },
-          {
-            "layer": "sky",
-            "objName": "Enemy_Zonau_BlockMaster_Junior_Beginning",
-            "locationIdx": 0
-          },
-          {
-            "layer": "sky",
-            "objName": "Npc_HiddenKorokFly",
-            "locationIdx": 35
-          },
-          {
-            "layer": "sky",
-            "objName": "Npc_HiddenKorokFly",
-            "locationIdx": 30
-          },
-          {
-            "layer": "sky",
-            "objName": "KorokCarryPassenger_Pair",
-            "locationIdx": 1
-          },
-          {
-            "layer": "sky",
-            "objName": "KorokCarry_Destination",
-            "locationIdx": 1
-          },
-          {
-            "layer": "sky",
-            "objName": "Enemy_CaveMaster_000",
-            "locationIdx": 0
-          }
-        ],
-        "visible": true
-      },
-      {
-        "name": "Autobuild",
-        "points": [
-          {
-            "layer": "sky",
-            "objName": "SkyObj_MasterSwordAltar_A_01",
-            "locationIdx": 0
-          },
-          {
-            "layer": "sky",
-            "objName": "LocationMarker : Dungeon062",
-            "locationIdx": 0
-          },
-          {
-            "layer": "sky",
-            "objName": "TBox_Field_Stone_Zonau : Obj_SageWill",
-            "locationIdx": 6
-          },
-          {
-            "layer": "sky",
-            "objName": "Npc_HiddenKorokGround",
-            "locationIdx": 4
-          },
-          {
-            "layer": "surface",
-            "objName": "LocationArea : DeepHole_FirstLandNorth",
-            "locationIdx": 0
-          },
-          {
-            "layer": "depths",
-            "objName": "LocationArea : CheckPoint068",
-            "locationIdx": 0
-          },
-          {
-            "layer": "depths",
-            "objName": "Npc_Zonau_Golem_Servant_Minus0001",
-            "locationIdx": 0
-          }
-        ],
-        "visible": true
-      },
-      {
-        "name": "Paraglider",
-        "points": [
-          {
-            "layer": "sky",
-            "objName": "LocationMarker : Dungeon060",
-            "locationIdx": 0
-          },
-          {
-            "layer": "surface",
-            "objName": "Npc_BaseCamp_Assistant",
-            "locationIdx": 0
-          },
-          {
-            "layer": "surface",
-            "objName": "Npc_TamourHatago004",
-            "locationIdx": 0
-          },
-          {
-            "layer": "surface",
-            "objName": "Npc_HiddenKorokGround",
-            "locationIdx": 132
-          },
-          {
-            "layer": "surface",
-            "objName": "Npc_HiddenKorokFly",
-            "locationIdx": 154
-          },
-          {
-            "layer": "surface",
-            "objName": "TBox_Field_Iron : Item_Ore_A",
-            "locationIdx": 0
-          },
-          {
-            "layer": "surface",
-            "objName": "Npc_AncientDoctor",
-            "locationIdx": 1
-          },
-          {
-            "layer": "surface",
-            "objName": "LocationArea : Tower01",
-            "locationIdx": 0
-          }
-        ],
-        "visible": true
-      },
-      {
-        "name": "Kara Kara for dupe food",
-        "points": [
-          {
-            "layer": "sky",
-            "objName": "LocationMarker : Dungeon060",
-            "locationIdx": 0
-          },
-          {
-            "layer": "sky",
-            "objName": "Npc_HiddenKorokGround",
-            "locationIdx": 13
-          },
-          {
-            "layer": "sky",
-            "objName": "TBox_Field_Iron_Zonau : Obj_TreasureMap_01",
-            "locationIdx": 0
-          },
-          {
-            "layer": "sky",
-            "objName": "FldObj_ZonauShrine_KeyCrystal_PresenceDistanceMiddle",
-            "locationIdx": 0
-          },
-          {
-            "layer": "sky",
-            "objName": "LocationMarker : Dungeon145",
-            "locationIdx": 0
-          },
-          {
-            "layer": "sky",
-            "objName": "LocationMarker : Dungeon015",
-            "locationIdx": 0
-          },
-          { "layer": "sky", "objName": "Item_Plant_S", "locationIdx": 104 },
-          { "layer": "sky", "objName": "Npc_HiddenKorokFly", "locationIdx": 8 },
-          {
-            "layer": "sky",
-            "objName": "TBox_Field_Stone_Zonau : Obj_TreasureMap_24",
-            "locationIdx": 0
-          },
-          {
-            "layer": "sky",
-            "objName": "TBox_Field_Stone_Zonau : Obj_SageWill",
-            "locationIdx": 1
-          },
-          {
-            "layer": "surface",
-            "objName": "Npc_CraftSignboard001",
-            "locationIdx": 14
-          },
-          {
-            "layer": "surface",
-            "objName": "LocationArea : Tower09",
-            "locationIdx": 0
-          },
-          {
-            "layer": "surface",
-            "objName": "LocationArea : Well_0034",
-            "locationIdx": 0
-          },
-          {
-            "layer": "surface",
-            "objName": "Npc_HiddenKorokFly",
-            "locationIdx": 73
-          },
-          {
-            "layer": "surface",
-            "objName": "LocationMarker : Dungeon047",
-            "locationIdx": 0
-          }
-        ],
-        "visible": true
-      },
-      {   "name": "Wind Temple",
-          "points": [
-              {
-                  "layer": "surface",
-                  "objName": "Npc_Tulin_Sage",
-                  "locationIdx": 1,
-                  "note": "Tulin"
-              },
-              {
-                  "layer": "surface",
-                  "objName": "Npc_HighMountain009",
-                  "locationIdx": 0,
-                  "note": "Hotch"
-              },
-              {
-                  "layer": "surface",
-                  "objName": "Npc_Tulin_Sage",
-                  "locationIdx": 0,
-                  "note": "Tulin"
-              },
-              {
-                  "layer": "sky",
-                  "objName": "MergedActorD300",
-                  "locationIdx": 8,
-                  "note": "Tulin Trigger before Wind Temple"
-              },
-              {
-                  "layer": "sky",
-                  "objName": "LocationArea : Dungeon105",
-                  "locationIdx": 0,
-                  "note": "Kahatanaum Shrine: Rauru's Blessing"
-              },
-              {
-                  "layer": "sky",
-                  "objName": "DestinationAnchor",
-                  "locationIdx": 13,
-                  "note": "Skyship"
-              }
-          ]
-      },
-      {
-        "name": "2",
-        "points": [{
-            "layer": "sky",
-            "objName": "SkyObj_MasterSwordAltar_A_01",
-            "locationIdx": 0,
-            "note": "End of GSI"
-        }],
-        "visible": false
-      },
-      {
-        "name": "3",
-        "points": [{
-            "layer": "sky",
-            "objName": "SkyObj_MasterSwordAltar_A_01",
-            "locationIdx": 0,
-            "note": "End of GSI"
-        }],
-        "visible": false
-      },
-      {
-        "name": "4",
-        "points": [{
-            "layer": "sky",
-            "objName": "SkyObj_MasterSwordAltar_A_01",
-            "locationIdx": 0,
-            "note": "End of GSI"
-        }],
-        "visible": false
-      },
-      {
-        "name": "5",
-        "points": [{
-            "layer": "sky",
-            "objName": "SkyObj_MasterSwordAltar_A_01",
-            "locationIdx": 0,
-            "note": "End of GSI"
-        }],
-        "visible": false
-      }
-    ]
+    {
+      "name": "GSI 1",
+      "points": [
+        {
+          "layer": "sky",
+          "objName": "Weapon_Sword_071_Broken",
+          "locationIdx": 0
+        },
+        {
+          "layer": "sky",
+          "objName": "Npc_HiddenKorokGround",
+          "locationIdx": 12
+        },
+        { "layer": "sky", "objName": "Animal_Insect_A", "locationIdx": 30 },
+        {
+          "layer": "sky",
+          "objName": "Enemy_Zonau_Robot_Junior_Lookout : Weapon_Sword_168",
+          "locationIdx": 0
+        },
+        {
+          "layer": "sky",
+          "objName": "Enemy_Zonau_Robot_Junior : Weapon_Sword_021 : Weapon_Shield_107",
+          "locationIdx": 0
+        },
+        { "layer": "sky", "objName": "Item_Mushroom_D", "locationIdx": 19 },
+        {
+          "layer": "sky",
+          "objName": "LocationMarker : Dungeon060",
+          "locationIdx": 0
+        },
+        {
+          "layer": "sky",
+          "objName": "SkyObj_ZonauBrokenRuin_A_05_StartIsland",
+          "locationIdx": 4
+        },
+        { "layer": "sky", "objName": "Weapon_Sword_168", "locationIdx": 2 },
+        {
+          "layer": "sky",
+          "objName": "Npc_HiddenKorokGround",
+          "locationIdx": 14
+        },
+        { "layer": "sky", "objName": "Animal_Fish_AA", "locationIdx": 59 },
+        { "layer": "sky", "objName": "Weapon_Bow_107", "locationIdx": 0 },
+        {
+          "layer": "sky",
+          "objName": "KorokCarryPassenger_Pair",
+          "locationIdx": 0
+        },
+        {
+          "layer": "sky",
+          "objName": "KorokCarry_Destination",
+          "locationIdx": 0
+        },
+        {
+          "layer": "sky",
+          "objName": "LocationMarker : Dungeon062",
+          "locationIdx": 0
+        },
+        {
+          "layer": "sky",
+          "objName": "Npc_HiddenKorokGround",
+          "locationIdx": 15
+        },
+        {
+          "layer": "sky",
+          "objName": "Npc_HiddenKorokGround",
+          "locationIdx": 16
+        },
+        {
+          "layer": "sky",
+          "objName": "Enemy_CaveMaster_000",
+          "locationIdx": 1
+        },
+        { "layer": "sky", "objName": "Item_Fruit_I", "locationIdx": 42 },
+        {
+          "layer": "sky",
+          "objName": "Enemy_CaveMaster_000",
+          "locationIdx": 2
+        },
+        {
+          "layer": "sky",
+          "objName": "Npc_HiddenKorokFly",
+          "locationIdx": 31
+        },
+        {
+          "layer": "sky",
+          "objName": "Npc_HiddenKorokGround",
+          "locationIdx": 18
+        },
+        {
+          "layer": "sky",
+          "objName": "Enemy_CaveMaster_000",
+          "locationIdx": 3
+        },
+        {
+          "layer": "sky",
+          "objName": "LocationMarker : Dungeon061",
+          "locationIdx": 0
+        },
+        {
+          "layer": "sky",
+          "objName": "Npc_HiddenKorokGround",
+          "locationIdx": 17
+        },
+        {
+          "layer": "sky",
+          "objName": "RBox_Field_B : SpObj_FlameThrower_Capsule_A_01 : SpObj_LiftGeneratorWing_Capsule_A_01 : SpObj_WindGenerator_Capsule_A_01 : SpObj_CookSet_Capsule_A_01",
+          "locationIdx": 0
+        },
+        {
+          "layer": "sky",
+          "objName": "Npc_HiddenKorokFly",
+          "locationIdx": 32
+        },
+        {
+          "layer": "sky",
+          "objName": "Obj_SecretStone_A_02",
+          "locationIdx": 0
+        }
+      ],
+      "visible": true
+    },
+    {
+      "name": "GSI 2",
+      "points": [
+        {
+          "layer": "sky",
+          "objName": "LocationMarker : Dungeon063",
+          "locationIdx": 0
+        },
+        {
+          "layer": "sky",
+          "objName": "Npc_HiddenKorokFly",
+          "locationIdx": 28
+        },
+        {
+          "layer": "sky",
+          "objName": "Npc_HiddenKorokFly",
+          "locationIdx": 29
+        },
+        {
+          "layer": "sky",
+          "objName": "Npc_HiddenKorokFly",
+          "locationIdx": 33
+        },
+        {
+          "layer": "sky",
+          "objName": "Npc_HiddenKorokFly",
+          "locationIdx": 34
+        },
+        {
+          "layer": "sky",
+          "objName": "Enemy_Zonau_BlockMaster_Junior_Beginning",
+          "locationIdx": 0
+        },
+        {
+          "layer": "sky",
+          "objName": "Npc_HiddenKorokFly",
+          "locationIdx": 35
+        },
+        {
+          "layer": "sky",
+          "objName": "Npc_HiddenKorokFly",
+          "locationIdx": 30
+        },
+        {
+          "layer": "sky",
+          "objName": "KorokCarryPassenger_Pair",
+          "locationIdx": 1
+        },
+        {
+          "layer": "sky",
+          "objName": "KorokCarry_Destination",
+          "locationIdx": 1
+        },
+        {
+          "layer": "sky",
+          "objName": "Enemy_CaveMaster_000",
+          "locationIdx": 0
+        }
+      ],
+      "visible": true
+    },
+    {
+      "name": "Autobuild",
+      "points": [
+        {
+          "layer": "sky",
+          "objName": "SkyObj_MasterSwordAltar_A_01",
+          "locationIdx": 0
+        },
+        {
+          "layer": "sky",
+          "objName": "LocationMarker : Dungeon062",
+          "locationIdx": 0
+        },
+        {
+          "layer": "sky",
+          "objName": "TBox_Field_Stone_Zonau : Obj_SageWill",
+          "locationIdx": 6
+        },
+        {
+          "layer": "sky",
+          "objName": "Npc_HiddenKorokGround",
+          "locationIdx": 4
+        },
+        {
+          "layer": "surface",
+          "objName": "LocationArea : DeepHole_FirstLandNorth",
+          "locationIdx": 0
+        },
+        {
+          "layer": "depths",
+          "objName": "LocationArea : CheckPoint068",
+          "locationIdx": 0
+        },
+        {
+          "layer": "depths",
+          "objName": "Npc_Zonau_Golem_Servant_Minus0001",
+          "locationIdx": 0
+        }
+      ],
+      "visible": true
+    },
+    {
+      "name": "Paraglider",
+      "points": [
+        {
+          "layer": "sky",
+          "objName": "LocationMarker : Dungeon060",
+          "locationIdx": 0
+        },
+        {
+          "layer": "surface",
+          "objName": "Npc_BaseCamp_Assistant",
+          "locationIdx": 0
+        },
+        {
+          "layer": "surface",
+          "objName": "Npc_TamourHatago004",
+          "locationIdx": 0
+        },
+        {
+          "layer": "surface",
+          "objName": "Npc_HiddenKorokGround",
+          "locationIdx": 132
+        },
+        {
+          "layer": "surface",
+          "objName": "Npc_HiddenKorokFly",
+          "locationIdx": 154
+        },
+        {
+          "layer": "surface",
+          "objName": "TBox_Field_Iron : Item_Ore_A",
+          "locationIdx": 0
+        },
+        {
+          "layer": "surface",
+          "objName": "Npc_AncientDoctor",
+          "locationIdx": 1
+        },
+        {
+          "layer": "surface",
+          "objName": "LocationArea : Tower01",
+          "locationIdx": 0
+        }
+      ],
+      "visible": true
+    },
+    {
+      "name": "Kara Kara for dupe food",
+      "points": [
+        {
+          "layer": "sky",
+          "objName": "LocationMarker : Dungeon060",
+          "locationIdx": 0
+        },
+        {
+          "layer": "sky",
+          "objName": "Npc_HiddenKorokGround",
+          "locationIdx": 13
+        },
+        {
+          "layer": "sky",
+          "objName": "TBox_Field_Iron_Zonau : Obj_TreasureMap_01",
+          "locationIdx": 0
+        },
+        {
+          "layer": "sky",
+          "objName": "FldObj_ZonauShrine_KeyCrystal_PresenceDistanceMiddle",
+          "locationIdx": 0
+        },
+        {
+          "layer": "sky",
+          "objName": "LocationMarker : Dungeon145",
+          "locationIdx": 0
+        },
+        {
+          "layer": "sky",
+          "objName": "LocationMarker : Dungeon015",
+          "locationIdx": 0
+        },
+        { "layer": "sky", "objName": "Item_Plant_S", "locationIdx": 104 },
+        { "layer": "sky", "objName": "Npc_HiddenKorokFly", "locationIdx": 8 },
+        {
+          "layer": "sky",
+          "objName": "TBox_Field_Stone_Zonau : Obj_TreasureMap_24",
+          "locationIdx": 0
+        },
+        {
+          "layer": "sky",
+          "objName": "TBox_Field_Stone_Zonau : Obj_SageWill",
+          "locationIdx": 1
+        },
+        {
+          "layer": "surface",
+          "objName": "Npc_CraftSignboard001",
+          "locationIdx": 14
+        },
+        {
+          "layer": "surface",
+          "objName": "LocationArea : Tower09",
+          "locationIdx": 0
+        },
+        {
+          "layer": "surface",
+          "objName": "LocationArea : Well_0034",
+          "locationIdx": 0
+        },
+        {
+          "layer": "surface",
+          "objName": "Npc_HiddenKorokFly",
+          "locationIdx": 73
+        },
+        {
+          "layer": "surface",
+          "objName": "LocationMarker : Dungeon047",
+          "locationIdx": 0
+        }
+      ],
+      "visible": true
+    },
+    {
+      "name": "Wind Temple",
+      "points": [
+        {
+          "layer": "surface",
+          "objName": "Npc_Tulin_Sage",
+          "locationIdx": 1,
+          "note": "Tulin"
+        },
+        {
+          "layer": "surface",
+          "objName": "Npc_HighMountain009",
+          "locationIdx": 0,
+          "note": "Hotch"
+        },
+        {
+          "layer": "surface",
+          "objName": "Npc_Tulin_Sage",
+          "locationIdx": 0,
+          "note": "Tulin"
+        },
+        {
+          "layer": "sky",
+          "objName": "MergedActorD300",
+          "locationIdx": 8,
+          "note": "Tulin Trigger before Wind Temple"
+        },
+        {
+          "layer": "sky",
+          "objName": "LocationArea : Dungeon105",
+          "locationIdx": 0,
+          "note": "Kahatanaum Shrine: Rauru's Blessing"
+        },
+        {
+          "layer": "sky",
+          "objName": "DestinationAnchor",
+          "locationIdx": 13,
+          "note": "Skyship"
+        }
+      ]
+    },
+    {
+      "name": "2",
+      "points": [
+        {
+          "layer": "sky",
+          "objName": "SkyObj_MasterSwordAltar_A_01",
+          "locationIdx": 0,
+          "note": "End of GSI"
+        }
+      ],
+      "visible": false
+    },
+    {
+      "name": "3",
+      "points": [
+        {
+          "layer": "sky",
+          "objName": "SkyObj_MasterSwordAltar_A_01",
+          "locationIdx": 0,
+          "note": "End of GSI"
+        }
+      ],
+      "visible": false
+    },
+    {
+      "name": "4",
+      "points": [
+        {
+          "layer": "sky",
+          "objName": "SkyObj_MasterSwordAltar_A_01",
+          "locationIdx": 0,
+          "note": "End of GSI"
+        }
+      ],
+      "visible": false
+    },
+    {
+      "name": "5",
+      "points": [
+        {
+          "layer": "sky",
+          "objName": "SkyObj_MasterSwordAltar_A_01",
+          "locationIdx": 0,
+          "note": "End of GSI"
+        }
+      ],
+      "visible": false
+    }
+  ]
 }

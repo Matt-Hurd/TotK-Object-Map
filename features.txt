@@ -1,0 +1,4 @@
+needed features:
+
+pictures
+locationArea bounds

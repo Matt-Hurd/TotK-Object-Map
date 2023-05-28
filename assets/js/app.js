@@ -59,6 +59,7 @@ window.addEventListener('load', () => {
     let routes = [];
     let activeRoute = '';
     let draggedPointIdx = -1;
+    let draggedSegmentIdx = -1;
     let colors = {
         'sky': 'blue',
         'surface': 'green',
@@ -243,13 +244,12 @@ window.addEventListener('load', () => {
             if (segment.visible) {
                 segment.pointsLayerGroup.addTo(map);
                 segment.lineLayerGroup.addTo(map);
+                segment.markerLayerGroup.addTo(map);
                 segment.previousConnector.addTo(map);
             }
         });
-        
-        for (const [markerName, markerData] of Object.entries(routes[routeName].markers[activeLayer])) {
-            markerData.layerGroup.addTo(map);
-        }
+
+        routes[routeName].markers[activeLayer].layerGroup.addTo(map);
     }
     
     function disableRoute(routeName) {
@@ -257,22 +257,23 @@ window.addEventListener('load', () => {
         routes[routeName].segments.forEach(function (segment) {
             map.removeLayer(segment.pointsLayerGroup);
             map.removeLayer(segment.lineLayerGroup);
+            map.removeLayer(segment.markerLayerGroup);
             map.removeLayer(segment.previousConnector);
         });
 
-        for (const [markerName, markerData] of Object.entries(routes[routeName].markers[activeLayer])) {
-            map.removeLayer(markerData.layerGroup);
-        }
+        map.removeLayer(routes[routeName].markers[activeLayer].layerGroup);
     }
 
-    function createPolylineBetweenPoints(point1, point2, pointIdx) {
+    function createPolylineBetweenPoints(point1, point2, pointIdx, segmentIdx) {
         return L.polyline([[point1.pos.x, point1.pos.y], [point2.pos.x, point2.pos.y]], {color: "white", weight: 6})
             .on('mousedown', (ed) => { 
                 map.dragging.disable();
                 draggedPointIdx = pointIdx;
+                draggedSegmentIdx = segmentIdx;
                 map.on('mouseup', (eu) => {
                     map.dragging.enable();
                     draggedPointIdx = -1;
+                    draggedSegmentIdx = -1;
                     map.off('mouseup')
                 })
              })
@@ -296,12 +297,17 @@ window.addEventListener('load', () => {
         })
     }
     
-    function appendToRoute(routeName, layer, objName, posIdx, pointIdx) {
-        lastActiveSegment = routes[routeName].segments.findLast((e) => e.visible);
-        if (lastActiveSegment.points.length > 0 && (pointIdx == -1 || pointIdx == lastActiveSegment.points.length - 1)) {
-            lastPoint = lastActiveSegment.points.slice(-1)[0];
-            if (lastPoint.objName == objName && lastPoint.locationIdx == posIdx) {
-                return;
+    function appendToRoute(routeName, layer, objName, posIdx, pointIdx, segmentIdx = -1) {
+        lastActiveSegment = null
+        if (segmentIdx != -1) {
+            lastActiveSegment = routes[routeName].segments[segmentIdx]
+        } else {
+            lastActiveSegment = routes[routeName].segments.findLast((e) => e.visible);
+            if (lastActiveSegment.points.length > 0 && (pointIdx == -1 || pointIdx == lastActiveSegment.points.length - 1)) {
+                lastPoint = lastActiveSegment.points.slice(-1)[0];
+                if (lastPoint.objName == objName && lastPoint.locationIdx == posIdx) {
+                    return;
+                }
             }
         }
 
@@ -324,13 +330,21 @@ window.addEventListener('load', () => {
             if (typeof segment.pointsLayerGroup !== 'undefined') {
                 map.removeLayer(segment.pointsLayerGroup);
                 map.removeLayer(segment.lineLayerGroup);
+                map.removeLayer(segment.markerLayerGroup);
                 map.removeLayer(segment.previousConnector);
             }
 
             segment.pointsLayerGroup = L.layerGroup();
             segment.lineLayerGroup = L.layerGroup();
+            segment.markerLayerGroup = L.layerGroup();
             segment.previousConnector = L.layerGroup();
             segment.points.forEach(function (point, pointIdx) {
+                if (point.objName in routes[routeName].markers[point.layer].objs) {
+                    routeMarkers = routes[routeName].markers[point.layer].objs[point.objName]
+                    let stolenMarker = routeMarkers.markers[point.locationIdx]
+                    segment.markerLayerGroup.addLayer(stolenMarker)
+                    routes[routeName].markers[point.layer].layerGroup.removeLayer(stolenMarker)
+                }
                 point.obj = layers[point.layer][point.objName];
                 point.pos = point.obj.locations[point.locationIdx];
                 point.marker = new L.Marker([point.pos.x, point.pos.y], {icon: L.ExtraMarkers.icon({icon: 'fa-number', markerColor: colors[point.layer], number: pointIdx + 1})})
@@ -338,16 +352,26 @@ window.addEventListener('load', () => {
                         if (e.originalEvent.ctrlKey) {
                             segment.points.splice(pointIdx, 1);
                             redrawRouteMarkers(routeName);
-                        }
-                        if (e.originalEvent.altKey) {
+                        } else if (e.originalEvent.altKey) {
                             appendToRoute(routeName, point.layer, point.objName, point.locationIdx, -1);
+                        } else if (e.originalEvent.shiftKey) {
+                            newNote = prompt("Edit note", point.note);
+                            if (newNote)
+                                point.note = newNote;
+                                redrawRouteMarkers(routeName);
                         }
                     });
+                    
+                point.marker.bindPopup(
+                    createMarkerPopup(point.pos, point.layer, point.objName, point.locationIdx) +
+                    `<div><b>Segment:</b> ${segment.name}</div>` +
+                    `<span><b>Note:</b>${point.note ? point.note : ''}</span>`
+                );
                 segment.pointsLayerGroup.addLayer(point.marker);
 
                 if (pointIdx > 0) {
                     if (point.teleport !== true) {
-                        segment.lineLayerGroup.addLayer(createPolylineBetweenPoints(segment.points[pointIdx - 1], point, pointIdx))
+                        segment.lineLayerGroup.addLayer(createPolylineBetweenPoints(segment.points[pointIdx - 1], point, pointIdx, segmentIdx))
                     }
                     segment.lineLayerGroup.addLayer(createPolylineDecoratorBetweenPoints(segment.points[pointIdx - 1], point))
                 }
@@ -365,6 +389,7 @@ window.addEventListener('load', () => {
             if (segment.visible) {
                 segment.pointsLayerGroup.addTo(map);
                 segment.lineLayerGroup.addTo(map);
+                segment.markerLayerGroup.addTo(map);
                 segment.previousConnector.addTo(map);
             }
         });
@@ -386,21 +411,21 @@ window.addEventListener('load', () => {
             }
             
             for (const [layer, layerData] of Object.entries(data.markers)) {
+                layerData.objs = {}
+                layerData.layerGroup = L.layerGroup();
                 for (const [markerName, markerData] of Object.entries(routes[routeName].enabledMarkers)) {
-                    layerData[markerName] = {objs: {}}
-                    layerData[markerName].layerGroup = L.layerGroup();
-                    layerData[markerName].icon = L.icon({
+                    let icon = L.icon({
                         iconUrl: "assets/images/route_icons/" + markerName + '.png',
                         iconSize:     [40, 40],
                         iconAnchor:   [20, 20]
                     });
                     markerData.objNames.forEach((objName) => {
                         if (objName in layers[layer]) {
-                            layerData[markerName].objs[objName] = {}
-                            layerData[markerName].objs[objName].base = layers[layer][objName]
-                            layerData[markerName].objs[objName].markers = new Array();
-                            layerData[markerName].objs[objName].base.locations.forEach((pos, posIdx) => {
-                                marker = L.marker([pos.x, pos.y], {icon: layerData[markerName].icon})
+                            layerData.objs[objName] = {}
+                            layerData.objs[objName].base = layers[layer][objName]
+                            layerData.objs[objName].markers = new Array();
+                            layerData.objs[objName].base.locations.forEach((pos, posIdx) => {
+                                marker = L.marker([pos.x, pos.y], {icon: icon})
                                     .on('click', (ed) => {  
                                         if (ed.originalEvent.altKey) {
                                             appendToRoute(routeName, layer, objName, posIdx, -1);
@@ -408,13 +433,19 @@ window.addEventListener('load', () => {
                                     })
                                     .on('mouseup', (e) => {
                                         if (draggedPointIdx != -1) {
-                                            appendToRoute(routeName, layer, objName, posIdx, draggedPointIdx);
+                                            appendToRoute(routeName, layer, objName, posIdx, draggedPointIdx, draggedSegmentIdx);
                                             redrawRouteMarkers(routeName);
                                         }
                                         draggedPointIdx = -1;
+                                        draggedSegmentIdx = -1;
                                     });
-                                layerData[markerName].objs[objName].markers.push(marker);
-                                layerData[markerName].layerGroup.addLayer(marker);
+    
+                                marker.bindPopup(
+                                    createMarkerPopup(pos, layer, objName, posIdx)
+                                );
+
+                                layerData.objs[objName].markers.push(marker);
+                                layerData.layerGroup.addLayer(marker);
                             });
                         }
                     });
@@ -433,16 +464,58 @@ window.addEventListener('load', () => {
                     segment.visible = false;
                     map.removeLayer(segment.pointsLayerGroup);
                     map.removeLayer(segment.lineLayerGroup);
+                    map.removeLayer(segment.markerLayerGroup);
                     map.removeLayer(segment.previousConnector);
                 } else {
                     routes[routeName].segments[segmentIdx].visible = true;
                     segment.pointsLayerGroup.addTo(map);
                     segment.lineLayerGroup.addTo(map);
+                    segment.markerLayerGroup.addTo(map);
                     segment.previousConnector.addTo(map);
                 }
             });
             enableRoute(routeName);
         });
+    }
+
+    function createMarkerPopup(point, layer, objName, pointIdx) {
+        let displayName = layers[layer][objName].name;
+
+        if (displayName && displayName.length > 0) {
+            displayName += '<span class="smaller-name">';
+        }
+
+        displayName += objName;
+        displayName += ` (${pointIdx})`;
+        displayName += '</span>';
+
+        let iconsHtml = '';
+        if (layers[layer][objName].icons.length > 0) {
+            iconsHtml += "<div class='totk-marker-icons'>";
+
+            layers[layer][objName].icons.forEach(function (icon, index) {
+                let fileEnd = 'png';
+                if (icon.includes('_Icon')) {
+                    fileEnd = 'jpg';
+                }
+
+                iconsHtml += "<img src='assets/images/icons/" + icon + "." + fileEnd + "' alt='" + icon + "'>"
+            });
+
+            iconsHtml += "</div>";
+        }
+        
+        return "<div class='totk-marker'>" +
+        "   <h2>" + displayName + "</h2>" +
+        "   <div class='content'>" +
+        "       <div class='totk-marker-meta'>" +
+        "          <span><strong>X: </strong>" + point.y + "</span>" +
+        "          <span><strong>Y: </strong>" + point.x + "</span>" +
+        "          <span><strong>Z: </strong>" + point.z + "</span>" +
+        "       </div>" +
+        iconsHtml +
+        "   </div>" +
+        "</div>";
     }
 
     function activateLayer(layer) {
@@ -458,14 +531,10 @@ window.addEventListener('load', () => {
         if (activeRoute !== '')
         {
             for (const [layer, layerData] of Object.entries(routes[activeRoute].markers)) {
-                for (const [markerName, markerData] of Object.entries(layerData)) {
-                    map.removeLayer(markerData.layerGroup);
-                }
+                map.removeLayer(layerData.layerGroup);
             }
 
-            for (const [markerName, markerData] of Object.entries(routes[activeRoute].markers[activeLayer])) {
-                markerData.layerGroup.addTo(map);
-            }
+            routes[activeRoute].markers[activeLayer].layerGroup.addTo(map);
         }
     }
 
@@ -524,31 +593,6 @@ window.addEventListener('load', () => {
             }
         });
 
-        let displayName = layers[layer][val].name;
-
-        if (displayName && displayName.length > 0) {
-            displayName += '<span class="smaller-name">';
-        }
-
-        displayName += val;
-        displayName += '</span>';
-
-        let iconsHtml = '';
-        if (layers[layer][val].icons.length > 0) {
-            iconsHtml += "<div class='totk-marker-icons'>";
-
-            layers[layer][val].icons.forEach(function (icon, index) {
-                let fileEnd = 'png';
-                if (icon.includes('_Icon')) {
-                    fileEnd = 'jpg';
-                }
-
-                iconsHtml += "<img src='assets/images/icons/" + icon + "." + fileEnd + "' alt='" + icon + "'>"
-            });
-
-            iconsHtml += "</div>";
-        }
-
         layers[layer][val].locations.forEach(function (point, index) {
             let marker = L.marker([point.x, point.y], {
                 icon: L.divIcon({className: iconClass}),
@@ -564,27 +608,15 @@ window.addEventListener('load', () => {
             })
             .on('mouseup', (e) => {
                 if (draggedPointIdx != -1) {
-                    appendToRoute(activeRoute, layer, val, index, draggedPointIdx);
+                    appendToRoute(activeRoute, layer, val, index, draggedPointIdx, draggedSegmentIdx);
                     redrawRouteMarkers(activeRoute);
                 }
                 draggedPointIdx = -1;
+                draggedSegmentIdx = -1;
             });
 
-            let popup =
-                "<div class='totk-marker'>" +
-                "   <h2>" + displayName + "</h2>" +
-                "   <div class='content'>" +
-                "       <div class='totk-marker-meta'>" +
-                "          <span><strong>X: </strong>" + point.y + "</span>" +
-                "          <span><strong>Y: </strong>" + point.x + "</span>" +
-                "          <span><strong>Z: </strong>" + point.z + "</span>" +
-                "       </div>" +
-                iconsHtml +
-                "   </div>" +
-                "</div>";
-
             marker.bindPopup(
-                popup
+                createMarkerPopup(point, layer, val, index)
             );
 
             layers[layer][val].markers.addLayer(marker);

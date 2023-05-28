@@ -1,0 +1,83 @@
+5 Monster Pictures -                        Presenting: Sensor +!
+Cherry-Blossom Tree -                       A Picture for Outskirt Stable
+Great Goddess Statue -                      A Picture for Riverside Stable
+Geoglyph -                                  A Picture for New Serenne Stable
+Sunrise at Ancient Columns -                A Picture for Tabantha Bridge Stable
+Biron Snowshelf taken from Talonto Peak - 	A Picture for Snowfield Stable
+Whirlpool -                                 Whirly Swirly Thing
+Sinkhole -                                  Whirly Swirly Thing
+Noon inside Lake Ferona Cave -              Moon-Gazing Gorons
+Goron in Goron Hot Springs -                A Picture for Woodland Stable
+Picture of Daruk sculpture -                A Picture for Foothill Stable
+Octorok Lake (Needs rain to fill up) -      A Picure for East Akkala Stable
+Tarrey Town Bell -                          A Picture for South Akkala Stable
+Mipha Statue at Shatterback Point + Moon -  The Moonlit Princess
+Kak Ring Ruins -                            A Picture for Wetland Stable
+Kak Calamity Tablet -                       Teach Me a Lesson 1
+Chuchu -                                    Photographing a chuchu
+Tuft Mountain Sunrise -                     A Picture for Dueling Peaks Stable
+Floria Falls (clear weather) -              A Picture for Lakeside Stable
+Great White Stallion -                      A Picture for Highland Stable
+4 Stele -                                   The Heroines' Secret
+Spectacle Rock Smile -                      A Picture for the Closed Stable 1
+Giant Sword -                               A Picture for the Closed Stable 2
+
+
+Bokoblin -                                  Monsterous Collection
+Horriblin -                                 Monsterous Collection
+Battle Talus -                              Monsterous Collection
+Frox -                                      Monsterous Collection
+King Gleeok -                               Monsterous Collection
+12 Stone tablets -                          Messages from an Ancient Era
+
+
+
+Horse -             Horse fabric
+Eldin-Ostrich -     Eldin-Ostrich Fabric
+Grizzlemaw-Bear -   Grizzlemaw-Bear Fabric
+Chuchu -            Chuchu Fabric
+Aerocuda -          Aerocuda Fabric
+Stalnox -           Stalnox Fabric
+Lynel -             Lynel Fabric
+Gleeok -            Gleeok Fabric
+
+
+Obj_Zonau_RockRelief_A_02
+Obj_Zonau_RockRelief_A_03
+Obj_Zonau_RockRelief_A_04
+Obj_Zonau_RockRelief_A_05
+Obj_Zonau_RockRelief_A_06
+Obj_Zonau_RockRelief_A_07
+Obj_Zonau_RockRelief_A_08
+Obj_Zonau_RockRelief_A_09
+Obj_Zonau_RockRelief_A_10
+Obj_Zonau_RockRelief_A_11
+Obj_Zonau_RockRelief_A_12
+Obj_Zonau_RockRelief_A_13
+Obj_Zonau_RockRelief_A_14
+
+Obj_TreeCherry_A_01 0
+FldObj_DragonTears_01 ANY
+FldObj_HoleQuicksand_A_01 ANY
+
+TwnObj_SuperGoddesStatue_A_01
+LocationArea : StonePillers
+LocationMarker : ShariverMt
+LocationArea : Cave_Firone_0023
+LocationArea : Cave_Eldin_0037
+LocationMarker : GoronSpa
+Obj_RockSetDeathMt_C_04_Far
+LocationArea : Akkare_OctaPond
+TwnObj_Village_IchikaraBell_A_01
+LocationMarker : TryCape
+LocationMarker : RingLegacy
+TwnObj_Village_SheikerMemoryPicture_A_01
+LocationMarker : GobyMt
+LocationMarker : FloriaFalls
+GameRomHorse01L
+TwnObj_GerudoUndergroundStoneWall_A_01
+TwnObj_GerudoUndergroundStoneWall_A_02
+TwnObj_GerudoUndergroundStoneWall_A_03
+TwnObj_GerudoUndergroundStoneWall_A_04
+LocationMarker : Dungeon015
+FldObj_RuinStatueKnightSword_B_01
