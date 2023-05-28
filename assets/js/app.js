@@ -11,14 +11,14 @@ window.addEventListener('load', () => {
 
     var cursorMarker = L.marker();
 
-    function updateLocations(){
+    function updateLocations() {
         if (activeLayer !== 'surface') {
             map.removeLayer(zoomLayer1);
             map.removeLayer(zoomLayer2);
             return;
         }
 
-        switch(map.getZoom()) {
+        switch (map.getZoom()) {
             case -4:
             case -3:
                 map.addLayer(zoomLayer1);
@@ -75,6 +75,8 @@ window.addEventListener('load', () => {
     let caveLayerBackgroundImage = L.imageOverlay('assets/images/maps/surface.jpg', bounds);
     let depthsLayerBackgroundImage = L.imageOverlay('assets/images/maps/depths.jpg', bounds);
 
+    let allMarkerLayers = [];
+
     let zoomLayer1 = L.layerGroup();
     let zoomLayer2 = L.layerGroup();
 
@@ -97,7 +99,7 @@ window.addEventListener('load', () => {
                 return;
             }
 
-            jQuery(location.locations).each(function(idx, pos) {
+            jQuery(location.locations).each(function (idx, pos) {
                 var tempToolTip = L.tooltip([pos.x, pos.y], {
                     className: 'locationArea',
                     content: location.name,
@@ -490,7 +492,7 @@ window.addEventListener('load', () => {
         displayName += '</span>';
 
         let iconsHtml = '';
-        if (layers[layer][objName].icons.length > 0) {
+        if (typeof layers[layer][objName].icons !== 'undefined' && layers[layer][objName].icons.length > 0) {
             iconsHtml += "<div class='totk-marker-icons'>";
 
             layers[layer][objName].icons.forEach(function (icon, index) {
@@ -519,9 +521,19 @@ window.addEventListener('load', () => {
     }
 
     function activateLayer(layer) {
+        if (activeLayer.length > 0 && allMarkerLayers[activeLayer]) {
+            map.removeLayer(allMarkerLayers[activeLayer]);
+        }
+
         activeLayer = layer;
 
+        if (allMarkerLayers[activeLayer] === undefined) {
+            allMarkerLayers[activeLayer] = L.layerGroup();
+        }
+
         resetFilters();
+
+        allMarkerLayers[activeLayer].addTo(map);
 
         jQuery('#item-filters div:not(.' + activeLayer + ')').hide();
         jQuery('#item-filters div.' + activeLayer).show();
@@ -536,12 +548,13 @@ window.addEventListener('load', () => {
 
             routes[activeRoute].markers[activeLayer].layerGroup.addTo(map);
         }
+        doSearch();
     }
 
     function parseLayers(layer, data) {
         layers[layer] = data;
 
-        markerhtml = ''
+        let markerHtml = '';
         Object.entries(data).forEach(function (markerGroup, index) {
             let displayName = markerGroup[1].name;
 
@@ -550,15 +563,21 @@ window.addEventListener('load', () => {
                 displayName += ' - ';
             }
 
-            let searchName = markerGroup[1].name + " " + markerGroup[0];
+            let searchName = (markerGroup[1].name + " " + markerGroup[0]).toLocaleLowerCase();
 
             displayName += markerGroup[0];
             displayName += '</span>';
 
-            markerhtml += '<label><input type="checkbox" value="' + markerGroup[0] + '" data-search-value="' + searchName + '">' + displayName + '</label>'
+            markerHtml += '<label data-search-value="' + searchName + '">' +
+                '<input type="checkbox" value="' + markerGroup[0] + '">' +
+                displayName +
+                ' <span class="locations-count">(' +
+                markerGroup[1].locations.length +
+                ')</span>' +
+                '</label>';
         });
-        
-        jQuery('#item-filters .' + layer).append(markerhtml);
+
+        jQuery('#item-filters .' + layer).append(markerHtml);
 
         jQuery(document).on('change', '#item-filters .' + layer + ' input', function (e) {
             let val = jQuery(this).val();
@@ -601,7 +620,7 @@ window.addEventListener('load', () => {
                 radius: 3,
                 title: point.z + ' - ' + val,
             })
-            .on('click', (ed) => { 
+            .on('click', (ed) => {
                 if (ed.originalEvent.altKey) {
                     appendToRoute(activeRoute, layer, val, index, -1);
                 }
@@ -622,18 +641,23 @@ window.addEventListener('load', () => {
             layers[layer][val].markers.addLayer(marker);
         });
 
-        layers[layer][val].markers.addTo(map);
+        allMarkerLayers[activeLayer].addLayer(layers[layer][val].markers);
     }
 
-    jQuery('#filter-search input[type=search]').on('keyup', function () {
-        if (this.value.length === 0) {
+    jQuery('#filter-search input[type=search]').on('input', doSearch);
+
+    function doSearch() {
+        let searchVal = jQuery('#filter-search input[type=search]').val();
+        if (searchVal.length === 0) {
             jQuery('#item-filters .' + activeLayer + ' label').show();
             return;
         }
 
-        jQuery('#item-filters .' + activeLayer + ' input[data-search-value*="' + this.value + '" i]').parent().show();
-        jQuery('#item-filters .' + activeLayer + ' input:not([data-search-value*="' + this.value + '" i])').parent().hide();
-    });
+        searchVal = searchVal.toLocaleLowerCase();
+
+        jQuery('#item-filters .' + activeLayer + ' label[data-search-value*="' + searchVal + '"]').show();
+        jQuery('#item-filters .' + activeLayer + ' label:not([data-search-value*="' + searchVal + '"])').hide();
+    }
 
     function getIconClass() {
         window.lastIconClass++;
@@ -646,12 +670,20 @@ window.addEventListener('load', () => {
 
     function resetFilters() {
         jQuery('#item-filters input:checked').trigger('click');
+        // jQuery('#item-filters .' + activeLayer + ' input:checked').trigger('click');
     }
 
     jQuery('#reset-filters').click(resetFilters);
 
     jQuery('#show-filtered-filters').click(function () {
-        jQuery('#item-filters input:not(:checked):visible').trigger('click');
+        let visibleInputs = jQuery('#item-filters input:not(:checked):visible');
+
+        if (visibleInputs.length > 100 &&
+            confirm("You're activating " + visibleInputs.length + " different markers at the same time, which might possibly crash your browser. Do you wish to continue?") === false) {
+            return;
+        }
+
+        visibleInputs.trigger('click');
     });
 
     jQuery('#hide-filtered-filters').click(function () {
