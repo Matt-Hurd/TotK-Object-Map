@@ -63,7 +63,8 @@ window.addEventListener('load', () => {
     let colors = {
         'sky': 'blue',
         'surface': 'green',
-        'depths': 'red'
+        'depths': 'red',
+        'cave': 'black'
     }
     let leftBottom = map.unproject([-6000, 5000], 0);
     let topRight = map.unproject([6000, -5000], 0);
@@ -362,7 +363,14 @@ window.addEventListener('load', () => {
                                 point.note = newNote;
                                 redrawRouteMarkers(routeName);
                         }
-                    });
+                    })
+                    .on('mouseup', (e) => {
+                        if (draggedPointIdx != -1) {
+                            appendToRoute(routeName, point.layer, point.objName, point.locationIdx, draggedPointIdx, draggedSegmentIdx);
+                        }
+                        draggedPointIdx = -1;
+                        draggedSegmentIdx = -1;
+                    });;
                     
                 point.marker.bindPopup(
                     createMarkerPopup(point.pos, point.layer, point.objName, point.locationIdx) +

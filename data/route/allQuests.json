@@ -2603,7 +2603,7 @@
                     "locationIdx": 0
                 }
             ],
-            "visible": true
+            "visible": false
         },
         {
             "name": "The Shrine Explorer",
