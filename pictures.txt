@@ -21,25 +21,20 @@ Great White Stallion -                      A Picture for Highland Stable
 4 Stele -                                   The Heroines' Secret
 Spectacle Rock Smile -                      A Picture for the Closed Stable 1
 Giant Sword -                               A Picture for the Closed Stable 2
-
-
 Bokoblin -                                  Monsterous Collection
 Horriblin -                                 Monsterous Collection
 Battle Talus -                              Monsterous Collection
 Frox -                                      Monsterous Collection
 King Gleeok -                               Monsterous Collection
 12 Stone tablets -                          Messages from an Ancient Era
-
-
-
-Horse -             Horse fabric
-Eldin-Ostrich -     Eldin-Ostrich Fabric
-Grizzlemaw-Bear -   Grizzlemaw-Bear Fabric
-Chuchu -            Chuchu Fabric
-Aerocuda -          Aerocuda Fabric
-Stalnox -           Stalnox Fabric
-Lynel -             Lynel Fabric
-Gleeok -            Gleeok Fabric
+Horse -                                     Horse fabric
+Eldin-Ostrich -                             Eldin-Ostrich Fabric
+Grizzlemaw-Bear -                           Grizzlemaw-Bear Fabric
+Chuchu -                                    Chuchu Fabric
+Aerocuda -                                  Aerocuda Fabric
+Stalnox -                                   Stalnox Fabric
+Lynel -                                     Lynel Fabric
+Gleeok -                                    Gleeok Fabric
 
 
 Obj_Zonau_RockRelief_A_02
@@ -81,3 +76,4 @@ TwnObj_GerudoUndergroundStoneWall_A_03
 TwnObj_GerudoUndergroundStoneWall_A_04
 LocationMarker : Dungeon015
 FldObj_RuinStatueKnightSword_B_01
+
