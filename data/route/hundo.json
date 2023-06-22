@@ -7855,7 +7855,7 @@
           "locationIdx": 1
         }
       ],
-      "visible": true
+      "visible": false
     },
     {
       "name": "Wetland Stable",
@@ -7987,7 +7987,7 @@
           "locationIdx": 2
         }
       ],
-      "visible": true
+      "visible": false
     },
     {
       "name": "Riverside Stable",
@@ -8095,7 +8095,7 @@
           "locationIdx": 0
         }
       ],
-      "visible": true
+      "visible": false
     },
     {
       "name": "West Necluda",
@@ -8413,7 +8413,7 @@
           "locationIdx": 279
         }
       ],
-      "visible": true
+      "visible": false
     },
     {
       "name": "Dueling Peaks Stable",
@@ -8654,7 +8654,7 @@
           "locationIdx": 0
         }
       ],
-      "visible": true
+      "visible": false
     },
     {
       "name": "Eastern Depths",
@@ -8948,7 +8948,7 @@
           "locationIdx": 0
         }
       ],
-      "visible": true
+      "visible": false
     },
     {
       "name": "GSI 2 + Thunderhead",
@@ -9476,9 +9476,9 @@
           "locationIdx": 9
         }
       ],
-      "visible": true
+      "visible": false
     },
-    { "name": "Kak revisit", "points": [], "visible": true },
+    { "name": "Kak revisit", "points": [], "visible": false },
     {
       "name": "Lakeside Stable + Dracozu Lake",
       "points": [
@@ -9802,7 +9802,7 @@
           "locationIdx": 228
         }
       ],
-      "visible": true
+      "visible": false
     },
     {
       "name": "Faron Grasslands",
@@ -9929,7 +9929,7 @@
           "locationIdx": 81
         }
       ],
-      "visible": true
+      "visible": false
     },
     {
       "name": "Tabantha Frontier",
@@ -10136,7 +10136,7 @@
           "locationIdx": 55
         }
       ],
-      "visible": true
+      "visible": false
     },
     {
       "name": "North Hyrule Field",
@@ -10358,7 +10358,7 @@
           "locationIdx": 12
         }
       ],
-      "visible": true
+      "visible": false
     },
     {
       "name": "Hebra Cleanup 1",
@@ -10516,7 +10516,7 @@
           "locationIdx": 115
         }
       ],
-      "visible": true
+      "visible": false
     },
     {
       "name": "Hebra Cleanup 2",
@@ -10744,7 +10744,7 @@
           "locationIdx": 0
         }
       ],
-      "visible": true
+      "visible": false
     },
     {
       "name": "Hebra Cleanup 3",
@@ -11029,7 +11029,7 @@
           "locationIdx": 25
         }
       ],
-      "visible": true
+      "visible": false
     },
     {
       "name": "Hebra Cleanup 4",
@@ -11110,7 +11110,7 @@
           "locationIdx": 0
         }
       ],
-      "visible": true
+      "visible": false
     },
     {
       "name": "Gerudo",
@@ -11261,7 +11261,7 @@
           "locationIdx": 0
         }
       ],
-      "visible": true
+      "visible": false
     },
     {
       "name": "Great Plateau Cleanup",
@@ -11382,7 +11382,7 @@
           "locationIdx": 0
         }
       ],
-      "visible": true
+      "visible": false
     },
     {
       "name": "Outskirt Stable",
@@ -11826,7 +11826,7 @@
           "locationIdx": 111
         }
       ],
-      "visible": true
+      "visible": false
     },
     {
       "name": "Lake Hylia",
@@ -11903,7 +11903,7 @@
           "locationIdx": 0
         }
       ],
-      "visible": true
+      "visible": false
     },
     {
       "name": "Gerudo 2",
@@ -12175,7 +12175,7 @@
           "locationIdx": 0
         }
       ],
-      "visible": true
+      "visible": false
     },
     {
       "name": "Gerudo 3",
@@ -12448,7 +12448,7 @@
           "locationIdx": 14
         }
       ],
-      "visible": true
+      "visible": false
     },
     {
       "name": "Gerudo Mess",
@@ -12535,7 +12535,7 @@
           "locationIdx": 17
         }
       ],
-      "visible": true
+      "visible": false
     },
     {
       "name": "fuckin lanayru",
@@ -12874,7 +12874,7 @@
           "locationIdx": 0
         }
       ],
-      "visible": true
+      "visible": false
     },
     {
       "name": "zora shit",
@@ -12995,7 +12995,7 @@
           "locationIdx": 0
         }
       ],
-      "visible": true
+      "visible": false
     },
     {
       "name": "last tear",
@@ -13036,7 +13036,7 @@
           "locationIdx": 0
         }
       ],
-      "visible": true
+      "visible": false
     },
     {
       "name": "lake hylia whirlpool",
@@ -13082,7 +13082,7 @@
           "locationIdx": 0
         }
       ],
-      "visible": true
+      "visible": false
     },
     {
       "name": "gerudo maze",
@@ -13129,7 +13129,7 @@
           "locationIdx": 0
         }
       ],
-      "visible": true
+      "visible": false
     },
     {
       "name": "sky",
