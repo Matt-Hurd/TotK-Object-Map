@@ -7,6 +7,7 @@ window.addEventListener('load', () => {
         zoom: -4,
         cursor: true,
         crs: L.CRS.Simple,
+        keyboardPanDelta: 0,
     });
 
     var cursorMarker = L.marker();
@@ -34,23 +35,39 @@ window.addEventListener('load', () => {
 
     map.on('zoom', updateLocations)
 
-    // map.on('click', function (e) {
-    //     cursorMarker
-    //         .setLatLng(e.latlng)
-    //         .bindPopup(
-    //             "<div class='totk-marker'>" +
-    //             "   <h2>Marker Positon</h2>" +
-    //             "   <div class='content'>" +
-    //             "       <div class='totk-marker-meta'>" +
-    //             "          <span><strong>X: </strong>" + e.latlng.lng + "</span>" +
-    //             "          <span><strong>Y: </strong>" + e.latlng.lat + "</span>" +
-    //             "       </div>" +
-    //             "   </div>" +
-    //             "</div>"
-    //         )
-    //         .openPopup()
-    //         .addTo(map);
-    // });
+    map.on('keydown', function (e) {
+        if (e.originalEvent.key !== "ArrowRight" && e.originalEvent.key !== "ArrowLeft")
+        {
+            return
+        }
+        if (e.originalEvent.key === "ArrowRight")
+        {
+            currentPointId += 1;
+        }
+        if (e.originalEvent.key === "ArrowLeft")
+        {
+            if (currentSegmentId > 0 || currentPointId > 0) {
+                currentPointId -= 1;
+            }
+        }
+        if (currentPointId >= routes[activeRoute].segments[currentSegmentId].points.length) {
+            currentPointId = 0;
+            routes[activeRoute].segments[currentSegmentId].visible = false;
+            currentSegmentId += 1;
+            routes[activeRoute].segments[currentSegmentId].visible = true;
+        }
+        if (currentPointId < 0) {
+            routes[activeRoute].segments[currentSegmentId].visible = false;
+            currentSegmentId -= 1;
+            routes[activeRoute].segments[currentSegmentId].visible = true;
+            currentPointId = routes[activeRoute].segments[currentSegmentId].points.length - 1;
+        }
+        let point = routes[activeRoute].segments[currentSegmentId].points[currentPointId]
+        activateLayer(point.layer)
+        redrawRouteMarkers(activeRoute)
+        point.marker.openPopup();
+        map.panTo([point.pos.x, point.pos.y])
+    });
 
     window.lastIconClass = -1;
 
@@ -66,31 +83,28 @@ window.addEventListener('load', () => {
         'depths': 'red',
         'cave': 'black'
     }
+    let currentSegmentId = 0;
+    let currentPointId = 0;
     let leftBottom = map.unproject([-6000, 5000], 0);
     let topRight = map.unproject([6000, -5000], 0);
     let bounds = new L.LatLngBounds(leftBottom, topRight);
     map.setMaxBounds(bounds);
 
-    let skyLayerBackgroundImage = L.imageOverlay('assets/images/maps/sky.jpg', bounds);
-    let surfaceLayerBackgroundImage = L.imageOverlay('assets/images/maps/surface.jpg', bounds);
-    let caveLayerBackgroundImage = L.imageOverlay('assets/images/maps/surface.jpg', bounds);
-    let depthsLayerBackgroundImage = L.imageOverlay('assets/images/maps/depths.jpg', bounds);
+    let layerBackgroundImages = {
+        'sky': L.imageOverlay('assets/images/maps/sky.jpg', bounds),
+        'surface': L.imageOverlay('assets/images/maps/surface.jpg', bounds),
+        'cave': L.imageOverlay('assets/images/maps/surface.jpg', bounds),
+        'depths': L.imageOverlay('assets/images/maps/depths.jpg', bounds)
+    }
 
     let allMarkerLayers = [];
 
     let zoomLayer1 = L.layerGroup();
     let zoomLayer2 = L.layerGroup();
 
+
+
     jQuery('#show-layer-sky').click(function () {
-        if (activeLayer === 'sky') {
-            return;
-        }
-
-        skyLayerBackgroundImage.addTo(map);
-        map.removeLayer(surfaceLayerBackgroundImage);
-        map.removeLayer(caveLayerBackgroundImage);
-        map.removeLayer(depthsLayerBackgroundImage);
-
         activateLayer('sky');
     });
 
@@ -122,41 +136,14 @@ window.addEventListener('load', () => {
     });
 
     jQuery('#show-layer-surface').click(function () {
-        if (activeLayer === 'surface') {
-            return;
-        }
-
-        map.removeLayer(skyLayerBackgroundImage);
-        surfaceLayerBackgroundImage.addTo(map);
-        map.removeLayer(caveLayerBackgroundImage);
-        map.removeLayer(depthsLayerBackgroundImage);
-
         activateLayer('surface');
     }).trigger('click');
 
     jQuery('#show-layer-cave').click(function () {
-        if (activeLayer === 'cave') {
-            return;
-        }
-
-        map.removeLayer(skyLayerBackgroundImage);
-        map.removeLayer(surfaceLayerBackgroundImage);
-        caveLayerBackgroundImage.addTo(map);
-        map.removeLayer(depthsLayerBackgroundImage);
-
         activateLayer('cave');
     });
 
     jQuery('#show-layer-depths').click(function () {
-        if (activeLayer === 'depths') {
-            return;
-        }
-
-        map.removeLayer(skyLayerBackgroundImage);
-        map.removeLayer(surfaceLayerBackgroundImage);
-        map.removeLayer(caveLayerBackgroundImage);
-        depthsLayerBackgroundImage.addTo(map);
-
         activateLayer('depths');
     });
 
@@ -529,6 +516,16 @@ window.addEventListener('load', () => {
     }
 
     function activateLayer(layer) {
+        if (activeLayer === layer) {
+            return;
+        }
+        
+        map.removeLayer(layerBackgroundImages['surface']);
+        map.removeLayer(layerBackgroundImages['cave']);
+        map.removeLayer(layerBackgroundImages['sky']);
+        map.removeLayer(layerBackgroundImages['depths']);
+        layerBackgroundImages[layer].addTo(map);
+
         if (activeLayer.length > 0 && allMarkerLayers[activeLayer]) {
             map.removeLayer(allMarkerLayers[activeLayer]);
         }
