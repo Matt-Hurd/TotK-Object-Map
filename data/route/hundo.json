@@ -1027,7 +1027,7 @@
           "locationIdx": 0
         }
       ],
-      "visible": false
+      "visible": true
     },
     {
       "name": "Autobuild",
