@@ -44,11 +44,19 @@ body {
 
 .fw-container {
     display: flex;
+    height: 60vh;
+    width: 100vw;
+}
+
+.run-info {
+    display: flex;
+    height: 40vh;
+    width: 100vw;
 }
 
 #totk-map {
     width: 80vw;
-    height: 100vh;
+    height: 100%;
     background: var(--map-bg-colour);
 }
 
@@ -56,13 +64,12 @@ body {
     width: 100%;
     max-width: 20vw;
     height: 100%;
-    max-height: calc(100vh - 4em);
     padding: 2em;
 }
 
 #item-filters {
     overflow: scroll;
-    max-height: 47vh;
+    max-height: 15vh;
 }
 
 #item-filters > div {
@@ -76,7 +83,7 @@ body {
 
 #segment-filters {
     overflow: scroll;
-    max-height: 25vh;
+    max-height: 15vh;
     padding: .5em;
     margin-top: .5em;
     margin-bottom: .5em;
@@ -93,7 +100,7 @@ body {
 }
 
 #route-control-buttons {
-    max-height: 75vh;
+    max-height: 25vh;
     padding: .5em;
     margin-top: .5em;
     margin-bottom: .5em;
@@ -114,6 +121,51 @@ body {
     margin-bottom: .5em;
 }
 
+#korok-image {
+    width: 50vw;
+    height: 100%;
+    margin-left: auto; 
+    margin-right: 0;
+}
+
+#k-img {
+    height: 100%;
+}
+
+.run-info-icon {
+    float: left;
+    line-height: 100px;
+    height: 10%;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-right: 15px;
+}
+.run-info-korok-icon {
+    float: left;
+    line-height: 100px;
+    height: 15%;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.run-info-counter {
+    width: 10vw;
+    height: 100%;
+    font-family: ZeldaMain;
+    float: left;
+    line-height: 100px;
+    font-size: 30;
+}
+
+.korok-info {
+    width: 20vw;
+    height: 60%;
+    margin-top: 10vh;
+    font-size: 40;
+    font-family: ZeldaMain;
+    text-align: center;
+}
+
 /**
  * Marker Popup
  */
@@ -128,6 +180,10 @@ body {
 
 .totk-marker-meta > span {
     display: block;
+}
+
+.leaflet-popup-content-wrapper {
+    background: #ffffffe0
 }
 
 .totk-marker-icons {

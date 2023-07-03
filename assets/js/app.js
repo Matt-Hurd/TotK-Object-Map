@@ -33,6 +33,8 @@ window.addEventListener('load', () => {
         }
     }
 
+    visitedPlaces = {korok: new Set(), shrine: new Set(), lightroot: new Set(), double_korok: new Set()}
+
     map.on('zoom', updateLocations)
 
     map.on('keydown', function (e) {
@@ -42,6 +44,23 @@ window.addEventListener('load', () => {
         }
         if (e.originalEvent.key === "ArrowRight")
         {
+            let point = routes[activeRoute].segments[currentSegmentId].points[currentPointId]
+            if (point.objName == "Npc_HiddenKorokFly" || point.objName == "Npc_HiddenKorokGround") {
+                visitedPlaces["korok"].add(point.layer + point.objName + point.locationIdx)
+            }
+            if (point.objName == "KorokCarry_Destination") {
+                visitedPlaces["double_korok"].add(point.layer + point.locationIdx)
+            }
+            if (point.objName.startsWith("LocationMarker : Dungeon")) {
+                visitedPlaces["shrine"].add(point.objName)
+                jQuery('#shrine-count').text(visitedPlaces["shrine"].size)
+            }
+            if (point.objName.startsWith("LocationArea : CheckPoint")) {
+                visitedPlaces["lightroot"].add(point.objName)
+                jQuery('#lightroot-count').text(visitedPlaces["lightroot"].size)
+            }
+            jQuery('#korok-count').text(visitedPlaces["korok"].size + visitedPlaces["double_korok"].size * 2)
+
             currentPointId += 1;
         }
         if (e.originalEvent.key === "ArrowLeft")
@@ -67,6 +86,19 @@ window.addEventListener('load', () => {
         redrawRouteMarkers(activeRoute)
         point.marker.openPopup();
         map.panTo([point.pos.x, point.pos.y])
+        
+        if (point.objName == "Npc_HiddenKorokFly" || point.objName == "Npc_HiddenKorokGround") {
+            korok_info = merged_koroks[point.layer][point.objName][point.locationIdx]
+            jQuery('#korok-info').text(korok_info["description"])
+            if (korok_info["images"]) {
+                jQuery('#k-img').attr("src", "assets/images/ZD/" + korok_info["images"][0]);
+            } else {
+                jQuery('#k-img').attr("src", "")
+            }
+        } else {
+            jQuery('#k-img').attr("src", "")
+            jQuery('#korok-info').text("")
+        }
     });
 
     window.lastIconClass = -1;
@@ -155,37 +187,12 @@ window.addEventListener('load', () => {
         activeRoute = ''
     });
 
-    jQuery('#show-all-dungeons').click(function () {
-        if (activeRoute === 'allDungeons') {
-            return;
-        }
-
-        activateRoute('allDungeons');
-    });
-
     jQuery('#show-hundo').click(function () {
         if (activeRoute === 'hundo') {
             return;
         }
 
         activateRoute('hundo');
-    });
-
-    jQuery('#show-all-quests').click(function () {
-        if (activeRoute === 'allQuests') {
-            return;
-        }
-
-        activateRoute('allQuests');
-    });
-
-
-    jQuery('#show-side-adventures').click(function () {
-        if (activeRoute === 'sideAdventures') {
-            return;
-        }
-
-        activateRoute('sideAdventures');
     });
 
     jQuery('#btn-add-segment').click(function () {
@@ -396,9 +403,9 @@ window.addEventListener('load', () => {
         storedSegments = JSON.parse(localStorage.getItem(routeName))
         jQuery.getJSON("data/route/" + routeName + ".json", function (data) {
             routes[routeName] = data
-            if (storedSegments) {
-                routes[routeName].segments = storedSegments
-            }
+            // if (storedSegments) {
+            //     routes[routeName].segments = storedSegments
+            // }
 
             data.markers = {
                 'sky': {},
@@ -700,4 +707,9 @@ window.addEventListener('load', () => {
             parseLayers(type, data);
         });
     });
+    
+    jQuery.getJSON("data/merged_koroks.json", function (data) {
+        merged_koroks = data;
+    });
+    setTimeout(function() { activateLayer('sky'); activateRoute('hundo'); }, 500);
 });
